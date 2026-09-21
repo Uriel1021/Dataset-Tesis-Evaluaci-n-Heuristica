@@ -1,0 +1,5 @@
+target,supervised_baseline_available,semi_supervised_experiment_allowed,reason
+H1_violation,False,False,Insufficient observed class/group support in L.
+H4_violation,False,False,Insufficient observed class/group support in L.
+H5_violation,False,False,Insufficient observed class/group support in L.
+H6_violation,True,True,Grouped supervised baseline completed.

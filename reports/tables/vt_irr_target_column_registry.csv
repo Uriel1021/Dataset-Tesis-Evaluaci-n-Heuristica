@@ -1,0 +1,13 @@
+target,column,semantic_type
+H1,H1 Compare,COMPARE
+H4,H4 Compare,COMPARE
+H5,H5 Compare,COMPARE
+H6,H6 Compare,COMPARE
+H1,H1. Overal Rating (4),OVERALL_RATING
+H1,H1,OTHER
+H4,H4 Overall Rating,OVERALL_RATING
+H4,H4,OTHER
+H5,H5 Overall Rating,OVERALL_RATING
+H5,H5,OTHER
+H6,H6 Overall Rating,OVERALL_RATING
+H6,H6,OTHER

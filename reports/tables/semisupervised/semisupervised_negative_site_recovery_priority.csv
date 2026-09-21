@@ -1,0 +1,17 @@
+source_file,identity_column,site_or_instance,target,observed_label
+data/public_v2/interim/catching_targets.csv,site,Electronics-eCommerce-Shop-With-Admin-Dashboard-NextJS-NodeJS-main,H1_violation,0
+data/public_v2/interim/catching_targets.csv,site,Electronics-eCommerce-Shop-With-Admin-Dashboard-NextJS-NodeJS-main,H4_violation,0
+data/public_v2/interim/catching_targets.csv,site,startbootstrap-freelancer,H4_violation,0
+data/public_v2/interim/catching_targets.csv,site,Electronics-eCommerce-Shop-With-Admin-Dashboard-NextJS-NodeJS-main,H5_violation,0
+data/public_v2/interim/catching_targets.csv,site,startbootstrap-resume,H5_violation,0
+data/public_v2/interim/catching_targets.csv,site,Electronics-eCommerce-Shop-With-Admin-Dashboard-NextJS-NodeJS-main,H6_violation,0
+data/public_v2/interim/catching_targets.csv,site,beginner-html-site-styled,H6_violation,0
+data/public_v2/interim/catching_targets.csv,site,charity_responsive-template,H6_violation,0
+data/public_v2/interim/catching_targets.csv,site,conference-website-template,H6_violation,0
+data/public_v2/interim/catching_targets.csv,site,personal-website-template,H6_violation,0
+data/public_v2/interim/catching_targets.csv,site,react-saas-template,H6_violation,0
+data/public_v2/interim/catching_targets.csv,site,simple-gallery_responsive-template,H6_violation,0
+data/public_v2/interim/catching_targets.csv,site,single-page-small-business-web-application,H6_violation,0
+data/public_v2/interim/catching_targets.csv,site,startbootstrap-freelancer,H6_violation,0
+data/public_v2/interim/catching_targets.csv,site,startbootstrap-landing-page,H6_violation,0
+data/public_v2/interim/catching_targets.csv,site,startbootstrap-one-page-wonder,H6_violation,0

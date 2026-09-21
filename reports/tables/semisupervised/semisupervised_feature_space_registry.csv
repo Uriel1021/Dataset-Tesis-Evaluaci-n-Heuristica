@@ -1,0 +1,3 @@
+feature_space,n_features,features,scientific_role,cross_platform_equivalence,extension_derivable,status
+STRICT_CANONICAL,0,,PRIMARY_CANDIDATE,REQUIRES_EXACT_OR_DERIVABLE_EXACT,True,EMPTY
+EXPERIMENTAL_CONSTRUCT_PROXY,3,structure_depth | interactive_control_count | interactive_label_ratio,SECONDARY_EXPERIMENT_ONLY,CONSTRUCT_LEVEL_ONLY,True,AVAILABLE

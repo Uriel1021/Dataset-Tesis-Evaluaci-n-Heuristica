@@ -1,0 +1,12 @@
+variable,status,source_signal,notes
+task_time_s,DERIVABLE,timestampms / Time,Validar unidad tarea antes de consolidar.
+click_count,DERIVABLE_REQUIRES_EVENT_RULE,event + mouse,Definir exactamente qué eventos representan clic real.
+keypress_count,DERIVABLE,event + key,"Contar evento, no contenido escrito."
+scroll_count,DERIVABLE_REQUIRES_EPISODE_RULE,event + scroll,Agrupar scroll continuo en episodios.
+mean_pre_action_pause_s,DERIVABLE,timestampms,Intervalo previo a acción; no interpretar automáticamente como confusión.
+repeated_action_count,DERIVABLE_REQUIRES_RULE,event + node + timestampms,Requiere ventana temporal fija.
+navigation_steps,DERIVABLE,url/urlFull sequence,Contar transiciones de estado URL.
+backtracking_count,DERIVABLE,url/urlFull sequence,Revisitas a estados anteriores.
+platform,DERIVABLE,url/urlFull,"Contexto, no predictor principal."
+mean_response_time_ms,NO,,No confundir timestamp entre acciones con Resource Timing.
+max_response_time_ms,NO,,No existe evidencia de Resource Timing.

@@ -1,0 +1,3 @@
+phase,min_sites,min_instances,min_per_class_per_target,purpose
+PILOT,12,48,,"Validar captura, esquema, anotación y observabilidad; no entrenar modelo final."
+DEVELOPMENT,30,200,40.0,Criterio operativo provisional para comenzar modelado serio; la suficiencia final se comprobará con grouped CV y learning curves.

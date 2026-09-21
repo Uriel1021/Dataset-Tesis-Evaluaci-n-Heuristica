@@ -1,0 +1,47 @@
+column,role,required,description
+instance_id,ID,True,Identificador único de la observación.
+site_id,GROUP,True,Identificador estable del sitio/aplicación; se usará para grouped split.
+task_id,CONTEXT,True,Tarea reproducible ejecutada en la interfaz.
+execution_id,CONTEXT,True,Ejecución concreta de la tarea.
+platform,CONTEXT,True,"Sitio/aplicación evaluada, derivado del dominio o aplicación."
+page_type,CONTEXT,True,Tipo de página según regla documentada.
+task_time_s,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+mean_response_time_ms,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+max_response_time_ms,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+mean_pre_action_pause_s,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+click_count,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+keypress_count,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+scroll_count,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+backtracking_count,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+repeated_action_count,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+navigation_steps,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+feedback_present,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+feedback_coverage_ratio,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+feedback_latency_ms,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+loader_present,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+loader_duration_ms,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+progress_indicator_present,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+status_message_present,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+completion_feedback_present,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+component_style_consistency_ratio,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+css_class_consistency_ratio,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+navigation_consistency_ratio,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+label_consistency_ratio,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+semantic_role_consistency_ratio,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+dom_structure_similarity,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+input_validation_present,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+client_validation_present,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+validation_error_count,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+invalid_submission_blocked,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+confirmation_dialog_present,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+destructive_action_protected,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+error_feedback_present,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+user_error_count,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+accessible_name_ratio,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+visible_labels_ratio,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+unlabeled_controls_count,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+breadcrumbs_present,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+navigation_persistence_ratio,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+navigation_depth,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+visible_options_ratio,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.
+task_completed,X,False,Métrica canónica definida en feature_dictionary_validation.csv. NaN si no es observable/aplicable.

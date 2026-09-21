@@ -1,0 +1,5 @@
+static_variable,related_construct,possible_relation,canonical_equivalent,must_not_call,reason
+static_dom_max_depth,STRUCTURAL_COMPLEXITY,H6,False,navigation_depth,Profundidad HTML no equivale a pasos de navegación.
+static_control_label_proxy_ratio,CONTROL_RECOGNIZABILITY,H6,False,accessible_name_ratio / visible_labels_ratio,HTML estático no permite reproducir completamente Accessible Name ni visibilidad renderizada.
+static_native_validation_ratio,ERROR_PREVENTION_CAPABILITY,H5,False,client_validation_present,required/min/max/pattern/type solo evidencian validación nativa declarada.
+static_class_reuse_ratio,STRUCTURAL_REUSE,H4,False,component_style_consistency_ratio,Reutilización de clases no demuestra consistencia visual.

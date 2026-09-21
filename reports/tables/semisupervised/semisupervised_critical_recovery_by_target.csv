@@ -1,0 +1,9 @@
+target,excluded_site,observed_y,contribution,current_n_0,current_n_1,critical_for_minimum_grouped_holdout,extract_reason
+H1_violation,react-saas-template,1.0,ADDS_POSITIVE,0,12,False,
+H1_violation,Electronics-eCommerce-Shop-With-Admin-Dashboard-NextJS-NodeJS-main,0.0,ADDS_NEGATIVE,0,12,True,NO_HTML_FILES
+H4_violation,react-saas-template,1.0,ADDS_POSITIVE,1,10,False,
+H4_violation,Electronics-eCommerce-Shop-With-Admin-Dashboard-NextJS-NodeJS-main,0.0,ADDS_NEGATIVE,1,10,True,NO_HTML_FILES
+H5_violation,react-saas-template,1.0,ADDS_POSITIVE,1,11,False,
+H5_violation,Electronics-eCommerce-Shop-With-Admin-Dashboard-NextJS-NodeJS-main,0.0,ADDS_NEGATIVE,1,11,True,NO_HTML_FILES
+H6_violation,react-saas-template,0.0,ADDS_NEGATIVE,9,3,False,
+H6_violation,Electronics-eCommerce-Shop-With-Admin-Dashboard-NextJS-NodeJS-main,0.0,ADDS_NEGATIVE,9,3,False,NO_HTML_FILES

@@ -1,0 +1,4 @@
+path,rows,n_target_columns,negative_label_cells,positive_label_cells,has_any_negative
+data/public_v2/interim/catching_targets.csv,30,4,16,103,True
+data/public_v2/interim/catching_static_validation_dataset.csv,2,4,0,8,False
+data/public_v2/interim/catching_direct_validation_registry.csv,2,4,0,8,False

@@ -1,0 +1,5 @@
+site_or_instance,site_key,best_status,best_status_rank,best_repository,best_repository_url,best_artifact_path,scientific_join_ready,requires_additional_validation,negative_targets,repository_name_available
+beginner-html-site-styled,beginnerhtmlsitestyled,MODERATE,4,mdn/beginner-html-site-styled,,reports/tables/catching_multiple_candidate_validation.csv,False,True,H6_violation,True
+conference-website-template,conferencewebsitetemplate,MODERATE,4,mikepierce/conference-website-template,,reports/tables/catching_repository_final.csv,False,True,H6_violation,True
+personal-website-template,personalwebsitetemplate,MODERATE,4,The-WebOps-Club/personal-website-template,,reports/tables/catching_repository_final.csv,False,True,H6_violation,True
+react-saas-template,reactsaastemplate,MODERATE,4,dunky11/react-saas-template,,reports/tables/catching_repository_final.csv,False,True,H6_violation,True

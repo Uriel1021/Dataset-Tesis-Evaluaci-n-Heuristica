@@ -1,0 +1,13 @@
+site_or_instance,site_key,best_status,best_status_rank,best_repository,best_repository_url,best_artifact_path,scientific_join_ready,requires_additional_validation,negative_targets
+Electronics-eCommerce-Shop-With-Admin-Dashboard-NextJS-NodeJS-main,electronicsecommerceshopwithadmindashboardnextjsnodejsmain,UNKNOWN,2,Rajsu12/Electronics-eCommerce-Shop-With-Admin-Dashboard-NextJS-NodeJS-main,,reports/tables/catching_source_candidates.csv,False,True,H1_violation | H4_violation | H5_violation | H6_violation
+startbootstrap-freelancer,startbootstrapfreelancer,UNKNOWN,2,StartBootstrap/startbootstrap-freelancer,,reports/tables/catching_source_candidates.csv,False,True,H4_violation | H6_violation
+startbootstrap-resume,startbootstrapresume,UNKNOWN,2,StartBootstrap/startbootstrap-resume,,reports/tables/catching_source_candidates.csv,False,True,H5_violation
+beginner-html-site-styled,beginnerhtmlsitestyled,MODERATE,4,mdn/beginner-html-site-styled,,reports/tables/catching_multiple_candidate_validation.csv,False,True,H6_violation
+charity_responsive-template,charityresponsivetemplate,UNKNOWN,2,website-templates/charity_responsive-template,,reports/tables/catching_source_candidates.csv,False,True,H6_violation
+conference-website-template,conferencewebsitetemplate,MODERATE,4,mikepierce/conference-website-template,,reports/tables/catching_repository_final.csv,False,True,H6_violation
+personal-website-template,personalwebsitetemplate,MODERATE,4,The-WebOps-Club/personal-website-template,,reports/tables/catching_repository_final.csv,False,True,H6_violation
+react-saas-template,reactsaastemplate,MODERATE,4,dunky11/react-saas-template,,reports/tables/catching_repository_final.csv,False,True,H6_violation
+simple-gallery_responsive-template,simplegalleryresponsivetemplate,UNKNOWN,2,website-templates/simple-gallery_responsive-template,,reports/tables/catching_source_candidates.csv,False,True,H6_violation
+single-page-small-business-web-application,singlepagesmallbusinesswebapplication,UNKNOWN,2,reza-azimifar/single-page-small-business-web-application,,reports/tables/catching_source_candidates.csv,False,True,H6_violation
+startbootstrap-landing-page,startbootstraplandingpage,UNKNOWN,2,StartBootstrap/startbootstrap-landing-page,,reports/tables/catching_source_candidates.csv,False,True,H6_violation
+startbootstrap-one-page-wonder,startbootstraponepagewonder,UNKNOWN,2,StartBootstrap/startbootstrap-one-page-wonder,,reports/tables/catching_source_candidates.csv,False,True,H6_violation

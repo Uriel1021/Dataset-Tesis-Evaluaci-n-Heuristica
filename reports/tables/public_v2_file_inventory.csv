@@ -1,0 +1,193 @@
+dataset_folder,relative_path,filename,extension,size_bytes,size_mb
+07_phr,07_phr/Results-PHRs-usab-sust.xlsx,Results-PHRs-usab-sust.xlsx,.xlsx,64017,0.061051368713378906
+07_phr,07_phr/README.txt,README.txt,.txt,2437,0.0023241043090820312
+05_serene,05_serene/ground-truth.csv,ground-truth.csv,.csv,5331,0.005084037780761719
+05_serene,05_serene/questionnaire.pdf,questionnaire.pdf,.pdf,5205041,4.963913917541504
+05_serene,05_serene/metrics.csv,metrics.csv,.csv,4719,0.004500389099121094
+05_serene,05_serene/answers.json,answers.json,.json,208430,0.1987743377685547
+06_p3m,06_p3m/1. GPT-4 - All Possible Defects per Screenshot.xlsx,1. GPT-4 - All Possible Defects per Screenshot.xlsx,.xlsx,21289,0.020302772521972656
+06_p3m,06_p3m/2. GPT-4 - Defects Consolidation.xlsx,2. GPT-4 - Defects Consolidation.xlsx,.xlsx,45353,0.043251991271972656
+06_p3m,06_p3m/Complete Prompt Used.pdf,Complete Prompt Used.pdf,.pdf,69434,0.06621742248535156
+02_zenodo_21891322,02_zenodo_21891322/01.png,01.png,.png,932158,0.8889751434326172
+02_zenodo_21891322,02_zenodo_21891322/03.png,03.png,.png,239379,0.22828960418701172
+02_zenodo_21891322,02_zenodo_21891322/02.png,02.png,.png,636100,0.6066322326660156
+02_zenodo_21891322,02_zenodo_21891322/06.png,06.png,.png,264548,0.2522926330566406
+02_zenodo_21891322,02_zenodo_21891322/12.png,12.png,.png,915029,0.8726396560668945
+02_zenodo_21891322,02_zenodo_21891322/07.png,07.png,.png,1343410,1.2811756134033203
+02_zenodo_21891322,02_zenodo_21891322/11.png,11.png,.png,355906,0.3394184112548828
+02_zenodo_21891322,02_zenodo_21891322/05.png,05.png,.png,485786,0.46328163146972656
+02_zenodo_21891322,02_zenodo_21891322/04.png,04.png,.png,530261,0.5056962966918945
+02_zenodo_21891322,02_zenodo_21891322/10.png,10.png,.png,596587,0.5689496994018555
+02_zenodo_21891322,02_zenodo_21891322/09.png,09.png,.png,256440,0.24456024169921875
+02_zenodo_21891322,02_zenodo_21891322/08.png,08.png,.png,776681,0.7407007217407227
+02_zenodo_21891322,02_zenodo_21891322/Heuristic evaluation (1).ipynb,Heuristic evaluation (1).ipynb,.ipynb,200169,0.19089603424072266
+02_zenodo_21891322,02_zenodo_21891322/metrics calculation - P_gina1.pdf,metrics calculation - P_gina1.pdf,.pdf,79087,0.0754232406616211
+04_catching_ux_flaws,04_catching_ux_flaws/README.md,README.md,.md,2183,0.0020818710327148438
+04_catching_ux_flaws,04_catching_ux_flaws/analysis.ipynb,analysis.ipynb,.ipynb,82578,0.07875251770019531
+10_uicrit_rico,10_uicrit_rico/app_details.csv,app_details.csv,.csv,2025565,1.9317293167114258
+10_uicrit_rico,10_uicrit_rico/unique_uis.tar.gz,unique_uis.tar.gz,.gz,6471262799,6171.477126121521
+10_uicrit_rico,10_uicrit_rico/ui_details.csv,ui_details.csv,.csv,2405809,2.294358253479004
+10_uicrit_rico,10_uicrit_rico/uicrit_public.csv,uicrit_public.csv,.csv,4929452,4.701091766357422
+03_29042675,03_29042675/Prototype_Metadata.csv,Prototype_Metadata.csv,.csv,2774,0.0026454925537109375
+03_29042675,03_29042675/README.rtf,README.rtf,.rtf,7164,0.006832122802734375
+03_29042675,03_29042675/IRR_Results.csv,IRR_Results.csv,.csv,90918,0.08670616149902344
+03_29042675,03_29042675/EvaluationTemplate.rtf,EvaluationTemplate.rtf,.rtf,172724,0.16472244262695312
+08_dashboards,08_dashboards/dependent and independent variables.csv,dependent and independent variables.csv,.csv,97478,0.09296226501464844
+08_dashboards,08_dashboards/Interaction Data.zip,Interaction Data.zip,.zip,27019717,25.768010139465332
+08_dashboards,08_dashboards/Interaction Patterns Dataset.xlsx,Interaction Patterns Dataset.xlsx,.xlsx,102532,0.09778213500976562
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 1/High Fidelity/HospitalApp2.docx,HospitalApp2.docx,.docx,100068,0.09543228149414062
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 1/High Fidelity/HospitalApp.docx,HospitalApp.docx,.docx,94011,0.08965587615966797
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 1/High Fidelity/Running.docx,Running.docx,.docx,132673,0.1265268325805664
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 1/High Fidelity/Travel.docx,Travel.docx,.docx,55216,0.0526580810546875
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 1/High Fidelity/Gaia.docx,Gaia.docx,.docx,64913,0.061905860900878906
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 1/High Fidelity/Baking shop.docx,Baking shop.docx,.docx,91271,0.08704280853271484
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 1/High Fidelity/Food delivery.docx,Food delivery.docx,.docx,145784,0.13903045654296875
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 1/High Fidelity/Housing.docx,Housing.docx,.docx,97901,0.09336566925048828
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 1/High Fidelity/E-Tutor.docx,E-Tutor.docx,.docx,82428,0.07860946655273438
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 1/High Fidelity/Notification.docx,Notification.docx,.docx,74248,0.07080841064453125
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Real Estate.docx,Real Estate.docx,.docx,114659,0.10934734344482422
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 1/Low Fidelity/E-commerce.docx,E-commerce.docx,.docx,91895,0.08763790130615234
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Artwork.docx,Artwork.docx,.docx,47230,0.04504203796386719
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Healthcare.docx,Healthcare.docx,.docx,78756,0.07510757446289062
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Restaurant.docx,Restaurant.docx,.docx,94566,0.09018516540527344
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Membership.docx,Membership.docx,.docx,53046,0.05058860778808594
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Fintech.docx,Fintech.docx,.docx,73863,0.07044124603271484
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Blog.docx,Blog.docx,.docx,123974,0.11823081970214844
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Beer Garden.docx,Beer Garden.docx,.docx,102791,0.09802913665771484
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Pastry SHop.docx,Pastry SHop.docx,.docx,73278,0.06988334655761719
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Vouluntary Pet.docx,Vouluntary Pet.docx,.docx,57102,0.05445671081542969
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Quizzy.docx,Quizzy.docx,.docx,55849,0.053261756896972656
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 2/High Fidelity/Hospital App 1.docx,Hospital App 1.docx,.docx,31330,0.029878616333007812
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 2/High Fidelity/Travel.docx,Travel.docx,.docx,58190,0.05549430847167969
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 2/High Fidelity/Food Order.docx,Food Order.docx,.docx,27928,0.02663421630859375
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 2/High Fidelity/Bakery.docx,Bakery.docx,.docx,31740,0.030269622802734375
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 2/High Fidelity/Housing.docx,Housing.docx,.docx,40109,0.03825092315673828
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 2/High Fidelity/E tutor.docx,E tutor.docx,.docx,32202,0.030710220336914062
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 2/High Fidelity/Hospital App 2.docx,Hospital App 2.docx,.docx,28271,0.026961326599121094
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 2/High Fidelity/Running app.docx,Running app.docx,.docx,33156,0.031620025634765625
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 2/High Fidelity/Notification.docx,Notification.docx,.docx,75440,0.0719451904296875
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 2/High Fidelity/GAIA community app.docx,GAIA community app.docx,.docx,24856,0.02370452880859375
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 2/Low Fidelity/E-commerce.docx,E-commerce.docx,.docx,29808,0.0284271240234375
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Healthcare.docx,Healthcare.docx,.docx,28666,0.027338027954101562
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Artwork website.docx,Artwork website.docx,.docx,37872,0.0361175537109375
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Membership.docx,Membership.docx,.docx,35611,0.03396129608154297
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 2/Low Fidelity/FinTech.docx,FinTech.docx,.docx,33352,0.03180694580078125
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Volountery Pet.docx,Volountery Pet.docx,.docx,41527,0.039603233337402344
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Food Delivery.docx,Food Delivery.docx,.docx,29375,0.028014183044433594
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Education app.docx,Education app.docx,.docx,36992,0.0352783203125
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Beer Garden.docx,Beer Garden.docx,.docx,37758,0.03600883483886719
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Blog App.docx,Blog App.docx,.docx,35858,0.03419685363769531
+03_29042675,03_29042675/LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Pastry shop.docx,Pastry shop.docx,.docx,31546,0.030084609985351562
+10_uicrit_rico,10_uicrit_rico/ui_layout_vectors/ui_vectors.npy,ui_vectors.npy,.npy,18458448,17.603347778320312
+10_uicrit_rico,10_uicrit_rico/ui_layout_vectors/ui_names.json,ui_names.json,.json,926251,0.8833417892456055
+10_uicrit_rico,10_uicrit_rico/ui_layout_vectors/README.txt,README.txt,.txt,364,0.000347137451171875
+04_catching_ux_flaws,04_catching_ux_flaws/results/startbootstrap-creative/eval1.json,eval1.json,.json,14855,0.014166831970214844
+04_catching_ux_flaws,04_catching_ux_flaws/results/startbootstrap-creative/eval2.json,eval2.json,.json,14111,0.013457298278808594
+04_catching_ux_flaws,04_catching_ux_flaws/results/startbootstrap-creative/eval3.json,eval3.json,.json,15833,0.015099525451660156
+04_catching_ux_flaws,04_catching_ux_flaws/results/simple-product_responsive-template/eval1.json,eval1.json,.json,13187,0.012576103210449219
+04_catching_ux_flaws,04_catching_ux_flaws/results/simple-product_responsive-template/eval2.json,eval2.json,.json,14200,0.01354217529296875
+04_catching_ux_flaws,04_catching_ux_flaws/results/simple-product_responsive-template/eval3.json,eval3.json,.json,13957,0.013310432434082031
+04_catching_ux_flaws,04_catching_ux_flaws/results/material-dashboard/eval1.json,eval1.json,.json,13927,0.013281822204589844
+04_catching_ux_flaws,04_catching_ux_flaws/results/material-dashboard/eval2.json,eval2.json,.json,15704,0.01497650146484375
+04_catching_ux_flaws,04_catching_ux_flaws/results/material-dashboard/eval3.json,eval3.json,.json,15713,0.014985084533691406
+04_catching_ux_flaws,04_catching_ux_flaws/results/design-studio_one-page-template/eval1.json,eval1.json,.json,13139,0.012530326843261719
+04_catching_ux_flaws,04_catching_ux_flaws/results/design-studio_one-page-template/eval2.json,eval2.json,.json,13730,0.013093948364257812
+04_catching_ux_flaws,04_catching_ux_flaws/results/design-studio_one-page-template/eval3.json,eval3.json,.json,15609,0.014885902404785156
+04_catching_ux_flaws,04_catching_ux_flaws/results/coreui-free-react-admin-template/eval1.json,eval1.json,.json,15009,0.014313697814941406
+04_catching_ux_flaws,04_catching_ux_flaws/results/coreui-free-react-admin-template/eval2.json,eval2.json,.json,13870,0.013227462768554688
+04_catching_ux_flaws,04_catching_ux_flaws/results/coreui-free-react-admin-template/eval3.json,eval3.json,.json,13201,0.012589454650878906
+04_catching_ux_flaws,04_catching_ux_flaws/results/academicpages.github.io/eval1.json,eval1.json,.json,14019,0.013369560241699219
+04_catching_ux_flaws,04_catching_ux_flaws/results/academicpages.github.io/eval2.json,eval2.json,.json,12957,0.012356758117675781
+04_catching_ux_flaws,04_catching_ux_flaws/results/academicpages.github.io/eval3.json,eval3.json,.json,16036,0.015293121337890625
+04_catching_ux_flaws,04_catching_ux_flaws/results/conference-website-template/eval1.json,eval1.json,.json,13768,0.01313018798828125
+04_catching_ux_flaws,04_catching_ux_flaws/results/conference-website-template/eval2.json,eval2.json,.json,14268,0.013607025146484375
+04_catching_ux_flaws,04_catching_ux_flaws/results/conference-website-template/eval 3.json,eval 3.json,.json,14133,0.013478279113769531
+04_catching_ux_flaws,04_catching_ux_flaws/results/startbootstrap-one-page-wonder/eval1.json,eval1.json,.json,14028,0.013378143310546875
+04_catching_ux_flaws,04_catching_ux_flaws/results/startbootstrap-one-page-wonder/eval2.json,eval2.json,.json,12723,0.012133598327636719
+04_catching_ux_flaws,04_catching_ux_flaws/results/startbootstrap-one-page-wonder/eval3.json,eval3.json,.json,12824,0.01222991943359375
+04_catching_ux_flaws,04_catching_ux_flaws/results/startbootstrap-landing-page/eval1.json,eval1.json,.json,13819,0.013178825378417969
+04_catching_ux_flaws,04_catching_ux_flaws/results/startbootstrap-landing-page/eval2.json,eval2.json,.json,13507,0.012881278991699219
+04_catching_ux_flaws,04_catching_ux_flaws/results/startbootstrap-landing-page/eval3.json,eval3.json,.json,14363,0.013697624206542969
+04_catching_ux_flaws,04_catching_ux_flaws/results/jekyll-inclusion/eval1.json,eval1.json,.json,13638,0.013006210327148438
+04_catching_ux_flaws,04_catching_ux_flaws/results/jekyll-inclusion/eval2.json,eval2.json,.json,14460,0.013790130615234375
+04_catching_ux_flaws,04_catching_ux_flaws/results/jekyll-inclusion/eval3.json,eval3.json,.json,13733,0.013096809387207031
+04_catching_ux_flaws,04_catching_ux_flaws/results/marketing-agency_one-page-template/eval1.json,eval1.json,.json,14151,0.013495445251464844
+04_catching_ux_flaws,04_catching_ux_flaws/results/marketing-agency_one-page-template/eval2.json,eval2.json,.json,13488,0.0128631591796875
+04_catching_ux_flaws,04_catching_ux_flaws/results/marketing-agency_one-page-template/eval3.json,eval3.json,.json,13714,0.013078689575195312
+04_catching_ux_flaws,04_catching_ux_flaws/results/startbootstrap-3-col-portfolio/eval1.json,eval1.json,.json,14878,0.014188766479492188
+04_catching_ux_flaws,04_catching_ux_flaws/results/startbootstrap-3-col-portfolio/eval2.json,eval2.json,.json,23570,0.022478103637695312
+04_catching_ux_flaws,04_catching_ux_flaws/results/startbootstrap-3-col-portfolio/eval3.json,eval3.json,.json,13725,0.013089179992675781
+04_catching_ux_flaws,04_catching_ux_flaws/results/Discord-bot-website-template/eval1.json,eval1.json,.json,12768,0.012176513671875
+04_catching_ux_flaws,04_catching_ux_flaws/results/Discord-bot-website-template/eval2.json,eval2.json,.json,15637,0.014912605285644531
+04_catching_ux_flaws,04_catching_ux_flaws/results/Discord-bot-website-template/eval3.json,eval3.json,.json,13180,0.012569427490234375
+04_catching_ux_flaws,04_catching_ux_flaws/results/Electronics-eCommerce-Shop-With-Admin-Dashboard-NextJS-NodeJS-main/eval1.json,eval1.json,.json,16579,0.01581096649169922
+04_catching_ux_flaws,04_catching_ux_flaws/results/Electronics-eCommerce-Shop-With-Admin-Dashboard-NextJS-NodeJS-main/eval2.json,eval2.json,.json,12543,0.011961936950683594
+04_catching_ux_flaws,04_catching_ux_flaws/results/Electronics-eCommerce-Shop-With-Admin-Dashboard-NextJS-NodeJS-main/eval3.json,eval3.json,.json,11914,0.011362075805664062
+04_catching_ux_flaws,04_catching_ux_flaws/results/react-saas-template/eval1.json,eval1.json,.json,15129,0.014428138732910156
+04_catching_ux_flaws,04_catching_ux_flaws/results/react-saas-template/eval2.json,eval2.json,.json,13314,0.012697219848632812
+04_catching_ux_flaws,04_catching_ux_flaws/results/react-saas-template/eval3.json,eval3.json,.json,16014,0.015272140502929688
+04_catching_ux_flaws,04_catching_ux_flaws/results/startbootstrap-resume/eval1.json,eval1.json,.json,15611,0.014887809753417969
+04_catching_ux_flaws,04_catching_ux_flaws/results/startbootstrap-resume/eval2.json,eval2.json,.json,24450,0.023317337036132812
+04_catching_ux_flaws,04_catching_ux_flaws/results/startbootstrap-resume/eval3.json,eval3.json,.json,24450,0.023317337036132812
+04_catching_ux_flaws,04_catching_ux_flaws/results/startbootstrap-freelancer/eval1.json,eval1.json,.json,12241,0.011673927307128906
+04_catching_ux_flaws,04_catching_ux_flaws/results/startbootstrap-freelancer/eval2.json,eval2.json,.json,13742,0.013105392456054688
+04_catching_ux_flaws,04_catching_ux_flaws/results/startbootstrap-freelancer/eval3.json,eval3.json,.json,14490,0.013818740844726562
+04_catching_ux_flaws,04_catching_ux_flaws/results/academic-website-template/eval1.json,eval1.json,.json,12513,0.011933326721191406
+04_catching_ux_flaws,04_catching_ux_flaws/results/academic-website-template/eval2.json,eval2.json,.json,17492,0.016681671142578125
+04_catching_ux_flaws,04_catching_ux_flaws/results/academic-website-template/eval3.json,eval3.json,.json,13854,0.013212203979492188
+04_catching_ux_flaws,04_catching_ux_flaws/results/personal-website-template/eval1.json,eval1.json,.json,16089,0.015343666076660156
+04_catching_ux_flaws,04_catching_ux_flaws/results/personal-website-template/eval2.json,eval2.json,.json,15765,0.015034675598144531
+04_catching_ux_flaws,04_catching_ux_flaws/results/personal-website-template/eval3.json,eval3.json,.json,13771,0.013133049011230469
+04_catching_ux_flaws,04_catching_ux_flaws/results/university-template/eval1.json,eval1.json,.json,15183,0.014479637145996094
+04_catching_ux_flaws,04_catching_ux_flaws/results/university-template/eval2.json,eval2.json,.json,13280,0.012664794921875
+04_catching_ux_flaws,04_catching_ux_flaws/results/university-template/eval3.json,eval3.json,.json,14183,0.013525962829589844
+04_catching_ux_flaws,04_catching_ux_flaws/results/Business-Website/eval1.json,eval1.json,.json,14643,0.013964653015136719
+04_catching_ux_flaws,04_catching_ux_flaws/results/Business-Website/eval2.json,eval2.json,.json,13084,0.012477874755859375
+04_catching_ux_flaws,04_catching_ux_flaws/results/Business-Website/eval3.json,eval3.json,.json,15463,0.014746665954589844
+04_catching_ux_flaws,04_catching_ux_flaws/results/beginner-html-site-styled/eval1.json,eval1.json,.json,12540,0.011959075927734375
+04_catching_ux_flaws,04_catching_ux_flaws/results/beginner-html-site-styled/eval2.json,eval2.json,.json,12937,0.012337684631347656
+04_catching_ux_flaws,04_catching_ux_flaws/results/beginner-html-site-styled/eval3.json,eval3.json,.json,11209,0.010689735412597656
+04_catching_ux_flaws,04_catching_ux_flaws/results/travel_fluid-template/eval1.json,eval1.json,.json,13347,0.012728691101074219
+04_catching_ux_flaws,04_catching_ux_flaws/results/travel_fluid-template/eval2.json,eval2.json,.json,17438,0.016630172729492188
+04_catching_ux_flaws,04_catching_ux_flaws/results/travel_fluid-template/eval3.json,eval3.json,.json,16292,0.015537261962890625
+04_catching_ux_flaws,04_catching_ux_flaws/results/airspace-bootstrap/eval1.json,eval1.json,.json,16805,0.01602649688720703
+04_catching_ux_flaws,04_catching_ux_flaws/results/airspace-bootstrap/eval2.json,eval2.json,.json,13893,0.013249397277832031
+04_catching_ux_flaws,04_catching_ux_flaws/results/airspace-bootstrap/eval3.json,eval3.json,.json,13950,0.013303756713867188
+04_catching_ux_flaws,04_catching_ux_flaws/results/charity_responsive-template/eval1.json,eval1.json,.json,13214,0.012601852416992188
+04_catching_ux_flaws,04_catching_ux_flaws/results/charity_responsive-template/eval2.json,eval2.json,.json,13710,0.013074874877929688
+04_catching_ux_flaws,04_catching_ux_flaws/results/charity_responsive-template/eval3.json,eval3.json,.json,13238,0.012624740600585938
+04_catching_ux_flaws,04_catching_ux_flaws/results/startbootstrap-sb-admin-2/eval1.json,eval1.json,.json,19856,0.0189361572265625
+04_catching_ux_flaws,04_catching_ux_flaws/results/startbootstrap-sb-admin-2/eval2.json,eval2.json,.json,14380,0.013713836669921875
+04_catching_ux_flaws,04_catching_ux_flaws/results/startbootstrap-sb-admin-2/eval3.json,eval3.json,.json,17009,0.016221046447753906
+04_catching_ux_flaws,04_catching_ux_flaws/results/simple-gallery_responsive-template/eval1.json,eval1.json,.json,13276,0.012660980224609375
+04_catching_ux_flaws,04_catching_ux_flaws/results/simple-gallery_responsive-template/eval2.json,eval2.json,.json,12380,0.011806488037109375
+04_catching_ux_flaws,04_catching_ux_flaws/results/simple-gallery_responsive-template/eval3.json,eval3.json,.json,13939,0.013293266296386719
+04_catching_ux_flaws,04_catching_ux_flaws/results/single-page-small-business-web-application/eval1.json,eval1.json,.json,12363,0.011790275573730469
+04_catching_ux_flaws,04_catching_ux_flaws/results/single-page-small-business-web-application/eval2.json,eval2.json,.json,13931,0.013285636901855469
+04_catching_ux_flaws,04_catching_ux_flaws/results/single-page-small-business-web-application/eval3.json,eval3.json,.json,14316,0.013652801513671875
+04_catching_ux_flaws,04_catching_ux_flaws/results/startbootstrap-simple-sidebar/eval1.json,eval1.json,.json,14513,0.013840675354003906
+04_catching_ux_flaws,04_catching_ux_flaws/results/startbootstrap-simple-sidebar/eval2.json,eval2.json,.json,14701,0.014019966125488281
+04_catching_ux_flaws,04_catching_ux_flaws/results/startbootstrap-simple-sidebar/eval3.json,eval3.json,.json,15189,0.014485359191894531
+04_catching_ux_flaws,04_catching_ux_flaws/results/portfolio_one-page-template/eval1.json,eval1.json,.json,13457,0.012833595275878906
+04_catching_ux_flaws,04_catching_ux_flaws/results/portfolio_one-page-template/eval2.json,eval2.json,.json,14252,0.013591766357421875
+04_catching_ux_flaws,04_catching_ux_flaws/results/portfolio_one-page-template/eval3.json,eval3.json,.json,13950,0.013303756713867188
+06_p3m,06_p3m/Screenshots/Screenshot 17.png,Screenshot 17.png,.png,1150825,1.0975122451782227
+06_p3m,06_p3m/Screenshots/Screenshot 16.png,Screenshot 16.png,.png,1159997,1.1062593460083008
+06_p3m,06_p3m/Screenshots/Screenshot 9.png,Screenshot 9.png,.png,1364666,1.3014469146728516
+06_p3m,06_p3m/Screenshots/Screenshot 14.png,Screenshot 14.png,.png,888942,0.8477611541748047
+06_p3m,06_p3m/Screenshots/Screenshot 15.png,Screenshot 15.png,.png,1388524,1.3241996765136719
+06_p3m,06_p3m/Screenshots/Screenshot 8.png,Screenshot 8.png,.png,1432270,1.3659191131591797
+06_p3m,06_p3m/Screenshots/Screenshot 11.png,Screenshot 11.png,.png,1201151,1.1455068588256836
+06_p3m,06_p3m/Screenshots/Screenshot 10.png,Screenshot 10.png,.png,1173145,1.1187982559204102
+06_p3m,06_p3m/Screenshots/Screenshot 12.png,Screenshot 12.png,.png,1209943,1.1538915634155273
+06_p3m,06_p3m/Screenshots/Screenshot 13.png,Screenshot 13.png,.png,1373606,1.3099727630615234
+06_p3m,06_p3m/Screenshots/Screenshot 3.png,Screenshot 3.png,.png,1455755,1.3883161544799805
+06_p3m,06_p3m/Screenshots/Screenshot 2.png,Screenshot 2.png,.png,1420259,1.3544645309448242
+06_p3m,06_p3m/Screenshots/Screenshot 20.png,Screenshot 20.png,.png,1752280,1.6711044311523438
+06_p3m,06_p3m/Screenshots/Screenshot 1.png,Screenshot 1.png,.png,1427630,1.3614940643310547
+06_p3m,06_p3m/Screenshots/Screenshot 5.png,Screenshot 5.png,.png,1437737,1.3711328506469727
+06_p3m,06_p3m/Screenshots/Screenshot 18.png,Screenshot 18.png,.png,1171644,1.1173667907714844
+06_p3m,06_p3m/Screenshots/Screenshot 19.png,Screenshot 19.png,.png,1719321,1.6396722793579102
+06_p3m,06_p3m/Screenshots/Screenshot 4.png,Screenshot 4.png,.png,1464549,1.396702766418457
+06_p3m,06_p3m/Screenshots/Screenshot 6.png,Screenshot 6.png,.png,1417082,1.3514347076416016
+06_p3m,06_p3m/Screenshots/Screenshot 7.png,Screenshot 7.png,.png,1406229,1.3410844802856445

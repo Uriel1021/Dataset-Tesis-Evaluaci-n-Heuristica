@@ -1,0 +1,8 @@
+field,role,use_as_X
+rico_id,JOIN_KEY,False
+aesthetics_rating,HUMAN_RATING,False
+learnability,H6_PROXY_CANDIDATE,False
+efficency,RATING,False
+usability_rating,RATING,False
+design_quality_rating,H4_PROXY_CANDIDATE,False
+RICO_view_hierarchy,X_SOURCE,True

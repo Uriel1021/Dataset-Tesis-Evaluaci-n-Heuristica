@@ -1,0 +1,5 @@
+target,n_L,n_groups_L,n_0,n_1,n_classes,both_classes_observed
+H1_violation,2,2,0,2,1,False
+H4_violation,2,2,0,2,1,False
+H5_violation,2,2,0,2,1,False
+H6_violation,2,2,0,2,1,False

@@ -1,0 +1,12 @@
+dataset,canonical_variable,availability,source_signal,same_semantics,notes
+Dashboards,task_time_s,DERIVABLE,timestampms / Time,True,Validar unidad tarea antes de consolidar.
+Dashboards,click_count,DERIVABLE_REQUIRES_EVENT_RULE,event + mouse,False,Definir exactamente qué eventos representan clic real.
+Dashboards,keypress_count,DERIVABLE,event + key,True,"Contar evento, no contenido escrito."
+Dashboards,scroll_count,DERIVABLE_REQUIRES_EPISODE_RULE,event + scroll,False,Agrupar scroll continuo en episodios.
+Dashboards,mean_pre_action_pause_s,DERIVABLE,timestampms,True,Intervalo previo a acción; no interpretar automáticamente como confusión.
+Dashboards,repeated_action_count,DERIVABLE_REQUIRES_RULE,event + node + timestampms,False,Requiere ventana temporal fija.
+Dashboards,navigation_steps,DERIVABLE,url/urlFull sequence,True,Contar transiciones de estado URL.
+Dashboards,backtracking_count,DERIVABLE,url/urlFull sequence,True,Revisitas a estados anteriores.
+Dashboards,platform,DERIVABLE,url/urlFull,True,"Contexto, no predictor principal."
+Dashboards,mean_response_time_ms,NO,,False,No confundir timestamp entre acciones con Resource Timing.
+Dashboards,max_response_time_ms,NO,,False,No existe evidencia de Resource Timing.

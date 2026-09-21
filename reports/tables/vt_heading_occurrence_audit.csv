@@ -1,0 +1,173 @@
+file,prototype,heuristic,occurrences
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Baking shop.docx,Bakery,H1,4
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Baking shop.docx,Bakery,H4,4
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Baking shop.docx,Bakery,H5,5
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Baking shop.docx,Bakery,H6,4
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/E-Tutor.docx,E-Tutor,H1,4
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/E-Tutor.docx,E-Tutor,H4,4
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/E-Tutor.docx,E-Tutor,H5,4
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/E-Tutor.docx,E-Tutor,H6,3
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Food delivery.docx,,H1,3
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Food delivery.docx,,H4,3
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Food delivery.docx,,H5,4
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Food delivery.docx,,H6,3
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Gaia.docx,,H1,4
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Gaia.docx,,H4,3
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Gaia.docx,,H5,6
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Gaia.docx,,H6,4
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/HospitalApp.docx,Hospital 1,H1,4
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/HospitalApp.docx,Hospital 1,H4,4
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/HospitalApp.docx,Hospital 1,H5,6
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/HospitalApp.docx,Hospital 1,H6,4
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/HospitalApp2.docx,Hospital 2,H1,4
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/HospitalApp2.docx,Hospital 2,H4,4
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/HospitalApp2.docx,Hospital 2,H5,5
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/HospitalApp2.docx,Hospital 2,H6,4
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Housing.docx,,H1,4
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Housing.docx,,H4,4
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Housing.docx,,H5,4
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Housing.docx,,H6,4
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Notification.docx,Tracking App,H1,4
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Notification.docx,Tracking App,H4,3
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Notification.docx,Tracking App,H5,5
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Notification.docx,Tracking App,H6,3
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Running.docx,Running,H1,3
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Running.docx,Running,H4,3
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Running.docx,Running,H5,5
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Running.docx,Running,H6,3
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Travel.docx,Travel,H1,4
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Travel.docx,Travel,H4,3
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Travel.docx,Travel,H5,6
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Travel.docx,Travel,H6,3
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Artwork.docx,True Art,H1,4
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Artwork.docx,True Art,H4,3
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Artwork.docx,True Art,H5,4
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Artwork.docx,True Art,H6,3
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Beer Garden.docx,,H1,5
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Beer Garden.docx,,H4,3
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Beer Garden.docx,,H5,3
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Beer Garden.docx,,H6,3
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Blog.docx,Blog app,H1,4
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Blog.docx,Blog app,H4,3
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Blog.docx,Blog app,H5,4
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Blog.docx,Blog app,H6,3
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/E-commerce.docx,Online Shoping,H1,3
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/E-commerce.docx,Online Shoping,H4,3
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/E-commerce.docx,Online Shoping,H5,5
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/E-commerce.docx,Online Shoping,H6,3
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Fintech.docx,Fintech Mobile App,H1,4
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Fintech.docx,Fintech Mobile App,H4,4
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Fintech.docx,Fintech Mobile App,H5,5
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Fintech.docx,Fintech Mobile App,H6,3
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Healthcare.docx,Healthcare App,H1,3
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Healthcare.docx,Healthcare App,H4,3
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Healthcare.docx,Healthcare App,H5,4
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Healthcare.docx,Healthcare App,H6,3
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Membership.docx,KwikTan Membership,H1,4
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Membership.docx,KwikTan Membership,H4,3
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Membership.docx,KwikTan Membership,H5,5
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Membership.docx,KwikTan Membership,H6,3
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Pastry SHop.docx,,H1,4
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Pastry SHop.docx,,H4,3
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Pastry SHop.docx,,H5,5
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Pastry SHop.docx,,H6,3
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Quizzy.docx,Quizy,H1,4
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Quizzy.docx,Quizy,H4,4
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Quizzy.docx,Quizy,H5,6
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Quizzy.docx,Quizy,H6,4
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Real Estate.docx,,H1,5
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Real Estate.docx,,H4,4
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Real Estate.docx,,H5,7
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Real Estate.docx,,H6,3
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Restaurant.docx,Food Delivery,H1,4
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Restaurant.docx,Food Delivery,H4,4
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Restaurant.docx,Food Delivery,H5,3
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Restaurant.docx,Food Delivery,H6,3
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Vouluntary Pet.docx,Voluntery Pet Care,H1,4
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Vouluntary Pet.docx,Voluntery Pet Care,H4,3
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Vouluntary Pet.docx,Voluntery Pet Care,H5,5
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Vouluntary Pet.docx,Voluntery Pet Care,H6,3
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Bakery.docx,,H1,1
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Bakery.docx,,H4,1
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Bakery.docx,,H5,2
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Bakery.docx,,H6,1
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/E tutor.docx,E-Tutor,H1,2
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/E tutor.docx,E-Tutor,H4,2
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/E tutor.docx,E-Tutor,H5,3
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/E tutor.docx,E-Tutor,H6,2
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Food Order.docx,,H1,1
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Food Order.docx,,H4,1
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Food Order.docx,,H5,1
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Food Order.docx,,H6,1
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/GAIA community app.docx,,H1,2
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/GAIA community app.docx,,H4,2
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/GAIA community app.docx,,H5,3
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/GAIA community app.docx,,H6,2
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Hospital App 1.docx,Hospital 1,H1,3
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Hospital App 1.docx,Hospital 1,H4,1
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Hospital App 1.docx,Hospital 1,H5,2
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Hospital App 1.docx,Hospital 1,H6,1
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Hospital App 2.docx,Hospital 2,H1,3
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Hospital App 2.docx,Hospital 2,H4,1
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Hospital App 2.docx,Hospital 2,H5,5
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Hospital App 2.docx,Hospital 2,H6,1
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Housing.docx,,H1,6
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Housing.docx,,H4,5
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Housing.docx,,H5,7
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Housing.docx,,H6,3
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Notification.docx,Tracking App,H1,4
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Notification.docx,Tracking App,H4,3
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Notification.docx,Tracking App,H5,5
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Notification.docx,Tracking App,H6,3
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Running app.docx,Running,H1,3
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Running app.docx,Running,H4,2
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Running app.docx,Running,H5,3
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Running app.docx,Running,H6,1
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Travel.docx,Travel,H1,3
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Travel.docx,Travel,H4,4
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Travel.docx,Travel,H5,4
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Travel.docx,Travel,H6,3
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Artwork website.docx,True Art,H1,4
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Artwork website.docx,True Art,H4,3
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Artwork website.docx,True Art,H5,4
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Artwork website.docx,True Art,H6,3
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Beer Garden.docx,,H1,5
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Beer Garden.docx,,H4,3
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Beer Garden.docx,,H5,3
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Beer Garden.docx,,H6,3
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Blog App.docx,Online Shoping,H1,3
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Blog App.docx,Online Shoping,H4,3
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Blog App.docx,Online Shoping,H5,6
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Blog App.docx,Online Shoping,H6,3
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/E-commerce.docx,Online Shoping,H1,2
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/E-commerce.docx,Online Shoping,H4,2
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/E-commerce.docx,Online Shoping,H5,2
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/E-commerce.docx,Online Shoping,H6,3
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Education app.docx,Quizy,H1,3
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Education app.docx,Quizy,H4,3
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Education app.docx,Quizy,H5,5
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Education app.docx,Quizy,H6,3
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/FinTech.docx,Fintech Mobile App,H1,2
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/FinTech.docx,Fintech Mobile App,H4,2
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/FinTech.docx,Fintech Mobile App,H5,2
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/FinTech.docx,Fintech Mobile App,H6,3
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Food Delivery.docx,Food Delivery,H1,2
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Food Delivery.docx,Food Delivery,H4,2
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Food Delivery.docx,Food Delivery,H5,2
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Food Delivery.docx,Food Delivery,H6,3
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Healthcare.docx,Healthcare App,H1,2
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Healthcare.docx,Healthcare App,H4,2
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Healthcare.docx,Healthcare App,H5,2
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Healthcare.docx,Healthcare App,H6,3
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Membership.docx,KwikTan Membership,H1,3
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Membership.docx,KwikTan Membership,H4,3
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Membership.docx,KwikTan Membership,H5,5
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Membership.docx,KwikTan Membership,H6,3
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Pastry shop.docx,,H1,2
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Pastry shop.docx,,H4,2
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Pastry shop.docx,,H5,2
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Pastry shop.docx,,H6,3
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Volountery Pet.docx,Voluntery Pet Care,H1,4
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Volountery Pet.docx,Voluntery Pet Care,H4,4
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Volountery Pet.docx,Voluntery Pet Care,H5,6
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Volountery Pet.docx,Voluntery Pet Care,H6,4

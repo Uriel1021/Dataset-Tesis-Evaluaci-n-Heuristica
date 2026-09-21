@@ -1,0 +1,9 @@
+check,passed,observed,expected
+TOTAL_INCLUDED_SITES,True,12,12
+UNIQUE_SITE_ID,True,0,0
+SITE_REQUIRED_site_name,True,0,0
+SITE_REQUIRED_base_url,True,0,0
+SITE_REQUIRED_domain,True,0,0
+SITE_REQUIRED_educational_context,True,0,0
+SITE_REQUIRED_access_type,True,0,0
+NO_PERSONAL_DATA,True,0,0

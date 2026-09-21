@@ -1,0 +1,5 @@
+target,negative_sites,confirmed_strong_sites,moderate_sites,other_or_no_evidence_sites,x_recovery_ready_strict
+H1_violation,1,0,0,1,False
+H4_violation,2,0,0,2,False
+H5_violation,2,0,0,2,False
+H6_violation,11,0,4,7,False

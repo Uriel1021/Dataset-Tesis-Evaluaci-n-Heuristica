@@ -1,0 +1,5 @@
+check,observed,expected,passed
+MASTER_ROWS,1002,1002,True
+DUPLICATE_MASTER_ID,0,0,True
+CATCHING_COMPLETE_X,2,2,True
+RICO_COMPLETE_X,998,documented_not_forced,True

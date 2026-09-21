@@ -1,0 +1,3 @@
+source_dataset,domain,ssl_role,n_rows,scientific_warning
+Catching_UX_Flaws,WEB_DOM,L,2,Very small labeled seed; two sites only.
+UICrit_RICO,ANDROID_UI,U,1000,Unlabeled pool comes from a different UI platform/domain. SSL assumptions must be audited before training.

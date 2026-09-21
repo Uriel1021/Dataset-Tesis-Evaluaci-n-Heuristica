@@ -1,0 +1,8 @@
+label_level,description,primary_training
+HUMAN_DIRECT,La fuente humana evaluó explícitamente la heurística Nielsen correspondiente.,True
+LLM_DIRECT,La fuente LLM evaluó explícitamente la heurística Nielsen correspondiente.,True
+HUMAN_PROXY,"Evaluación humana relacionada conceptualmente, pero no equivalente a la heurística.",False
+EXPERIMENTAL_PROXY,Condición experimental relacionada con la heurística.,False
+RATING_PROXY,Rating de usabilidad relacionado con el constructo.,False
+REFERENCE_ONLY,"La fuente aporta información metodológica o problemas, pero no Y canónica utilizable.",False
+PENDING,Falta acceso o información necesaria.,False

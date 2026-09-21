@@ -1,0 +1,7 @@
+decision,value,reason
+USE_SEMISUPERVISED_FRAMEWORK,True,Los datasets públicos presentan etiquetas Nielsen parciales y múltiples fuentes de X no etiquetada.
+ASSEMBLE_MASTER_ROWS_NOW,False,No se concatenarán filas hasta definir un espacio X compatible en notebook 25.
+MODEL_TARGETS_SEPARATELY,True,Cada heurística puede tener distinta disponibilidad de Y por instancia.
+ALLOW_PROXY_AS_DIRECT_Y,False,La procedencia proxy se conserva para experimentos separados.
+PSEUDO_LABELS_ARE_GROUND_TRUTH,False,"Las pseudo-etiquetas solo sirven para entrenamiento SSL, nunca para evaluación."
+EXTENSION_DEVELOPMENT_REQUIRED_NOW,False,Primero debe demostrarse que existe un X_common entrenable con los datasets públicos disponibles.

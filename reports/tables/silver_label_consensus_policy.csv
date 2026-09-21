@@ -1,0 +1,7 @@
+rule,value,description
+RUNS_PER_INSTANCE,3,Tres ejecuciones LLM independientes por instancia.
+VALID_VALUES,0 | 1 | NaN,NaN significa no evaluable; nunca se convierte automáticamente en 0.
+BINARY_MAJORITY,2_of_3,"Si al menos dos ejecuciones válidas coinciden en 0 o 1, se acepta el consenso."
+INSUFFICIENT_VALID_RUNS,NaN,Con menos de dos etiquetas binarias válidas no se asigna target.
+CONFLICT,REVIEW_OR_NA,Conflictos sin mayoría válida permanecen NaN o se revisan en análisis separado.
+FINAL_LABEL_LEVEL,LLM_DIRECT_SILVER,Procedencia Silver; no gold/expert.

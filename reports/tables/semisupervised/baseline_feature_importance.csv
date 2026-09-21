@@ -1,0 +1,4 @@
+target,feature,importance
+H6_violation,structure_depth,0.2715011890042683
+H6_violation,interactive_control_count,0.38069940533023866
+H6_violation,interactive_label_ratio,0.34779940566549306

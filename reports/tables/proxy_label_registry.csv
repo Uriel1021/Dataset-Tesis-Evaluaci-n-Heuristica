@@ -1,0 +1,6 @@
+dataset,source_construct,candidate_target,mapping_type,accepted_for_primary_training
+Dashboards,Order&Grouping,H4_violation,EXPERIMENTAL_PROXY,False
+Dashboards,DataPresentation,H6_violation,EXPERIMENTAL_PROXY,False
+Dashboards,DataUnderstanding,H6_violation,EXPERIMENTAL_PROXY,False
+UICrit + RICO,learnability,H6_violation,RATING_PROXY,False
+UICrit + RICO,design_quality_rating,H4_violation,RATING_PROXY,False

@@ -1,0 +1,2 @@
+global_status,strict_all_targets,extended_all_targets,eligible_repositories,next_action
+EXTENDED_NEGATIVE_X_EXTRACTION_CAN_PROCEED,False,True,12,Extract proxy X from A/B/C repositories while preserving source-match tier.

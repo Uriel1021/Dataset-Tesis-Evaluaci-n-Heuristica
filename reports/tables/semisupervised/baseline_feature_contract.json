@@ -1,0 +1,18 @@
+{
+  "features": [
+    "structure_depth",
+    "interactive_control_count",
+    "interactive_label_ratio"
+  ],
+  "threshold": 0.5,
+  "random_state": 42,
+  "ready_targets": [
+    "H6_violation"
+  ],
+  "blocked_targets": [
+    "H1_violation",
+    "H4_violation",
+    "H5_violation"
+  ],
+  "feature_space": "EXPERIMENTAL_CONSTRUCT_PROXY"
+}

@@ -1,0 +1,5 @@
+source_dataset,current_evidence,reason_excluded,future_role
+29042675,Direct/candidate Nielsen labels are available.,No row-level X compatible with the current proxy feature space.,LABEL_REFERENCE_OR_FUTURE_X_RECOVERY
+Dashboards,"Behavioral X exists, but the audited feature representation does not match the current three-feature structural space.",No compatible row-level structural X materialized.,U_IN_BEHAVIOR_SPECIFIC_EXPERIMENT
+A11y_CUA,Behavior/event-derived features exist in exploratory work.,Mixed web/desktop modality and no current row-level mapping to the three structural proxy X.,U_PENDING_FEATURE_HARMONIZATION
+P3M,Positive-only visual Nielsen issues.,Screenshot modality does not provide current structural X.,LABEL_REFERENCE

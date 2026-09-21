@@ -1,0 +1,5 @@
+source_match_level,observed_y,n,target
+A_CONFIRMED_STRONG,1.0,2,H6_violation
+B_MODERATE_VALIDATED,0.0,3,H6_violation
+C_EXACT_NAME_TECHNICAL,0.0,6,H6_violation
+C_EXACT_NAME_TECHNICAL,1.0,1,H6_violation

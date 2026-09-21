@@ -1,0 +1,5 @@
+model_or_experiment,ready,n_instances,reason
+PRIMARY_NIELSEN_MODEL,False,0,No existe todavía una fuente suficiente con X canónica compatible y Y Nielsen directa.
+UICRIT_RICO_PROXY,True,1000,Permite un experimento proxy interno usando únicamente X y Y propias de UICrit/RICO.
+CATCHING_PIPELINE_VALIDATION,True,2,"Permite verificar la extracción y trazabilidad X-Y, pero no evaluar clasificación."
+RICO_PLUS_CATCHING_ROW_UNION,False,0,Las modalidades y operacionalizaciones de X no son equivalentes; no deben concatenarse como un único dataset.

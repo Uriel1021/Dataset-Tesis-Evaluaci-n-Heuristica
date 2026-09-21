@@ -1,0 +1,2 @@
+global_status,conventional_supervised_ready,conventional_ssl_ready,pu_form_present_all_targets,domain_adaptation_required,primary_model_ready,next_action
+PAUSE_BEFORE_28_RECOVER_NEGATIVE_X,False,False,True,True,False,Recover compatible X for Catching sites that already have observed negative Nielsen labels.

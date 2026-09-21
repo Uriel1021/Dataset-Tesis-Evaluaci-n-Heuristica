@@ -1,0 +1,11 @@
+rule_id,rule,mandatory,description
+R01,NO_ROW_WISE_HORIZONTAL_JOIN_WITHOUT_KEY,True,"No unir datasets diferentes por orden, índice o similitud nominal sin clave reproducible."
+R02,VERTICAL_UNION_ONLY_AFTER_FEATURE_HARMONIZATION,True,No concatenar L y U hasta que notebook 25 defina X_common.
+R03,UNKNOWN_LABEL_IS_NAN,True,No rellenar Y faltante con 0.
+R04,PROXY_NOT_EQUAL_DIRECT,True,RATING_PROXY/HUMAN_PROXY/EXPERIMENTAL_PROXY no se convierten a Nielsen directa.
+R05,PSEUDO_LABEL_PROVENANCE_REQUIRED,True,Toda pseudo-etiqueta debe marcarse explícitamente y quedar fuera del ground truth.
+R06,SOURCE_DATASET_NOT_PREDICTOR,True,"La fuente solo se conserva para trazabilidad, agrupamiento y análisis."
+R07,GROUPED_SPLIT,True,El mismo sitio/prototipo/aplicación no puede aparecer en train y test.
+R08,TARGET_SPECIFIC_L_U,True,L y U se construyen separadamente para H1/H4/H5/H6.
+R09,TEST_NEVER_PSEUDO_LABELED,True,El conjunto de evaluación etiquetado permanece aislado durante SSL.
+R10,NO_GLOBAL_ZERO_FILL,True,Los faltantes de X conservan su semántica; no se reemplazan globalmente por cero.

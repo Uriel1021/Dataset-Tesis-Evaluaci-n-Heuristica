@@ -1,0 +1,9 @@
+canonical_variable,source_signal,derivable,supervised_training,note
+click_count,mouseup with left button,True,False,mouseup es candidato a clic; no sumar mousedown + mouseup.
+keypress_count,keypress,True,False,"Número de eventos, no contenido de las teclas."
+scroll_count,scroll,REQUIRES_EPISODE_RULE,False,Los eventos scroll son continuos; no contar cada evento como una acción.
+mean_pre_action_pause_s,timestampms before actions,True,False,"Solo interpretable como intervalo temporal, no como confusión."
+navigation_steps,url/urlFull transitions,True,False,Requiere una definición explícita de cambio de estado.
+backtracking_count,revisited url/urlFull states,True,False,Revisita a un estado URL previo.
+task_time_s,,False,False,Sin join/tarea no se conocen límites de P+DB+Q.
+session_duration_s,max(timestampms)-min(timestampms),True,False,Variable auxiliar; no equivale a task_time_s.

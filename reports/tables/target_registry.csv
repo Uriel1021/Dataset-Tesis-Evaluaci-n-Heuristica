@@ -1,0 +1,5 @@
+target,heuristic,canonical_name,positive_value,negative_value
+H1_violation,H1,Visibility of system status,1,0
+H4_violation,H4,Consistency and standards,1,0
+H5_violation,H5,Error prevention,1,0
+H6_violation,H6,Recognition rather than recall,1,0

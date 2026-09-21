@@ -1,0 +1,5 @@
+target,supervised_binary_seed_identifiable,unlabeled_pool_available,labeled_groups,conventional_self_training_ready,reason
+H1_violation,False,True,2,False,Observed L has only one class.
+H4_violation,False,True,2,False,Observed L has only one class.
+H5_violation,False,True,2,False,Observed L has only one class.
+H6_violation,False,True,2,False,Observed L has only one class.

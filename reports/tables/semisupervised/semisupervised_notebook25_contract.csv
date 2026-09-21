@@ -1,0 +1,5 @@
+output,purpose
+semisupervised_feature_mapping.csv,Mapeo fuente-específico a features candidatas comunes.
+semisupervised_feature_space.csv,"Lista definitiva de X_common con definición, tipo y semántica."
+semisupervised_source_feature_coverage.csv,Cobertura de X_common por fuente.
+semisupervised_row_eligibility_by_source.csv,Decidir qué fuentes pueden entrar a L/U después del feature audit.

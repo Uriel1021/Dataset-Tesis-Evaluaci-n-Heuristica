@@ -1,0 +1,4 @@
+target,fold_id,train_rows,test_rows,train_n_0,train_n_1,test_n_0,test_n_1
+H6_violation,0,8,4,6,2,3,1
+H6_violation,1,8,4,6,2,3,1
+H6_violation,2,8,4,6,2,3,1

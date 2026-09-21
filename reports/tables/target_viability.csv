@@ -1,0 +1,5 @@
+target,direct_source_ready,direct_source,direct_instances_confirmed,proxy_sources,current_viability
+H1_violation,False,Catching UX Flaws,2,AMUSED,INSUFFICIENT_DIRECT_DATA
+H4_violation,False,Catching UX Flaws,2,Dashboards | UICrit+RICO,PROXY_DATA_AVAILABLE
+H5_violation,False,Catching UX Flaws,2,AMUSED,INSUFFICIENT_DIRECT_DATA
+H6_violation,False,Catching UX Flaws,2,Dashboards | UICrit+RICO | AMUSED,PROXY_DATA_AVAILABLE

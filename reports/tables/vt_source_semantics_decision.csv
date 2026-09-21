@@ -1,0 +1,2 @@
+dataset,metadata_instances,educational_instances,observed_source_modalities,canonical_web_X_ready,direct_nielsen_Y_ready,current_role,reason
+29042675,20,3,BEHANCE_PRESENTATION | FIGMA_PROTOTYPE | OTHER_SOURCE,False,False,SEMANTIC_AUDIT,Las fuentes observadas son prototipos visuales Figma/Behance y la semántica exacta de las columnas IRR debe confirmarse antes de construir Y.

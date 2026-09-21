@@ -1,0 +1,2 @@
+master_v2_built,master_v2_rows,salvaged_negative_feature_rows,excluded_incomplete_negative_rows,ready_targets,blocked_targets,critical_excluded_sites,full_baseline_ready,global_status
+True,1012,10,2,H6_violation,H1_violation | H4_violation | H5_violation,Electronics-eCommerce-Shop-With-Admin-Dashboard-NextJS-NodeJS-main,False,PROCEED_TO_28_PARTIAL_BASELINE

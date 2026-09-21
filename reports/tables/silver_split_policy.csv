@@ -1,0 +1,5 @@
+item,value,reason
+GROUP_KEY,site_id,Todas las tareas/ejecuciones del mismo sitio permanecen en un único split.
+ROW_RANDOM_SPLIT,False,Evitar fuga de identidad visual/estructural del mismo sitio.
+PRIMARY_EVALUATION,GROUPED_CV,Evaluación por grupos de sitios.
+OPTIONAL_ROBUSTNESS,LEAVE_ONE_SITE_OR_SOURCE_OUT,Medir generalización a sitios no vistos cuando el número de grupos lo permita.

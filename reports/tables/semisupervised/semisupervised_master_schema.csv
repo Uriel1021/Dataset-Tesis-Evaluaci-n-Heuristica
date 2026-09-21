@@ -1,0 +1,19 @@
+column,role,required,description
+master_instance_id,ID,True,ID global único construido a partir de source_dataset + source_instance_id.
+source_dataset,PROVENANCE,True,Dataset público de origen; no se utilizará como predictor.
+source_instance_id,PROVENANCE,True,ID nativo o reproducible dentro de la fuente.
+source_unit,PROVENANCE,True,"Unidad original: website, prototype, task execution, Android UI, etc."
+feature_modality,PROVENANCE,True,Modalidad de X.
+platform,CONTEXT,False,Sitio/aplicación/plataforma cuando sea observable.
+task_type,CONTEXT,False,Tipo de tarea cuando exista.
+page_type,CONTEXT,False,Tipo de página/interfaz cuando pueda definirse reproduciblemente.
+<X_common>,X,DEFINED_IN_NOTEBOOK_25,Espacio común empírico; no se fija todavía.
+H1_violation,Y,False,0/1 si existe etiqueta observada válida; NaN si no fue evaluada.
+H4_violation,Y,False,0/1 si existe etiqueta observada válida; NaN si no fue evaluada.
+H5_violation,Y,False,0/1 si existe etiqueta observada válida; NaN si no fue evaluada.
+H6_violation,Y,False,0/1 si existe etiqueta observada válida; NaN si no fue evaluada.
+label_source,LABEL_PROVENANCE,False,Identidad/tipo de anotador o mecanismo de generación.
+label_level,LABEL_PROVENANCE,True,"HUMAN_DIRECT, LLM_DIRECT, proxy, NONE, etc."
+label_confidence,LABEL_PROVENANCE,False,Confianza si la fuente la proporciona; no inventarla.
+is_pseudo_label,LABEL_PROVENANCE,True,True solo para etiquetas generadas por SSL.
+group_id,SPLIT,True,Grupo para prevenir leakage: sitio/prototipo/aplicación según fuente.

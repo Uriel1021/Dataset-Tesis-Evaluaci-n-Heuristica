@@ -1,0 +1,2 @@
+dataset,compare_as_target,overall_rating_as_binary_target,docx_evidence_candidate,label_provenance,canonical_web_X_ready,primary_training_ready,reason
+29042675,False,False,True,LLM_DIRECT_CANDIDATE,False,False,"H* Compare contiene filas binarias y filas resumen; no se interpreta como violación. Los DOCX contienen evaluación heurística explícita y permiten construir candidatos LLM_DIRECT, pero la fuente visual Figma/Behance/SharePoint no aporta X web canónica equivalente a la extensión."

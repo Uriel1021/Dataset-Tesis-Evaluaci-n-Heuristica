@@ -1,0 +1,13 @@
+column,role
+instance_id,ID
+site_id,GROUP
+page_or_task,CONTEXT
+execution_id,CONTEXT
+<canonical_X_columns>,X
+H1_violation,Y
+H4_violation,Y
+H5_violation,Y
+H6_violation,Y
+label_source,PROVENANCE
+label_level,PROVENANCE
+label_evidence,PROVENANCE

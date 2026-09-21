@@ -1,0 +1,9 @@
+source_dataset,target,n_rows,n_labeled,n_0,n_1,n_classes,label_provenance,has_both_classes,binary_training_ready
+Catching_UX_Flaws,H1,2,2,0,2,1,LLM_DIRECT,False,False
+Catching_UX_Flaws,H4,2,2,0,2,1,LLM_DIRECT,False,False
+Catching_UX_Flaws,H5,2,2,0,2,1,LLM_DIRECT,False,False
+Catching_UX_Flaws,H6,2,2,0,2,1,LLM_DIRECT,False,False
+29042675,H1,15,9,0,9,1,LLM_DIRECT_CANDIDATE,False,False
+29042675,H4,15,12,0,12,1,LLM_DIRECT_CANDIDATE,False,False
+29042675,H5,15,6,0,6,1,LLM_DIRECT_CANDIDATE,False,False
+29042675,H6,15,15,0,15,1,LLM_DIRECT_CANDIDATE,False,False

@@ -1,0 +1,11 @@
+dataset,folder,priority,similarity,availability,status,unit_of_analysis,has_native_X,has_native_Y,H1,H4,H5,H6,label_source,label_quality,join_key,same_instance_XY,decision_reason
+AMUSED,01_amused,P1,ALTA,PENDING_ACCESS,PENDING,,,,,,,,,,,,
+Zenodo 21891322,02_zenodo_21891322,P1,ALTA,AVAILABLE,AUDIT,,,,,,,,,,,,
+29042675,03_29042675,P1,ALTA,AVAILABLE,AUDIT,,,,,,,,,,,,
+Catching UX Flaws,04_catching_ux_flaws,P1,ALTA,AVAILABLE,AUDIT,,,,,,,,,,,,
+SERENE,05_serene,P1,ALTA,AVAILABLE,AUDIT,,,,,,,,,,,,
+P3M,06_p3m,P2,ALTA,AVAILABLE,AUDIT,,,,,,,,,,,,
+PHR,07_phr,P2,ALTA,AVAILABLE,AUDIT,,,,,,,,,,,,
+Dashboards,08_dashboards,P2,ALTA,AVAILABLE,AUDIT,,,,,,,,,,,,
+Cultural Heritage,09_cultural_heritage,P2,ALTA,MISSING_DATASET,PENDING,,,,,,,,,,,,
+UICrit + RICO,10_uicrit_rico,P2,ALTA,AVAILABLE,AUDIT,,,,,,,,,,,,

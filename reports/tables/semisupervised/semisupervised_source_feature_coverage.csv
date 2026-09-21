@@ -1,0 +1,7 @@
+source_dataset,model_feature,source_column,rows,n_valid,coverage_ratio
+Catching_UX_Flaws,structure_depth,static_max_dom_depth,2,2,1.0
+Catching_UX_Flaws,interactive_control_count,static_total_interactive_controls,2,2,1.0
+Catching_UX_Flaws,interactive_label_ratio,static_control_label_proxy_ratio,2,2,1.0
+UICrit_RICO,structure_depth,rico_max_tree_depth,1000,1000,1.0
+UICrit_RICO,interactive_control_count,rico_interactive_node_count,1000,1000,1.0
+UICrit_RICO,interactive_label_ratio,rico_interactive_label_proxy_ratio,1000,998,0.998

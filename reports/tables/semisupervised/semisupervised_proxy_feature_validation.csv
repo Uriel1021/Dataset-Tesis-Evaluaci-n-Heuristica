@@ -1,0 +1,4 @@
+model_feature,all_columns_exist,both_sources_have_data,proxy_feature_usable
+structure_depth,True,True,True
+interactive_control_count,True,True,True
+interactive_label_ratio,True,True,True

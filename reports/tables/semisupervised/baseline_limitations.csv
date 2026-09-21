@@ -1,0 +1,8 @@
+target,issue,value,implication
+H6_violation,VERY_SMALL_LABELED_SET,12,Metrics have high variance and must be treated as preliminary.
+H6_violation,PROXY_FEATURE_SPACE,EXPERIMENTAL_CONSTRUCT_PROXY,"Features are construct-level proxies, not strict canonical Nielsen metrics."
+H6_violation,MIXED_SOURCE_MATCH_LEVEL,A_CONFIRMED_STRONG | B_MODERATE_VALIDATED | C_EXACT_NAME_TECHNICAL,Observed labels include source matches with different evidence strength.
+H6_violation,UNLABELED_DATA_USED_IN_BASELINE,False,This is intentional; U is reserved for the semi-supervised experiment.
+H1_violation,TARGET_BLOCKED,True,No supervised baseline is reported because minimum grouped binary holdout support is absent.
+H4_violation,TARGET_BLOCKED,True,No supervised baseline is reported because minimum grouped binary holdout support is absent.
+H5_violation,TARGET_BLOCKED,True,No supervised baseline is reported because minimum grouped binary holdout support is absent.

@@ -1,0 +1,4 @@
+experiment,allowed_labels,purpose
+E1_DIRECT,HUMAN_DIRECT | LLM_DIRECT,Evaluación principal cuando exista suficiente X+Y directa.
+E2_PROXY,EXPERIMENTAL_PROXY | RATING_PROXY,Evaluar si constructos relacionados permiten aprender señales transferibles.
+E3_DIRECT_PLUS_PROXY,DIRECT + PROXY,Análisis de sensibilidad; nunca reportarlo como equivalente a GOLD.

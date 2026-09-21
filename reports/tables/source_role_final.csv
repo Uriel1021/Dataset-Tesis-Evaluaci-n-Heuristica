@@ -1,0 +1,6 @@
+source_dataset,x_status,y_status,same_instance_xy,canonical_web_x,direct_nielsen_y,class_diversity_sufficient,final_role,primary_training,reason
+UICrit_RICO,AVAILABLE_PLATFORM_SPECIFIC,RATING_PROXY,True,False,False,NOT_APPLICABLE,PROXY_EXPERIMENT,False,1000 interfaces con X estructural Android y Y rating proxy; no equivalen a X web ni a Y Nielsen directa.
+Catching_UX_Flaws,STATIC_WEB_PROXY,LLM_DIRECT,True,False,True,False,PIPELINE_VALIDATION,False,Solo 2 repositorios CONFIRMED_STRONG y ambos tienen targets positivos; no permite clasificación.
+29042675,VISUAL_PROTOTYPE_ARTIFACT,LLM_DIRECT_POSITIVE_EVIDENCE,True,False,True,False,LABEL_REFERENCE,False,"Las evaluaciones LLM contienen evidencia Nielsen, pero las fuentes son Figma/Behance/SharePoint y los targets recuperados carecen de clase negativa."
+Dashboards,BEHAVIOR_LOGS,EXPERIMENTAL_PROXY_UNJOINED,False,False,False,UNKNOWN,X_ONLY_AUXILIARY,False,No existe un join reproducible entre logs y P+DB+Q.
+AMUSED,POTENTIALLY_AVAILABLE,PROXY_CANDIDATE,PENDING_ACCESS,UNKNOWN,False,UNKNOWN,PENDING_ACCESS,False,Acceso al dataset aún no disponible.

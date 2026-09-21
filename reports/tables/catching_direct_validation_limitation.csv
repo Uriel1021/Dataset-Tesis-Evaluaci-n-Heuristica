@@ -1,0 +1,2 @@
+source_dataset,confirmed_instances,unique_target_vectors,classification_validation,pipeline_validation,reason
+Catching_UX_Flaws,2,1,False,True,Las dos interfaces CONFIRMED_STRONG poseen el mismo vector H1=H4=H5=H6=1; no existe variación de clase.

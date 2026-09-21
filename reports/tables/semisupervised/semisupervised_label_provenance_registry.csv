@@ -1,0 +1,9 @@
+label_level,usable_as_observed_Y,usable_as_primary_test,pseudo_label,description
+HUMAN_DIRECT,True,True,False,Etiqueta Nielsen explícita emitida por evaluador humano.
+LLM_DIRECT,True,True,False,Etiqueta Nielsen explícita emitida por LLM; debe mantenerse separada de HUMAN_DIRECT.
+LLM_DIRECT_CANDIDATE,AFTER_SOURCE_SPECIFIC_VALIDATION,False,False,"Evidencia directa recuperada, pero con limitaciones de extracción/mapeo o cobertura."
+HUMAN_PROXY,False,False,False,"Etiqueta humana relacionada, pero no Nielsen directa."
+RATING_PROXY,False,False,False,Rating general usado solo en experimentos proxy.
+EXPERIMENTAL_PROXY,False,False,False,Proxy experimental derivado de una variable relacionada.
+PSEUDO_LABEL,False,False,True,Etiqueta generada por el algoritmo semisupervisado; nunca ground truth.
+NONE,False,False,False,Instancia sin etiqueta Nielsen.

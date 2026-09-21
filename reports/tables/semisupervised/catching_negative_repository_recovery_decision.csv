@@ -1,0 +1,2 @@
+global_status,strict_negative_repo_ready,moderate_negative_candidates,next_action
+MODERATE_NEGATIVE_REPOSITORY_CANDIDATES,False,True,Technically validate moderate repositories before extracting X.

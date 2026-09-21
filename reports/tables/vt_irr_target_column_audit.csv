@@ -1,0 +1,13 @@
+target,column,semantic_type,non_missing,missing,unique_count,unique_values,min,max
+H1,H1 Compare,COMPARE,58,46,6,"[0.0, 1.0, 5.0, 8.0, 9.0, 10.0]",0.0,10.0
+H4,H4 Compare,COMPARE,58,46,5,"[0.0, 1.0, 6.0, 7.0, 10.0]",0.0,10.0
+H5,H5 Compare,COMPARE,58,46,5,"[0.0, 1.0, 7.0, 9.0, 10.0]",0.0,10.0
+H6,H6 Compare,COMPARE,58,46,5,"[0.0, 1.0, 4.0, 6.0, 10.0]",0.0,10.0
+H1,H1. Overal Rating (4),OVERALL_RATING,40,64,2,"[2.0, 3.0]",2.0,3.0
+H1,H1,OTHER,0,104,0,[],,
+H4,H4 Overall Rating,OVERALL_RATING,40,64,2,"[2.0, 3.0]",2.0,3.0
+H4,H4,OTHER,0,104,0,[],,
+H5,H5 Overall Rating,OVERALL_RATING,40,64,3,"[2.0, 3.0, 4.0]",2.0,4.0
+H5,H5,OTHER,0,104,0,[],,
+H6,H6 Overall Rating,OVERALL_RATING,40,64,2,"[2.0, 3.0]",2.0,3.0
+H6,H6,OTHER,0,104,0,[],,

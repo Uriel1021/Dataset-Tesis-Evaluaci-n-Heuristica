@@ -1,0 +1,17 @@
+depth_offset,enabled_flags,n_enabled_flags,all_frozen_sites_match,preference_score
+2,has_aria_label | has_associated_label,2,True,4
+2,has_aria_label | has_aria_labelledby | has_associated_label,3,True,6
+2,has_aria_label | has_associated_label | has_ancestor_label,3,True,8
+2,has_aria_label | has_button_value | has_associated_label,3,True,10
+2,has_aria_label | has_title | has_associated_label,3,True,11
+2,has_aria_label | has_aria_labelledby | has_associated_label | has_ancestor_label,4,True,10
+2,has_aria_label | has_aria_labelledby | has_button_value | has_associated_label,4,True,12
+2,has_aria_label | has_aria_labelledby | has_title | has_associated_label,4,True,13
+2,has_aria_label | has_button_value | has_associated_label | has_ancestor_label,4,True,14
+2,has_aria_label | has_title | has_associated_label | has_ancestor_label,4,True,15
+2,has_aria_label | has_title | has_button_value | has_associated_label,4,True,17
+2,has_aria_label | has_aria_labelledby | has_button_value | has_associated_label | has_ancestor_label,5,True,16
+2,has_aria_label | has_aria_labelledby | has_title | has_associated_label | has_ancestor_label,5,True,17
+2,has_aria_label | has_aria_labelledby | has_title | has_button_value | has_associated_label,5,True,19
+2,has_aria_label | has_title | has_button_value | has_associated_label | has_ancestor_label,5,True,21
+2,has_aria_label | has_aria_labelledby | has_title | has_button_value | has_associated_label | has_ancestor_label,6,True,23

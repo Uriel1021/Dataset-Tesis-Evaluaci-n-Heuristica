@@ -1,0 +1,9 @@
+step,action,done_when
+1,Completar site_registry_pilot.csv,"12 sitios incluidos, reproducibles y sin datos personales reales."
+2,Completar task_registry_pilot.csv,24 tareas incluidas con inicio y criterio de éxito.
+3,Reejecutar notebook 25,Registries ready = True y pilot_manifest = 48 filas.
+4,Ejecutar cada tarea con la extensión,Existe un CSV por instance_id en extension_exports/.
+5,Guardar evidencia bruta,Capturas/snapshots/trace quedan asociados al mismo instance_id.
+6,Reejecutar notebook 25,48 exports presentes y válidos.
+7,Ejecutar 3 anotaciones LLM por instancia,144 label runs con procedencia registrada.
+8,Construir consenso,Targets 0/1/NaN por instancia sin rellenar NaN con 0.

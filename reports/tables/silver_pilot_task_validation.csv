@@ -1,0 +1,9 @@
+check,passed,observed,expected
+TOTAL_INCLUDED_TASKS,True,24,24
+UNIQUE_TASK_ID,True,0,0
+TASK_SITE_FOREIGN_KEY,True,[],[]
+TASK_REQUIRED_task_name,True,0,0
+TASK_REQUIRED_task_description,True,0,0
+TASK_REQUIRED_start_condition,True,0,0
+TASK_REQUIRED_success_criterion,True,0,0
+TASKS_PER_SITE,True,"{'site_001': 2, 'site_002': 2, 'site_003': 2, 'site_004': 2, 'site_005': 2, 'site_006': 2, 'site_007': 2, 'site_008': 2, 'site_009': 2, 'site_010': 2, 'site_011': 2, 'site_012': 2}",2 por sitio

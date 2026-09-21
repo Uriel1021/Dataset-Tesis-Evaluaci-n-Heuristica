@@ -1,0 +1,6 @@
+logical_name,expected_filename,importance_for_ssl,found
+UICrit/RICO same-instance proxy dataset,uicrit_rico_proxy_dataset.csv,U_CANDIDATE,True
+Catching static validation dataset,catching_static_validation_dataset.csv,L_CANDIDATE,True
+29042675 recovered candidate targets,vt_recovered_candidate_targets.csv,L_CANDIDATE_PENDING_X,True
+Feature compatibility matrix,feature_compatibility_matrix.csv,INPUT_TO_NOTEBOOK_25,True
+Final direct-label class audit,direct_label_class_audit_final.csv,LABEL_AUDIT,False

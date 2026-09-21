@@ -1,0 +1,19 @@
+{
+  "features": [
+    "structure_depth",
+    "interactive_control_count",
+    "interactive_label_ratio"
+  ],
+  "allowed_targets": [
+    "H6_violation"
+  ],
+  "blocked_targets": [
+    "H1_violation",
+    "H4_violation",
+    "H5_violation"
+  ],
+  "prediction_threshold": 0.5,
+  "random_state": 42,
+  "primary_config": "PRIMARY_OVERLAP_095_CAP1",
+  "rule": "Pseudo-labels are training-only and never ground truth."
+}

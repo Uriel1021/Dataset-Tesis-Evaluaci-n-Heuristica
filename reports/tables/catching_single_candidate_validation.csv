@@ -1,0 +1,12 @@
+site,repo_full_name,clone_ok,source_files,snippets_tested,matched_snippets,matched_evaluations,matched_files,error,validation_status
+academic-website-template,sbryngelson/academic-website-template,True,31,8,0,0,,,NO_MATCH
+conference-website-template,mikepierce/conference-website-template,True,8,2,2,1,index.html,,MODERATE_MATCH
+jekyll-inclusion,website-templates/jekyll-inclusion,True,47,7,0,0,,,NO_MATCH
+marketing-agency_one-page-template,website-templates/marketing-agency_one-page-template,True,34,1,0,0,,,NO_MATCH
+material-dashboard,laravel-frontend-presets/material-dashboard,True,156,8,0,0,,,NO_MATCH
+portfolio_one-page-template,website-templates/portfolio_one-page-template,True,34,4,0,0,,,NO_MATCH
+react-saas-template,dunky11/react-saas-template,True,99,2,1,1,src/logged_in/components/dashboard/AccountInformationArea.js,,MODERATE_MATCH
+simple-product_responsive-template,website-templates/simple-product_responsive-template,True,21,5,0,0,,,NO_MATCH
+startbootstrap-3-col-portfolio,StartBootstrap/startbootstrap-3-col-portfolio,True,4,12,10,2,index.html,,STRONG_MATCH
+startbootstrap-simple-sidebar,StartBootstrap/startbootstrap-simple-sidebar,True,14,11,1,1,src/js/scripts.js,,MODERATE_MATCH
+travel_fluid-template,website-templates/travel_fluid-template,True,21,1,0,0,,,NO_MATCH

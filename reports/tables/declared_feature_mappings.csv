@@ -1,0 +1,12 @@
+source_dataset,source_variable,canonical_variable,compatibility_level,possible_heuristic,reason
+UICrit_RICO,rico_max_tree_depth,navigation_depth,CONSTRUCT_PROXY,H6,Profundidad del árbol Android no representa pasos de navegación web.
+UICrit_RICO,rico_interactive_label_proxy_ratio,accessible_name_ratio,CONSTRUCT_PROXY,H6,text/content-desc de Android no equivale al Accessible Name calculado por el navegador.
+UICrit_RICO,rico_interactive_label_proxy_ratio,visible_labels_ratio,CONSTRUCT_PROXY,H6,La jerarquía Android no reproduce visibilidad y etiquetado de controles HTML.
+UICrit_RICO,rico_unlabeled_interactive_count,unlabeled_controls_count,CONSTRUCT_PROXY,H6,"El concepto está relacionado, pero las reglas de accesibilidad Android y web son distintas."
+UICrit_RICO,rico_class_diversity_ratio,component_style_consistency_ratio,CONSTRUCT_PROXY,H4,Clases Android no representan estilos/componentes CSS.
+Catching_UX_Flaws,static_max_dom_depth,navigation_depth,CONSTRUCT_PROXY,H6,Profundidad del DOM estático no equivale a profundidad de navegación.
+Catching_UX_Flaws,static_control_label_proxy_ratio,accessible_name_ratio,CONSTRUCT_PROXY,H6,Etiquetas detectadas en HTML fuente no reproducen el algoritmo Accessible Name.
+Catching_UX_Flaws,static_control_label_proxy_ratio,visible_labels_ratio,CONSTRUCT_PROXY,H6,Sin renderizado CSS no se puede determinar visibilidad real.
+Catching_UX_Flaws,static_native_validation_ratio,input_validation_present,PARTIAL,H5,"required/pattern/min/max permiten detectar validación HTML nativa, pero la variable fuente es un ratio y no cubre toda validación runtime."
+Catching_UX_Flaws,static_mean_class_reuse_ratio,css_class_consistency_ratio,CONSTRUCT_PROXY,H4,Reutilización de clases no equivale a consistencia CSS.
+Catching_UX_Flaws,static_mean_class_reuse_ratio,component_style_consistency_ratio,CONSTRUCT_PROXY,H4,La presencia repetida de clases no demuestra consistencia visual renderizada.

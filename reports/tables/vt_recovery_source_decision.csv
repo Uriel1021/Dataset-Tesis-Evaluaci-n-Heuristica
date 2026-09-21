@@ -1,0 +1,2 @@
+dataset,irr_compare_as_target,llm_documents,documents_with_text,identified_documents,direct_binary_label_evidence,consensus_prototypes,label_role,canonical_web_X_ready,primary_training_ready,reason
+29042675,False,43,43,31,63,15,LLM_DIRECT_CANDIDATE,False,False,"IRR Compare representa acuerdo y no Y de violación. Las evaluaciones LLM pueden aportar Y directa si existe evidencia textual parseable, pero las fuentes Figma/Behance/SharePoint siguen sin aportar X web canónica."

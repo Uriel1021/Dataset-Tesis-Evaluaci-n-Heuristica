@@ -1,0 +1,6 @@
+source_dataset,rows,observed_nielsen_y_available,observed_label_cells,strict_feature_space_available,proxy_feature_space_available,candidate_role_strict,candidate_role_proxy
+Catching_UX_Flaws,2.0,True,8.0,False,True,NOT_ELIGIBLE,L
+UICrit_RICO,1000.0,False,0.0,False,True,NOT_ELIGIBLE,U
+29042675,,True,,False,False,NOT_ELIGIBLE_PENDING_X,NOT_ELIGIBLE_PENDING_X
+Dashboards,,False,0.0,False,False,PENDING_ROW_FEATURE_DATA,PENDING_ROW_FEATURE_DATA
+A11y_CUA,,False,0.0,False,False,PENDING_ROW_FEATURE_DATA,PENDING_ROW_FEATURE_DATA

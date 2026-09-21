@@ -1,0 +1,5 @@
+repository_status,allowed_for_primary_X,allowed_for_secondary_X,interpretation
+CONFIRMED_STRONG,True,True,Repositorio identificado mediante evidencia textual fuerte.
+PROVISIONAL_MODERATE,False,True,"Existe coincidencia, pero no evidencia suficiente para considerarlo fuente confirmada."
+AMBIGUOUS_MULTIPLE_MODERATE,False,False,Más de un repositorio es compatible con la evidencia.
+UNRESOLVED,False,False,No se pudo identificar con suficiente evidencia el código evaluado.

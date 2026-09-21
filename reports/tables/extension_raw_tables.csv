@@ -1,0 +1,10 @@
+tabla,descripcion,clave
+sessions,Una fila por ejecución usuario-tarea,instance_id
+interaction_events,"Clicks, teclado, scroll y acciones del usuario",event_id
+navigation_events,Cambios de URL/estado/navegación,event_id
+performance_events,Métricas de rendimiento y respuesta de recursos,event_id
+system_feedback_events,"Feedback, loaders, mensajes y latencias",event_id
+validation_events,Intentos inválidos y errores de formularios,event_id
+error_prevention_events,Confirmaciones y protección de acciones críticas,event_id
+dom_snapshots,Características estructurales del estado de interfaz,snapshot_id
+expert_annotations,Etiquetas H1/H4/H5/H6 proporcionadas por expertos,annotation_id

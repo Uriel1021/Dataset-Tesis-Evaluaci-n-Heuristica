@@ -1,0 +1,5 @@
+field,definition,example
+site_id,Aplicación/sitio web estable.,site_001
+task_id,Tarea predefinida con criterio de inicio y éxito.,task_login
+execution_id,Ejecución concreta de una tarea en un sitio.,exec_001
+instance_id,"site_id + task_id + execution_id, codificado de forma única.",site_001__task_login__exec_001

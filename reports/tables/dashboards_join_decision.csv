@@ -1,0 +1,2 @@
+dataset,experimental_rows,participants,raw_log_files,P_in_workbook,sessionstart_in_workbook,P_in_raw_logs,join_status,supervised_use,dataset_role,reason
+Dashboards,1008,63,50,0,0,0,NO_REPRODUCIBLE_JOIN,False,X_ONLY_AUXILIARY,No existe una clave observable que permita asociar cada log con P+DB+Q sin inferir correspondencias.

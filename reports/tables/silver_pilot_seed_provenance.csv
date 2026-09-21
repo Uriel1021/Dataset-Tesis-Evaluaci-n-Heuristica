@@ -1,0 +1,3 @@
+dataset,artifact,seed_date,sites,selection_basis,manual_pre_collection_check_required
+OWN_LLM_SILVER_WEB,site_registry_pilot.csv,2026-09-07,12,Public educational web interfaces with reproducible tasks and no required use of personal data.,True
+OWN_LLM_SILVER_WEB,task_registry_pilot.csv,2026-09-07,12,"Two predefined reproducible tasks per site; applicability flags are opportunities to assess heuristics, not labels.",True

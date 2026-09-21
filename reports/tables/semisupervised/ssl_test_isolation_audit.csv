@@ -1,0 +1,16 @@
+target,config_id,fold_id,isolation_ok
+H6_violation,PRIMARY_OVERLAP_095_CAP1,0,True
+H6_violation,PRIMARY_OVERLAP_095_CAP1,1,True
+H6_violation,PRIMARY_OVERLAP_095_CAP1,2,True
+H6_violation,SENS_OVERLAP_090_CAP1,0,True
+H6_violation,SENS_OVERLAP_090_CAP1,1,True
+H6_violation,SENS_OVERLAP_090_CAP1,2,True
+H6_violation,SENS_OVERLAP_099_CAP1,0,True
+H6_violation,SENS_OVERLAP_099_CAP1,1,True
+H6_violation,SENS_OVERLAP_099_CAP1,2,True
+H6_violation,SENS_ALLU_095_CAP1,0,True
+H6_violation,SENS_ALLU_095_CAP1,1,True
+H6_violation,SENS_ALLU_095_CAP1,2,True
+H6_violation,SENS_OVERLAP_095_CAP2,0,True
+H6_violation,SENS_OVERLAP_095_CAP2,1,True
+H6_violation,SENS_OVERLAP_095_CAP2,2,True

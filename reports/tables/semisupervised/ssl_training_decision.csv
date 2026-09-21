@@ -1,0 +1,2 @@
+test_isolation_ok,ssl_training_completed,allowed_targets,blocked_targets,primary_config,primary_pseudo_selection_events,ready_for_notebook_30,global_status
+True,True,H6_violation,H1_violation | H4_violation | H5_violation,PRIMARY_OVERLAP_095_CAP1,8,True,READY_FOR_30_MODEL_EVALUATION

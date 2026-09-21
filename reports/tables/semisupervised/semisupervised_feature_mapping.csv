@@ -1,0 +1,7 @@
+model_feature,source_dataset,source_column,transform,mapping_level,feature_definition,extension_derivable,column_exists,n_valid,n_unique,min_value,max_value
+structure_depth,Catching_UX_Flaws,static_max_dom_depth,identity_numeric,CONSTRUCT_PROXY,Maximum structural tree depth of the evaluated interface aggregate.,True,True,2,2,8.0,15.0
+structure_depth,UICrit_RICO,rico_max_tree_depth,identity_numeric,CONSTRUCT_PROXY,Maximum structural tree depth of the evaluated interface aggregate.,True,True,1000,22,4.0,25.0
+interactive_control_count,Catching_UX_Flaws,static_total_interactive_controls,identity_numeric,CONSTRUCT_PROXY,Count of interactive controls in the evaluated interface aggregate.,True,True,2,2,23.0,585.0
+interactive_control_count,UICrit_RICO,rico_interactive_node_count,identity_numeric,CONSTRUCT_PROXY,Count of interactive controls in the evaluated interface aggregate.,True,True,1000,52,0.0,80.0
+interactive_label_ratio,Catching_UX_Flaws,static_control_label_proxy_ratio,identity_numeric,CONSTRUCT_PROXY,Fraction of interactive controls with an observable textual/label proxy.,True,True,2,2,0.7391304347826086,0.8427350427350427
+interactive_label_ratio,UICrit_RICO,rico_interactive_label_proxy_ratio,identity_numeric,CONSTRUCT_PROXY,Fraction of interactive controls with an observable textual/label proxy.,True,True,998,139,0.0,1.0

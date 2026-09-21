@@ -1,0 +1,9 @@
+dataset,H1,H4,H5,H6,X_type,usable_instances_now,role,primary_training,reason
+Catching UX Flaws,DIRECT_LLM,DIRECT_LLM,DIRECT_LLM,DIRECT_LLM,WEB_SOURCE,2,DIRECT_VALIDATION_SMALL,False,"Y Nielsen directa, pero solo dos repositorios tienen X fuertemente confirmada."
+Dashboards,,EXPERIMENTAL_PROXY,,EXPERIMENTAL_PROXY,BEHAVIOR_INTERACTION,1008,PROXY_TRAINING,False,X conductual abundante; las condiciones experimentales no son Nielsen directo.
+UICrit + RICO,,RATING_PROXY,,RATING_PROXY,UI_HIERARCHY,1000,PROXY_TRAINING,False,"X estructural con join completo; ratings humanos relacionados, no Nielsen directo."
+29042675,DIRECT_CANDIDATE,DIRECT_CANDIDATE,DIRECT_CANDIDATE,DIRECT_CANDIDATE,PROTOTYPE,0,DIRECT_PENDING_X,False,"Y heurística disponible, pero X equivalente todavía no recuperada."
+AMUSED,PROXY_CANDIDATE,,PROXY_CANDIDATE,PROXY_CANDIDATE,BEHAVIOR_INTERACTION,0,PENDING_ACCESS,False,Fuente potencialmente valiosa pero acceso todavía pendiente.
+P3M,LLM_DIRECT_POSITIVE,LLM_DIRECT_POSITIVE,LLM_DIRECT_POSITIVE,LLM_DIRECT_POSITIVE,SCREENSHOT,20,SECONDARY_VISUAL,False,No existe equivalencia clara entre screenshot features y las X DOM/telemetría de la extensión.
+PHR,HUMAN_PROXY,HUMAN_PROXY,HUMAN_PROXY,HUMAN_PROXY,TASK_AGGREGATES,0,REFERENCE_PROXY,False,Las ocho heurísticas son específicas de PHR y no deben mapearse numéricamente a Nielsen.
+SERENE,,,,,METRICS,0,LABEL_REFERENCE,False,"Problemas humanos, pero sin asignación explícita a nuestras cuatro heurísticas."

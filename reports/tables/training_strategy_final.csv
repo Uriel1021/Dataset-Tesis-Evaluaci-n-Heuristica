@@ -1,0 +1,5 @@
+strategy,ready,recommended,purpose,reason
+PUBLIC_DIRECT_NIELSEN,False,False,Modelo Nielsen principal,No hay fuente pública compatible suficiente.
+UICRIT_RICO_PROXY,True,True,Experimento proxy/ablation independiente,"Permite estudiar aprendizaje sobre constructos relacionados, sin afirmar clasificación Nielsen web."
+OWN_LLM_SILVER_WEB,TO_COLLECT,True,Fuente principal de desarrollo del clasificador,Permite alinear X canónica web con Y Nielsen silver en la misma instancia.
+CATCHING_EXTERNAL_PIPELINE_CHECK,True,True,Validación de trazabilidad/pipeline,Dos casos directos confirmados; no sirven como test estadístico.

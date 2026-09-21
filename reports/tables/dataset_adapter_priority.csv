@@ -1,0 +1,6 @@
+priority,dataset,adapter,why
+1,Dashboards,behavior_adapter,Gran volumen de telemetría ya parseada y compatible con métricas conductuales de la extensión.
+2,UICrit + RICO,structural_adapter,Join de RICO confirmado y fuente estructural reproducible.
+3,Catching UX Flaws,static_validation_adapter,Solo para los dos repositorios CONFIRMED_STRONG como validación del pipeline.
+4,29042675,prototype_recovery,Puede aportar Nielsen directo si se logra recuperar una X compatible.
+5,AMUSED,behavior_smell_adapter,Esperar acceso.

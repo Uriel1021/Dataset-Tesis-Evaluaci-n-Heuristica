@@ -1,0 +1,13 @@
+file,evaluation_round,prototype,match_status,heuristic,section_found,severity_values,overall_rating_values,explicit_no_issue,label_candidate,label_basis
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/E-Tutor.docx,1, E-Tutor,MATCHED_BY_URL,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/E-Tutor.docx,1, E-Tutor,MATCHED_BY_URL,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/E-Tutor.docx,1, E-Tutor,MATCHED_BY_URL,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/E-Tutor.docx,1, E-Tutor,MATCHED_BY_URL,H6,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Artwork.docx,1,True Art,MATCHED_BY_URL,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Artwork.docx,1,True Art,MATCHED_BY_URL,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Artwork.docx,1,True Art,MATCHED_BY_URL,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Artwork.docx,1,True Art,MATCHED_BY_URL,H6,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Quizzy.docx,1,Quizy,MATCHED_BY_URL,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Quizzy.docx,1,Quizy,MATCHED_BY_URL,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Quizzy.docx,1,Quizy,MATCHED_BY_URL,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Quizzy.docx,1,Quizy,MATCHED_BY_URL,H6,True,[],[],False,,AMBIGUOUS_TEXT

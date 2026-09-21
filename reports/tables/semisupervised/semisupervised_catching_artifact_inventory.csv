@@ -1,0 +1,27 @@
+path,rows,columns,target_columns,column_names
+data/public_v2/interim/catching_labels_consensus_long.csv,120,6,,site | heuristic | n_votes | positive_votes | consensus | max_severity
+data/public_v2/interim/catching_static_page_features.csv,15,14,,site | repo_full_name | relative_path | static_element_count | static_dom_max_depth | static_interactive_control_count | static_labeled_control_count | static_control_label_proxy_ratio | static_form_control_count | static_native_validated_control_count | static_native_validation_ratio | class_token_count | unique_class_count | static_class_reuse_ratio
+data/public_v2/interim/catching_static_site_features.csv,2,12,,site | repo_full_name | static_page_count | static_mean_element_count | static_max_element_count | static_mean_dom_depth | static_max_dom_depth | static_total_interactive_controls | static_control_label_proxy_ratio | static_total_form_controls | static_native_validation_ratio | static_mean_class_reuse_ratio
+data/public_v2/interim/catching_targets.csv,30,8,H1_violation | H4_violation | H5_violation | H6_violation,site | source_dataset | label_source | label_level | H1_violation | H4_violation | H5_violation | H6_violation
+data/public_v2/interim/catching_static_validation_dataset.csv,2,23,H1_violation | H4_violation | H5_violation | H6_violation,site | repo_full_name | static_page_count | static_mean_element_count | static_max_element_count | static_mean_dom_depth | static_max_dom_depth | static_total_interactive_controls | static_control_label_proxy_ratio | static_total_form_controls | static_native_validation_ratio | static_mean_class_reuse_ratio | commit_sha | label_source | label_level | H1_violation | H4_violation | H5_violation | H6_violation | source_dataset | feature_modality | primary_training | intended_use
+data/public_v2/interim/catching_labels_evaluator.csv,358,5,,site | evaluation | heuristic | violation | severity
+data/public_v2/interim/catching_direct_validation_registry.csv,2,16,H1_violation | H4_violation | H5_violation | H6_violation,site | repo_full_name | commit_sha | branch | license_name | local_path | source_dataset | label_source | label_level | H1_violation | H4_violation | H5_violation | H6_violation | repository_quality | primary_training | intended_use
+reports/tables/catching_source_recovery_status.csv,30,7,,site | normalized_site | candidate_count | exact_match_count | recovery_status | confirmed_repo | evidence
+reports/tables/catching_single_candidate_validation.csv,11,10,,site | repo_full_name | clone_ok | source_files | snippets_tested | matched_snippets | matched_evaluations | matched_files | error | validation_status
+reports/tables/catching_confirmed_extension_summary.csv,17,3,,repo_full_name | extension | file_count
+reports/tables/catching_final_usage_decision.csv,4,3,,use_case | decision | reason
+reports/tables/catching_confirmed_html_inventory.csv,15,5,,site | repo_full_name | relative_path | extension | size_bytes
+reports/tables/catching_static_feature_semantics.csv,4,6,,static_variable | related_construct | possible_relation | canonical_equivalent | must_not_call | reason
+reports/tables/catching_multiple_candidate_decisions.csv,17,5,,site | repository_status | selected_repo | matched_snippets | matched_evaluations
+reports/tables/catching_source_search_errors.csv,0,3,,site | status_code | error
+reports/tables/catching_confirmed_repository_inventory.csv,69,5,,site | repo_full_name | relative_path | extension | size_bytes
+reports/tables/catching_multiple_candidate_validation.csv,62,10,,site | repo_full_name | clone_ok | source_files | snippets_tested | matched_snippets | matched_evaluations | matched_files | error | validation_status
+reports/tables/catching_sites_source_recovery.csv,30,4,,site | source_recovery_status | source_path | source_url
+reports/tables/catching_direct_validation_limitation.csv,1,6,,source_dataset | confirmed_instances | unique_target_vectors | classification_validation | pipeline_validation | reason
+reports/tables/catching_field_policy.csv,10,3,,field | use_as_X | reason
+reports/tables/catching_source_recovery_review.csv,30,10,,site | normalized_site | candidate_count | exact_match_count | recovery_status | confirmed_repo | evidence | exact_repositories | repositories | review_status
+reports/tables/catching_repository_final.csv,30,3,,site | repository_status | selected_repo
+reports/tables/catching_source_candidates.csv,268,17,,site | normalized_site | rank | repo_full_name | repo_name | repo_normalized | html_url | clone_url | default_branch | description | language | stars | fork | archived | license_key | license_name | exact_name_match
+reports/tables/catching_target_balance.csv,4,6,,target | positive | negative | missing | valid | positive_ratio
+reports/tables/catching_confirmed_repository_registry.csv,2,16,,site | repository_status | selected_repo | repo_full_name | clone_url | html_url | default_branch | license_key | license_name | local_path | clone_status | error | commit_sha | branch | commit_date | remote_url
+reports/tables/semisupervised/semisupervised_catching_target_balance.csv,4,5,,target | n_labeled | n_0 | n_1 | n_classes

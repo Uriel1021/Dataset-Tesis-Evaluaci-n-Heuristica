@@ -1,0 +1,5 @@
+target,labeled_file,n_L,unlabeled_file,n_U
+H1_violation,data/semisupervised/interim/targets/H1_labeled_seed.csv,2,data/semisupervised/interim/targets/H1_unlabeled_pool.csv,998
+H4_violation,data/semisupervised/interim/targets/H4_labeled_seed.csv,2,data/semisupervised/interim/targets/H4_unlabeled_pool.csv,998
+H5_violation,data/semisupervised/interim/targets/H5_labeled_seed.csv,2,data/semisupervised/interim/targets/H5_unlabeled_pool.csv,998
+H6_violation,data/semisupervised/interim/targets/H6_labeled_seed.csv,2,data/semisupervised/interim/targets/H6_unlabeled_pool.csv,998

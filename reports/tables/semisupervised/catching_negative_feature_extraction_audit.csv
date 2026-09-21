@@ -1,0 +1,2 @@
+check,passed,detail
+NEGATIVE_FEATURE_EXTRACTION,False,No negative features were extracted. Check EXTRACTOR_VALIDATED.

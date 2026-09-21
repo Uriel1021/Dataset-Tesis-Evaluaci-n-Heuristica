@@ -1,0 +1,44 @@
+file,document_name,evaluation_round,fidelity,urls_found,normalized_urls,match_status,prototype
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Baking shop.docx,Baking shop,1,HIGH_FIDELITY,1,figma.com/community/file/988854619809579450,MATCHED_BY_URL,Bakery
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/E-Tutor.docx,E-Tutor,1,HIGH_FIDELITY,1,figma.com/community/file/1271304360859402063,MATCHED_BY_URL, E-Tutor
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Food delivery.docx,Food delivery,1,HIGH_FIDELITY,1,figma.com/design/oiozznzhizniealb5dpkmu/food-order-app-,NO_URL_MATCH,
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Gaia.docx,Gaia,1,HIGH_FIDELITY,1,figma.com/design/1wjtuxkm0ofriwjzkd61n2/gaia-desktop-design-,NO_URL_MATCH,
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/HospitalApp.docx,HospitalApp,1,HIGH_FIDELITY,1,figma.com/community/file/1250314760992299521,MATCHED_BY_URL,Hospital 1
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/HospitalApp2.docx,HospitalApp2,1,HIGH_FIDELITY,1,figma.com/community/file/12725823068122925,MATCHED_BY_URL,Hospital 2
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Housing.docx,Housing,1,HIGH_FIDELITY,1,figma.com/design/qlczcypaov1fshdefnx6t4/real-estate-agency---landing-page-design-,NO_URL_MATCH,
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Notification.docx,Notification,1,HIGH_FIDELITY,1,behance.net/gallery/198020739/time-tracker-mobile-application,MATCHED_BY_URL,Tracking App
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Running.docx,Running,1,HIGH_FIDELITY,1,behance.net/gallery/158363369/ui-projects/modules/893495869,MATCHED_BY_URL,Running
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Travel.docx,Travel,1,HIGH_FIDELITY,1,figma.com/community/file/1379689864793179441,MATCHED_BY_URL,Travel
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Artwork.docx,Artwork,1,LOW_FIDELITY,1,behance.net/gallery/165695079/true-art-education-app-uiux-case-study/modules/934460805,MATCHED_BY_URL,True Art
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Beer Garden.docx,Beer Garden,1,LOW_FIDELITY,1,behance.net/gallery/174293119/beer-garden-app/modules/984174435,NO_URL_MATCH,
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Blog.docx,Blog,1,LOW_FIDELITY,1,behance.net/gallery/219645219/basic-low-fidelitywireframe-concept,MATCHED_BY_URL,Blog app
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/E-commerce.docx,E-commerce,1,LOW_FIDELITY,1,behance.net/gallery/205663773/low-fidelity-purrganic,MATCHED_BY_URL,Online Shoping
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Fintech.docx,Fintech,1,LOW_FIDELITY,1,behance.net/gallery/219461633/fintech-mobile-app-low-fidelity-design,MATCHED_BY_URL,Fintech Mobile App
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Healthcare.docx,Healthcare,1,LOW_FIDELITY,1,behance.net/gallery/85351921/low-fidelity-wireframe,MATCHED_BY_URL,Healthcare App
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Membership.docx,Membership,1,LOW_FIDELITY,1,behance.net/gallery/81137497/membership-app-wireframes/modules/470323589,MATCHED_BY_URL,KwikTan Membership
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Pastry SHop.docx,Pastry SHop,1,LOW_FIDELITY,1,behance.net/gallery/216296559/low-fidelity-wireframes,NO_URL_MATCH,
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Quizzy.docx,Quizzy,1,LOW_FIDELITY,1,behance.net/gallery/114288043/quizzy-mobile-quiz-app/modules/652681113,MATCHED_BY_URL,Quizy
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Real Estate.docx,Real Estate,1,LOW_FIDELITY,1,figma.com/design/qlczcypaov1fshdefnx6t4/real-estate-agency---landing-page-design-,NO_URL_MATCH,
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Restaurant.docx,Restaurant,1,LOW_FIDELITY,1,behance.net/gallery/115764913/low-fidelity-prototype,MATCHED_BY_URL,Food Delivery
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Vouluntary Pet.docx,Vouluntary Pet,1,LOW_FIDELITY,1,behance.net/gallery/153835443/ux-portfolio-voluntary-pet-care-community/modules/868108273,MATCHED_BY_URL,Voluntery Pet Care
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Bakery.docx,Bakery,2,HIGH_FIDELITY,0,,NO_URL_MATCH,
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/E tutor.docx,E tutor,2,HIGH_FIDELITY,0,,NO_URL_MATCH,
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Food Order.docx,Food Order,2,HIGH_FIDELITY,0,,NO_URL_MATCH,
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/GAIA community app.docx,GAIA community app,2,HIGH_FIDELITY,0,,NO_URL_MATCH,
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Hospital App 1.docx,Hospital App 1,2,HIGH_FIDELITY,0,,NO_URL_MATCH,
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Hospital App 2.docx,Hospital App 2,2,HIGH_FIDELITY,0,,NO_URL_MATCH,
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Housing.docx,Housing,2,HIGH_FIDELITY,0,,NO_URL_MATCH,
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Notification.docx,Notification,2,HIGH_FIDELITY,0,,NO_URL_MATCH,
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Running app.docx,Running app,2,HIGH_FIDELITY,0,,NO_URL_MATCH,
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Travel.docx,Travel,2,HIGH_FIDELITY,0,,NO_URL_MATCH,
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Artwork website.docx,Artwork website,2,LOW_FIDELITY,0,,NO_URL_MATCH,
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Beer Garden.docx,Beer Garden,2,LOW_FIDELITY,0,,NO_URL_MATCH,
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Blog App.docx,Blog App,2,LOW_FIDELITY,0,,NO_URL_MATCH,
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/E-commerce.docx,E-commerce,2,LOW_FIDELITY,0,,NO_URL_MATCH,
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Education app.docx,Education app,2,LOW_FIDELITY,0,,NO_URL_MATCH,
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/FinTech.docx,FinTech,2,LOW_FIDELITY,0,,NO_URL_MATCH,
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Food Delivery.docx,Food Delivery,2,LOW_FIDELITY,0,,NO_URL_MATCH,
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Healthcare.docx,Healthcare,2,LOW_FIDELITY,0,,NO_URL_MATCH,
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Membership.docx,Membership,2,LOW_FIDELITY,0,,NO_URL_MATCH,
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Pastry shop.docx,Pastry shop,2,LOW_FIDELITY,0,,NO_URL_MATCH,
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Volountery Pet.docx,Volountery Pet,2,LOW_FIDELITY,0,,NO_URL_MATCH,

@@ -1,0 +1,5 @@
+target,n_L,n_groups_L,n_0,n_1,n_classes,binary_discrimination_test_possible,grouped_holdout_with_both_classes_possible,reason
+H1_violation,2,2,0,2,1,False,False,Only one observed class exists in L; a binary holdout cannot contain both classes.
+H4_violation,2,2,0,2,1,False,False,Only one observed class exists in L; a binary holdout cannot contain both classes.
+H5_violation,2,2,0,2,1,False,False,Only one observed class exists in L; a binary holdout cannot contain both classes.
+H6_violation,2,2,0,2,1,False,False,Only one observed class exists in L; a binary holdout cannot contain both classes.

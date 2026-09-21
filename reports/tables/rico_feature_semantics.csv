@@ -1,0 +1,6 @@
+rico_variable,related_construct,possible_heuristic_relation,canonical_equivalent,must_not_call,reason
+rico_max_tree_depth,STRUCTURAL_COMPLEXITY,H6,False,navigation_depth,Profundidad del árbol Android no equivale a profundidad de navegación.
+rico_interactive_label_proxy_ratio,CONTROL_RECOGNIZABILITY,H6,False,accessible_name_ratio,"content-desc/text de Android es un proxy, no Accessible Name del DOM web."
+rico_unlabeled_interactive_count,CONTROL_RECOGNIZABILITY,H6,False,unlabeled_controls_count,La semántica de etiquetado Android y web no es idéntica.
+rico_class_diversity_ratio,STRUCTURAL_CONSISTENCY,H4,False,component_style_consistency_ratio,Las clases Android no representan estilos CSS.
+rico_resource_id_ratio,STRUCTURAL_IDENTIFIABILITY,H4/H6,False,,Indicador estructural auxiliar específico de RICO.

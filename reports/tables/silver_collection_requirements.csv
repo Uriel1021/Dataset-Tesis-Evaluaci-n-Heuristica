@@ -1,0 +1,10 @@
+requirement,value,mandatory,reason
+UNIT_OF_OBSERVATION,site + page/task + execution,True,X y Y deben pertenecer exactamente a la misma instancia.
+X_SOURCE,EXTENSION_CANONICAL_METRICS,True,"Evita incompatibilidad entre Android, screenshots y DOM web."
+Y_SOURCE,LLM_DIRECT_SILVER,True,No hay expertos disponibles; mantener procedencia separada.
+TARGETS,H1_violation | H4_violation | H5_violation | H6_violation,True,Cuatro clasificadores binarios / salida multilabel.
+NEGATIVE_EXAMPLES,REQUIRED_FOR_EACH_TARGET,True,Cada target necesita 0 y 1; ausencia de etiqueta no equivale a 0.
+LABEL_INDEPENDENCE,LLM must not see derived target rules or X-based thresholds,True,Evita circularidad y target leakage.
+GROUP_SPLIT,GROUP_BY_SITE,True,Una misma aplicación no debe aparecer en train y test.
+SOURCE_METADATA,source_dataset | site | task | page | label_source | label_level,True,Trazabilidad y análisis de generalización.
+MINIMUM_CLASS_CHECK,BOTH_CLASSES_BEFORE_TRAINING,True,No entrenar targets sin diversidad binaria.

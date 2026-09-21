@@ -1,0 +1,81 @@
+source_dataset,canonical_variable,source_variable,compatibility_level,possible_heuristic,reason,can_be_renamed_canonical,can_share_feature_space
+UICrit_RICO,task_time_s,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,mean_response_time_ms,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,max_response_time_ms,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,mean_pre_action_pause_s,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,click_count,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,keypress_count,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,scroll_count,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,backtracking_count,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,repeated_action_count,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,navigation_steps,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,feedback_present,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,feedback_coverage_ratio,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,feedback_latency_ms,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,loader_present,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,loader_duration_ms,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,progress_indicator_present,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,status_message_present,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,completion_feedback_present,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,component_style_consistency_ratio,rico_class_diversity_ratio,CONSTRUCT_PROXY,H4,Clases Android no representan estilos/componentes CSS.,False,False
+UICrit_RICO,css_class_consistency_ratio,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,navigation_consistency_ratio,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,label_consistency_ratio,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,semantic_role_consistency_ratio,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,dom_structure_similarity,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,input_validation_present,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,client_validation_present,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,validation_error_count,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,invalid_submission_blocked,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,confirmation_dialog_present,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,destructive_action_protected,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,error_feedback_present,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,user_error_count,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,accessible_name_ratio,rico_interactive_label_proxy_ratio,CONSTRUCT_PROXY,H6,text/content-desc de Android no equivale al Accessible Name calculado por el navegador.,False,False
+UICrit_RICO,visible_labels_ratio,rico_interactive_label_proxy_ratio,CONSTRUCT_PROXY,H6,La jerarquía Android no reproduce visibilidad y etiquetado de controles HTML.,False,False
+UICrit_RICO,unlabeled_controls_count,rico_unlabeled_interactive_count,CONSTRUCT_PROXY,H6,"El concepto está relacionado, pero las reglas de accesibilidad Android y web son distintas.",False,False
+UICrit_RICO,breadcrumbs_present,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,navigation_persistence_ratio,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,navigation_depth,rico_max_tree_depth,CONSTRUCT_PROXY,H6,Profundidad del árbol Android no representa pasos de navegación web.,False,False
+UICrit_RICO,visible_options_ratio,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+UICrit_RICO,task_completed,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,task_time_s,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,mean_response_time_ms,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,max_response_time_ms,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,mean_pre_action_pause_s,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,click_count,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,keypress_count,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,scroll_count,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,backtracking_count,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,repeated_action_count,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,navigation_steps,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,feedback_present,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,feedback_coverage_ratio,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,feedback_latency_ms,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,loader_present,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,loader_duration_ms,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,progress_indicator_present,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,status_message_present,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,completion_feedback_present,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,component_style_consistency_ratio,static_mean_class_reuse_ratio,CONSTRUCT_PROXY,H4,La presencia repetida de clases no demuestra consistencia visual renderizada.,False,False
+Catching_UX_Flaws,css_class_consistency_ratio,static_mean_class_reuse_ratio,CONSTRUCT_PROXY,H4,Reutilización de clases no equivale a consistencia CSS.,False,False
+Catching_UX_Flaws,navigation_consistency_ratio,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,label_consistency_ratio,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,semantic_role_consistency_ratio,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,dom_structure_similarity,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,input_validation_present,static_native_validation_ratio,PARTIAL,H5,"required/pattern/min/max permiten detectar validación HTML nativa, pero la variable fuente es un ratio y no cubre toda validación runtime.",False,False
+Catching_UX_Flaws,client_validation_present,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,validation_error_count,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,invalid_submission_blocked,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,confirmation_dialog_present,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,destructive_action_protected,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,error_feedback_present,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,user_error_count,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,accessible_name_ratio,static_control_label_proxy_ratio,CONSTRUCT_PROXY,H6,Etiquetas detectadas en HTML fuente no reproducen el algoritmo Accessible Name.,False,False
+Catching_UX_Flaws,visible_labels_ratio,static_control_label_proxy_ratio,CONSTRUCT_PROXY,H6,Sin renderizado CSS no se puede determinar visibilidad real.,False,False
+Catching_UX_Flaws,unlabeled_controls_count,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,breadcrumbs_present,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,navigation_persistence_ratio,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,navigation_depth,static_max_dom_depth,CONSTRUCT_PROXY,H6,Profundidad del DOM estático no equivale a profundidad de navegación.,False,False
+Catching_UX_Flaws,visible_options_ratio,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False
+Catching_UX_Flaws,task_completed,,NO_MAPPING,,No se encontró una operacionalización compatible en esta fuente.,False,False

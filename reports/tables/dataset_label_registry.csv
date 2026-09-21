@@ -1,0 +1,11 @@
+dataset,label_level,label_source,unit,H1,H4,H5,H6,primary_training,reason
+AMUSED,PENDING,HUMAN_EXPERT,interaction/task,PROXY_CANDIDATE,,PROXY_CANDIDATE,PROXY_CANDIDATE,False,Acceso todavía pendiente.
+Catching UX Flaws,LLM_DIRECT,LLM_3_EVALUATIONS,website,DIRECT,DIRECT,DIRECT,DIRECT,True,Las cuatro heurísticas Nielsen aparecen explícitamente con IssueFound.
+29042675,PENDING,LLM/HUMAN_COMPARISON,prototype,DIRECT_CANDIDATE,DIRECT_CANDIDATE,DIRECT_CANDIDATE,DIRECT_CANDIDATE,False,Necesitamos separar de forma inequívoca qué bloque representa cada evaluador y qué valores pueden convertirse a Y.
+SERENE,REFERENCE_ONLY,HUMAN_EXPERT,usability_issue,,,,,False,"Ground truth humano, pero el archivo disponible no asigna los 46 problemas explícitamente a H1/H4/H5/H6."
+P3M,LLM_DIRECT,GPT4,screenshot,DIRECT_POSITIVE,DIRECT_POSITIVE,DIRECT_POSITIVE,DIRECT_POSITIVE,False,Los defectos contienen Nielsen explícito; falta justificar que ausencia de defecto pueda interpretarse como etiqueta negativa.
+PHR,HUMAN_PROXY,4_EXPERTS,portal/task,REQUIRES_MAPPING,REQUIRES_MAPPING,REQUIRES_MAPPING,REQUIRES_MAPPING,False,H01-H08 son heurísticas adaptadas a PHR; H01 NO debe asumirse equivalente a Nielsen H1.
+Dashboards,EXPERIMENTAL_PROXY,CONTROLLED_MANIPULATION,participant/dashboard/task,,PROXY_CANDIDATE,,PROXY_CANDIDATE,False,"Baseline/intervention e issue type representan condiciones experimentales, no Nielsen directo."
+UICrit + RICO,RATING_PROXY,HUMAN_RATINGS,rico_id/task,,PROXY_CANDIDATE,,PROXY_CANDIDATE,False,"Learnability/design quality/usability son ratings, no violaciones Nielsen binarias."
+Zenodo 21891322,REFERENCE_ONLY,HEURISTIC_EVALUATION,interface,REFERENCE,REFERENCE,REFERENCE,REFERENCE,False,En los archivos descargados no encontramos una tabla Y reutilizable directamente.
+Cultural Heritage,PENDING,,,,,,,False,"Solo se dispone actualmente del artículo, no del dataset estructurado."

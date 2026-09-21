@@ -1,0 +1,5 @@
+target,negative_sites_known,strict_negative_sources_ready,extended_negative_sources_ready,strict_negative_class_recoverable,extended_negative_class_recoverable
+H1_violation,1,0,1,False,True
+H4_violation,2,0,2,False,True
+H5_violation,2,0,2,False,True
+H6_violation,11,0,11,False,True

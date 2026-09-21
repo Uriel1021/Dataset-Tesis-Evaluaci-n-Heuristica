@@ -1,0 +1,2 @@
+registries_ready,manifest_rows,expected_manifest_rows,exports_found,valid_exports,pilot_status
+True,48,48,0,0,READY_FOR_COLLECTION

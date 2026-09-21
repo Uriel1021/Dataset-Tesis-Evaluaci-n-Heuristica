@@ -1,0 +1,5 @@
+use_case,decision,reason
+PRIMARY_TRAINING,NO,Solo dos interfaces poseen repositorio confirmado con evidencia fuerte.
+SECONDARY_TRAINING,CONDITIONAL,"Puede ampliarse con cinco repositorios PROVISIONAL_MODERATE, manteniendo provenance separada."
+PIPELINE_VALIDATION,YES,Los dos CONFIRMED_STRONG permiten comprobar extracción X + unión con Nielsen Y.
+EXTERNAL_CASE_STUDY,YES,"Puede documentarse como evidencia de factibilidad, no como conjunto estadísticamente suficiente."

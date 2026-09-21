@@ -1,0 +1,5 @@
+decision,value,detail
+STRICT_COMMON_X_AVAILABLE,False,NO_STRICT_COMMON_FEATURE_SPACE
+EXPERIMENTAL_PROXY_X_AVAILABLE,True,PROXY_SPACE_AVAILABLE_FOR_EXPERIMENT
+CATCHING_HAS_TWO_CLASSES_ALL_TARGETS,False,Required for ordinary binary supervised seed; false does not automatically invalidate PU-learning research.
+EXTENSION_CAN_DERIVE_PROXY_FEATURES,True,"The future extension can compute analogous DOM structural constructs, but Android/Web domain shift must remain explicit."

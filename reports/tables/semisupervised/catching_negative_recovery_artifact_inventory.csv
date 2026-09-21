@@ -1,0 +1,10 @@
+filename,path,rows,columns,column_names
+catching_repository_final.csv,reports/tables/catching_repository_final.csv,30,3,site | repository_status | selected_repo
+catching_source_recovery_review.csv,reports/tables/catching_source_recovery_review.csv,30,10,site | normalized_site | candidate_count | exact_match_count | recovery_status | confirmed_repo | evidence | exact_repositories | repositories | review_status
+catching_single_candidate_validation.csv,reports/tables/catching_single_candidate_validation.csv,11,10,site | repo_full_name | clone_ok | source_files | snippets_tested | matched_snippets | matched_evaluations | matched_files | error | validation_status
+catching_multiple_candidate_validation.csv,reports/tables/catching_multiple_candidate_validation.csv,62,10,site | repo_full_name | clone_ok | source_files | snippets_tested | matched_snippets | matched_evaluations | matched_files | error | validation_status
+catching_source_candidates.csv,reports/tables/catching_source_candidates.csv,268,17,site | normalized_site | rank | repo_full_name | repo_name | repo_normalized | html_url | clone_url | default_branch | description | language | stars | fork | archived | license_key | license_name | exact_name_match
+catching_sites_source_recovery.csv,reports/tables/catching_sites_source_recovery.csv,30,4,site | source_recovery_status | source_path | source_url
+catching_source_recovery_status.csv,reports/tables/catching_source_recovery_status.csv,30,7,site | normalized_site | candidate_count | exact_match_count | recovery_status | confirmed_repo | evidence
+catching_confirmed_repository_registry.csv,reports/tables/catching_confirmed_repository_registry.csv,2,16,site | repository_status | selected_repo | repo_full_name | clone_url | html_url | default_branch | license_key | license_name | local_path | clone_status | error | commit_sha | branch | commit_date | remote_url
+catching_confirmed_repository_inventory.csv,reports/tables/catching_confirmed_repository_inventory.csv,69,5,site | repo_full_name | relative_path | extension | size_bytes

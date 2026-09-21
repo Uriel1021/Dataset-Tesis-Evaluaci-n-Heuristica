@@ -1,0 +1,6 @@
+decision,value,detail
+MASTER_PROXY_MATERIALIZED,True,1002 total rows over 3 proxy features.
+STRICT_MASTER_MATERIALIZED,False,STRICT_CANONICAL is empty.
+NEGATIVE_LABELS_CREATED,False,No unknown label was converted to zero.
+RICO_RATINGS_USED_AS_NIELSEN_Y,False,All four Nielsen targets are NaN for UICrit/RICO.
+READY_FOR_TRAINING,False,Notebook 27 must audit class support and domain-shift assumptions.

@@ -1,0 +1,513 @@
+depth_offset,enabled_flags,n_enabled_flags,all_frozen_sites_match
+0,,0,False
+0,has_ancestor_label,1,False
+0,has_associated_label,1,False
+0,has_associated_label | has_ancestor_label,2,False
+0,has_button_value,1,False
+0,has_button_value | has_ancestor_label,2,False
+0,has_button_value | has_associated_label,2,False
+0,has_button_value | has_associated_label | has_ancestor_label,3,False
+0,has_placeholder,1,False
+0,has_placeholder | has_ancestor_label,2,False
+0,has_placeholder | has_associated_label,2,False
+0,has_placeholder | has_associated_label | has_ancestor_label,3,False
+0,has_placeholder | has_button_value,2,False
+0,has_placeholder | has_button_value | has_ancestor_label,3,False
+0,has_placeholder | has_button_value | has_associated_label,3,False
+0,has_placeholder | has_button_value | has_associated_label | has_ancestor_label,4,False
+0,has_title,1,False
+0,has_title | has_ancestor_label,2,False
+0,has_title | has_associated_label,2,False
+0,has_title | has_associated_label | has_ancestor_label,3,False
+0,has_title | has_button_value,2,False
+0,has_title | has_button_value | has_ancestor_label,3,False
+0,has_title | has_button_value | has_associated_label,3,False
+0,has_title | has_button_value | has_associated_label | has_ancestor_label,4,False
+0,has_title | has_placeholder,2,False
+0,has_title | has_placeholder | has_ancestor_label,3,False
+0,has_title | has_placeholder | has_associated_label,3,False
+0,has_title | has_placeholder | has_associated_label | has_ancestor_label,4,False
+0,has_title | has_placeholder | has_button_value,3,False
+0,has_title | has_placeholder | has_button_value | has_ancestor_label,4,False
+0,has_title | has_placeholder | has_button_value | has_associated_label,4,False
+0,has_title | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,5,False
+0,has_aria_labelledby,1,False
+0,has_aria_labelledby | has_ancestor_label,2,False
+0,has_aria_labelledby | has_associated_label,2,False
+0,has_aria_labelledby | has_associated_label | has_ancestor_label,3,False
+0,has_aria_labelledby | has_button_value,2,False
+0,has_aria_labelledby | has_button_value | has_ancestor_label,3,False
+0,has_aria_labelledby | has_button_value | has_associated_label,3,False
+0,has_aria_labelledby | has_button_value | has_associated_label | has_ancestor_label,4,False
+0,has_aria_labelledby | has_placeholder,2,False
+0,has_aria_labelledby | has_placeholder | has_ancestor_label,3,False
+0,has_aria_labelledby | has_placeholder | has_associated_label,3,False
+0,has_aria_labelledby | has_placeholder | has_associated_label | has_ancestor_label,4,False
+0,has_aria_labelledby | has_placeholder | has_button_value,3,False
+0,has_aria_labelledby | has_placeholder | has_button_value | has_ancestor_label,4,False
+0,has_aria_labelledby | has_placeholder | has_button_value | has_associated_label,4,False
+0,has_aria_labelledby | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,5,False
+0,has_aria_labelledby | has_title,2,False
+0,has_aria_labelledby | has_title | has_ancestor_label,3,False
+0,has_aria_labelledby | has_title | has_associated_label,3,False
+0,has_aria_labelledby | has_title | has_associated_label | has_ancestor_label,4,False
+0,has_aria_labelledby | has_title | has_button_value,3,False
+0,has_aria_labelledby | has_title | has_button_value | has_ancestor_label,4,False
+0,has_aria_labelledby | has_title | has_button_value | has_associated_label,4,False
+0,has_aria_labelledby | has_title | has_button_value | has_associated_label | has_ancestor_label,5,False
+0,has_aria_labelledby | has_title | has_placeholder,3,False
+0,has_aria_labelledby | has_title | has_placeholder | has_ancestor_label,4,False
+0,has_aria_labelledby | has_title | has_placeholder | has_associated_label,4,False
+0,has_aria_labelledby | has_title | has_placeholder | has_associated_label | has_ancestor_label,5,False
+0,has_aria_labelledby | has_title | has_placeholder | has_button_value,4,False
+0,has_aria_labelledby | has_title | has_placeholder | has_button_value | has_ancestor_label,5,False
+0,has_aria_labelledby | has_title | has_placeholder | has_button_value | has_associated_label,5,False
+0,has_aria_labelledby | has_title | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,6,False
+0,has_aria_label,1,False
+0,has_aria_label | has_ancestor_label,2,False
+0,has_aria_label | has_associated_label,2,False
+0,has_aria_label | has_associated_label | has_ancestor_label,3,False
+0,has_aria_label | has_button_value,2,False
+0,has_aria_label | has_button_value | has_ancestor_label,3,False
+0,has_aria_label | has_button_value | has_associated_label,3,False
+0,has_aria_label | has_button_value | has_associated_label | has_ancestor_label,4,False
+0,has_aria_label | has_placeholder,2,False
+0,has_aria_label | has_placeholder | has_ancestor_label,3,False
+0,has_aria_label | has_placeholder | has_associated_label,3,False
+0,has_aria_label | has_placeholder | has_associated_label | has_ancestor_label,4,False
+0,has_aria_label | has_placeholder | has_button_value,3,False
+0,has_aria_label | has_placeholder | has_button_value | has_ancestor_label,4,False
+0,has_aria_label | has_placeholder | has_button_value | has_associated_label,4,False
+0,has_aria_label | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,5,False
+0,has_aria_label | has_title,2,False
+0,has_aria_label | has_title | has_ancestor_label,3,False
+0,has_aria_label | has_title | has_associated_label,3,False
+0,has_aria_label | has_title | has_associated_label | has_ancestor_label,4,False
+0,has_aria_label | has_title | has_button_value,3,False
+0,has_aria_label | has_title | has_button_value | has_ancestor_label,4,False
+0,has_aria_label | has_title | has_button_value | has_associated_label,4,False
+0,has_aria_label | has_title | has_button_value | has_associated_label | has_ancestor_label,5,False
+0,has_aria_label | has_title | has_placeholder,3,False
+0,has_aria_label | has_title | has_placeholder | has_ancestor_label,4,False
+0,has_aria_label | has_title | has_placeholder | has_associated_label,4,False
+0,has_aria_label | has_title | has_placeholder | has_associated_label | has_ancestor_label,5,False
+0,has_aria_label | has_title | has_placeholder | has_button_value,4,False
+0,has_aria_label | has_title | has_placeholder | has_button_value | has_ancestor_label,5,False
+0,has_aria_label | has_title | has_placeholder | has_button_value | has_associated_label,5,False
+0,has_aria_label | has_title | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,6,False
+0,has_aria_label | has_aria_labelledby,2,False
+0,has_aria_label | has_aria_labelledby | has_ancestor_label,3,False
+0,has_aria_label | has_aria_labelledby | has_associated_label,3,False
+0,has_aria_label | has_aria_labelledby | has_associated_label | has_ancestor_label,4,False
+0,has_aria_label | has_aria_labelledby | has_button_value,3,False
+0,has_aria_label | has_aria_labelledby | has_button_value | has_ancestor_label,4,False
+0,has_aria_label | has_aria_labelledby | has_button_value | has_associated_label,4,False
+0,has_aria_label | has_aria_labelledby | has_button_value | has_associated_label | has_ancestor_label,5,False
+0,has_aria_label | has_aria_labelledby | has_placeholder,3,False
+0,has_aria_label | has_aria_labelledby | has_placeholder | has_ancestor_label,4,False
+0,has_aria_label | has_aria_labelledby | has_placeholder | has_associated_label,4,False
+0,has_aria_label | has_aria_labelledby | has_placeholder | has_associated_label | has_ancestor_label,5,False
+0,has_aria_label | has_aria_labelledby | has_placeholder | has_button_value,4,False
+0,has_aria_label | has_aria_labelledby | has_placeholder | has_button_value | has_ancestor_label,5,False
+0,has_aria_label | has_aria_labelledby | has_placeholder | has_button_value | has_associated_label,5,False
+0,has_aria_label | has_aria_labelledby | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,6,False
+0,has_aria_label | has_aria_labelledby | has_title,3,False
+0,has_aria_label | has_aria_labelledby | has_title | has_ancestor_label,4,False
+0,has_aria_label | has_aria_labelledby | has_title | has_associated_label,4,False
+0,has_aria_label | has_aria_labelledby | has_title | has_associated_label | has_ancestor_label,5,False
+0,has_aria_label | has_aria_labelledby | has_title | has_button_value,4,False
+0,has_aria_label | has_aria_labelledby | has_title | has_button_value | has_ancestor_label,5,False
+0,has_aria_label | has_aria_labelledby | has_title | has_button_value | has_associated_label,5,False
+0,has_aria_label | has_aria_labelledby | has_title | has_button_value | has_associated_label | has_ancestor_label,6,False
+0,has_aria_label | has_aria_labelledby | has_title | has_placeholder,4,False
+0,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_ancestor_label,5,False
+0,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_associated_label,5,False
+0,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_associated_label | has_ancestor_label,6,False
+0,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_button_value,5,False
+0,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_button_value | has_ancestor_label,6,False
+0,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_button_value | has_associated_label,6,False
+0,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,7,False
+1,,0,False
+1,has_ancestor_label,1,False
+1,has_associated_label,1,False
+1,has_associated_label | has_ancestor_label,2,False
+1,has_button_value,1,False
+1,has_button_value | has_ancestor_label,2,False
+1,has_button_value | has_associated_label,2,False
+1,has_button_value | has_associated_label | has_ancestor_label,3,False
+1,has_placeholder,1,False
+1,has_placeholder | has_ancestor_label,2,False
+1,has_placeholder | has_associated_label,2,False
+1,has_placeholder | has_associated_label | has_ancestor_label,3,False
+1,has_placeholder | has_button_value,2,False
+1,has_placeholder | has_button_value | has_ancestor_label,3,False
+1,has_placeholder | has_button_value | has_associated_label,3,False
+1,has_placeholder | has_button_value | has_associated_label | has_ancestor_label,4,False
+1,has_title,1,False
+1,has_title | has_ancestor_label,2,False
+1,has_title | has_associated_label,2,False
+1,has_title | has_associated_label | has_ancestor_label,3,False
+1,has_title | has_button_value,2,False
+1,has_title | has_button_value | has_ancestor_label,3,False
+1,has_title | has_button_value | has_associated_label,3,False
+1,has_title | has_button_value | has_associated_label | has_ancestor_label,4,False
+1,has_title | has_placeholder,2,False
+1,has_title | has_placeholder | has_ancestor_label,3,False
+1,has_title | has_placeholder | has_associated_label,3,False
+1,has_title | has_placeholder | has_associated_label | has_ancestor_label,4,False
+1,has_title | has_placeholder | has_button_value,3,False
+1,has_title | has_placeholder | has_button_value | has_ancestor_label,4,False
+1,has_title | has_placeholder | has_button_value | has_associated_label,4,False
+1,has_title | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,5,False
+1,has_aria_labelledby,1,False
+1,has_aria_labelledby | has_ancestor_label,2,False
+1,has_aria_labelledby | has_associated_label,2,False
+1,has_aria_labelledby | has_associated_label | has_ancestor_label,3,False
+1,has_aria_labelledby | has_button_value,2,False
+1,has_aria_labelledby | has_button_value | has_ancestor_label,3,False
+1,has_aria_labelledby | has_button_value | has_associated_label,3,False
+1,has_aria_labelledby | has_button_value | has_associated_label | has_ancestor_label,4,False
+1,has_aria_labelledby | has_placeholder,2,False
+1,has_aria_labelledby | has_placeholder | has_ancestor_label,3,False
+1,has_aria_labelledby | has_placeholder | has_associated_label,3,False
+1,has_aria_labelledby | has_placeholder | has_associated_label | has_ancestor_label,4,False
+1,has_aria_labelledby | has_placeholder | has_button_value,3,False
+1,has_aria_labelledby | has_placeholder | has_button_value | has_ancestor_label,4,False
+1,has_aria_labelledby | has_placeholder | has_button_value | has_associated_label,4,False
+1,has_aria_labelledby | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,5,False
+1,has_aria_labelledby | has_title,2,False
+1,has_aria_labelledby | has_title | has_ancestor_label,3,False
+1,has_aria_labelledby | has_title | has_associated_label,3,False
+1,has_aria_labelledby | has_title | has_associated_label | has_ancestor_label,4,False
+1,has_aria_labelledby | has_title | has_button_value,3,False
+1,has_aria_labelledby | has_title | has_button_value | has_ancestor_label,4,False
+1,has_aria_labelledby | has_title | has_button_value | has_associated_label,4,False
+1,has_aria_labelledby | has_title | has_button_value | has_associated_label | has_ancestor_label,5,False
+1,has_aria_labelledby | has_title | has_placeholder,3,False
+1,has_aria_labelledby | has_title | has_placeholder | has_ancestor_label,4,False
+1,has_aria_labelledby | has_title | has_placeholder | has_associated_label,4,False
+1,has_aria_labelledby | has_title | has_placeholder | has_associated_label | has_ancestor_label,5,False
+1,has_aria_labelledby | has_title | has_placeholder | has_button_value,4,False
+1,has_aria_labelledby | has_title | has_placeholder | has_button_value | has_ancestor_label,5,False
+1,has_aria_labelledby | has_title | has_placeholder | has_button_value | has_associated_label,5,False
+1,has_aria_labelledby | has_title | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,6,False
+1,has_aria_label,1,False
+1,has_aria_label | has_ancestor_label,2,False
+1,has_aria_label | has_associated_label,2,False
+1,has_aria_label | has_associated_label | has_ancestor_label,3,False
+1,has_aria_label | has_button_value,2,False
+1,has_aria_label | has_button_value | has_ancestor_label,3,False
+1,has_aria_label | has_button_value | has_associated_label,3,False
+1,has_aria_label | has_button_value | has_associated_label | has_ancestor_label,4,False
+1,has_aria_label | has_placeholder,2,False
+1,has_aria_label | has_placeholder | has_ancestor_label,3,False
+1,has_aria_label | has_placeholder | has_associated_label,3,False
+1,has_aria_label | has_placeholder | has_associated_label | has_ancestor_label,4,False
+1,has_aria_label | has_placeholder | has_button_value,3,False
+1,has_aria_label | has_placeholder | has_button_value | has_ancestor_label,4,False
+1,has_aria_label | has_placeholder | has_button_value | has_associated_label,4,False
+1,has_aria_label | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,5,False
+1,has_aria_label | has_title,2,False
+1,has_aria_label | has_title | has_ancestor_label,3,False
+1,has_aria_label | has_title | has_associated_label,3,False
+1,has_aria_label | has_title | has_associated_label | has_ancestor_label,4,False
+1,has_aria_label | has_title | has_button_value,3,False
+1,has_aria_label | has_title | has_button_value | has_ancestor_label,4,False
+1,has_aria_label | has_title | has_button_value | has_associated_label,4,False
+1,has_aria_label | has_title | has_button_value | has_associated_label | has_ancestor_label,5,False
+1,has_aria_label | has_title | has_placeholder,3,False
+1,has_aria_label | has_title | has_placeholder | has_ancestor_label,4,False
+1,has_aria_label | has_title | has_placeholder | has_associated_label,4,False
+1,has_aria_label | has_title | has_placeholder | has_associated_label | has_ancestor_label,5,False
+1,has_aria_label | has_title | has_placeholder | has_button_value,4,False
+1,has_aria_label | has_title | has_placeholder | has_button_value | has_ancestor_label,5,False
+1,has_aria_label | has_title | has_placeholder | has_button_value | has_associated_label,5,False
+1,has_aria_label | has_title | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,6,False
+1,has_aria_label | has_aria_labelledby,2,False
+1,has_aria_label | has_aria_labelledby | has_ancestor_label,3,False
+1,has_aria_label | has_aria_labelledby | has_associated_label,3,False
+1,has_aria_label | has_aria_labelledby | has_associated_label | has_ancestor_label,4,False
+1,has_aria_label | has_aria_labelledby | has_button_value,3,False
+1,has_aria_label | has_aria_labelledby | has_button_value | has_ancestor_label,4,False
+1,has_aria_label | has_aria_labelledby | has_button_value | has_associated_label,4,False
+1,has_aria_label | has_aria_labelledby | has_button_value | has_associated_label | has_ancestor_label,5,False
+1,has_aria_label | has_aria_labelledby | has_placeholder,3,False
+1,has_aria_label | has_aria_labelledby | has_placeholder | has_ancestor_label,4,False
+1,has_aria_label | has_aria_labelledby | has_placeholder | has_associated_label,4,False
+1,has_aria_label | has_aria_labelledby | has_placeholder | has_associated_label | has_ancestor_label,5,False
+1,has_aria_label | has_aria_labelledby | has_placeholder | has_button_value,4,False
+1,has_aria_label | has_aria_labelledby | has_placeholder | has_button_value | has_ancestor_label,5,False
+1,has_aria_label | has_aria_labelledby | has_placeholder | has_button_value | has_associated_label,5,False
+1,has_aria_label | has_aria_labelledby | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,6,False
+1,has_aria_label | has_aria_labelledby | has_title,3,False
+1,has_aria_label | has_aria_labelledby | has_title | has_ancestor_label,4,False
+1,has_aria_label | has_aria_labelledby | has_title | has_associated_label,4,False
+1,has_aria_label | has_aria_labelledby | has_title | has_associated_label | has_ancestor_label,5,False
+1,has_aria_label | has_aria_labelledby | has_title | has_button_value,4,False
+1,has_aria_label | has_aria_labelledby | has_title | has_button_value | has_ancestor_label,5,False
+1,has_aria_label | has_aria_labelledby | has_title | has_button_value | has_associated_label,5,False
+1,has_aria_label | has_aria_labelledby | has_title | has_button_value | has_associated_label | has_ancestor_label,6,False
+1,has_aria_label | has_aria_labelledby | has_title | has_placeholder,4,False
+1,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_ancestor_label,5,False
+1,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_associated_label,5,False
+1,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_associated_label | has_ancestor_label,6,False
+1,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_button_value,5,False
+1,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_button_value | has_ancestor_label,6,False
+1,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_button_value | has_associated_label,6,False
+1,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,7,False
+2,,0,False
+2,has_ancestor_label,1,False
+2,has_associated_label,1,False
+2,has_associated_label | has_ancestor_label,2,False
+2,has_button_value,1,False
+2,has_button_value | has_ancestor_label,2,False
+2,has_button_value | has_associated_label,2,False
+2,has_button_value | has_associated_label | has_ancestor_label,3,False
+2,has_placeholder,1,False
+2,has_placeholder | has_ancestor_label,2,False
+2,has_placeholder | has_associated_label,2,False
+2,has_placeholder | has_associated_label | has_ancestor_label,3,False
+2,has_placeholder | has_button_value,2,False
+2,has_placeholder | has_button_value | has_ancestor_label,3,False
+2,has_placeholder | has_button_value | has_associated_label,3,False
+2,has_placeholder | has_button_value | has_associated_label | has_ancestor_label,4,False
+2,has_title,1,False
+2,has_title | has_ancestor_label,2,False
+2,has_title | has_associated_label,2,False
+2,has_title | has_associated_label | has_ancestor_label,3,False
+2,has_title | has_button_value,2,False
+2,has_title | has_button_value | has_ancestor_label,3,False
+2,has_title | has_button_value | has_associated_label,3,False
+2,has_title | has_button_value | has_associated_label | has_ancestor_label,4,False
+2,has_title | has_placeholder,2,False
+2,has_title | has_placeholder | has_ancestor_label,3,False
+2,has_title | has_placeholder | has_associated_label,3,False
+2,has_title | has_placeholder | has_associated_label | has_ancestor_label,4,False
+2,has_title | has_placeholder | has_button_value,3,False
+2,has_title | has_placeholder | has_button_value | has_ancestor_label,4,False
+2,has_title | has_placeholder | has_button_value | has_associated_label,4,False
+2,has_title | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,5,False
+2,has_aria_labelledby,1,False
+2,has_aria_labelledby | has_ancestor_label,2,False
+2,has_aria_labelledby | has_associated_label,2,False
+2,has_aria_labelledby | has_associated_label | has_ancestor_label,3,False
+2,has_aria_labelledby | has_button_value,2,False
+2,has_aria_labelledby | has_button_value | has_ancestor_label,3,False
+2,has_aria_labelledby | has_button_value | has_associated_label,3,False
+2,has_aria_labelledby | has_button_value | has_associated_label | has_ancestor_label,4,False
+2,has_aria_labelledby | has_placeholder,2,False
+2,has_aria_labelledby | has_placeholder | has_ancestor_label,3,False
+2,has_aria_labelledby | has_placeholder | has_associated_label,3,False
+2,has_aria_labelledby | has_placeholder | has_associated_label | has_ancestor_label,4,False
+2,has_aria_labelledby | has_placeholder | has_button_value,3,False
+2,has_aria_labelledby | has_placeholder | has_button_value | has_ancestor_label,4,False
+2,has_aria_labelledby | has_placeholder | has_button_value | has_associated_label,4,False
+2,has_aria_labelledby | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,5,False
+2,has_aria_labelledby | has_title,2,False
+2,has_aria_labelledby | has_title | has_ancestor_label,3,False
+2,has_aria_labelledby | has_title | has_associated_label,3,False
+2,has_aria_labelledby | has_title | has_associated_label | has_ancestor_label,4,False
+2,has_aria_labelledby | has_title | has_button_value,3,False
+2,has_aria_labelledby | has_title | has_button_value | has_ancestor_label,4,False
+2,has_aria_labelledby | has_title | has_button_value | has_associated_label,4,False
+2,has_aria_labelledby | has_title | has_button_value | has_associated_label | has_ancestor_label,5,False
+2,has_aria_labelledby | has_title | has_placeholder,3,False
+2,has_aria_labelledby | has_title | has_placeholder | has_ancestor_label,4,False
+2,has_aria_labelledby | has_title | has_placeholder | has_associated_label,4,False
+2,has_aria_labelledby | has_title | has_placeholder | has_associated_label | has_ancestor_label,5,False
+2,has_aria_labelledby | has_title | has_placeholder | has_button_value,4,False
+2,has_aria_labelledby | has_title | has_placeholder | has_button_value | has_ancestor_label,5,False
+2,has_aria_labelledby | has_title | has_placeholder | has_button_value | has_associated_label,5,False
+2,has_aria_labelledby | has_title | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,6,False
+2,has_aria_label,1,False
+2,has_aria_label | has_ancestor_label,2,False
+2,has_aria_label | has_associated_label,2,True
+2,has_aria_label | has_associated_label | has_ancestor_label,3,True
+2,has_aria_label | has_button_value,2,False
+2,has_aria_label | has_button_value | has_ancestor_label,3,False
+2,has_aria_label | has_button_value | has_associated_label,3,True
+2,has_aria_label | has_button_value | has_associated_label | has_ancestor_label,4,True
+2,has_aria_label | has_placeholder,2,False
+2,has_aria_label | has_placeholder | has_ancestor_label,3,False
+2,has_aria_label | has_placeholder | has_associated_label,3,False
+2,has_aria_label | has_placeholder | has_associated_label | has_ancestor_label,4,False
+2,has_aria_label | has_placeholder | has_button_value,3,False
+2,has_aria_label | has_placeholder | has_button_value | has_ancestor_label,4,False
+2,has_aria_label | has_placeholder | has_button_value | has_associated_label,4,False
+2,has_aria_label | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,5,False
+2,has_aria_label | has_title,2,False
+2,has_aria_label | has_title | has_ancestor_label,3,False
+2,has_aria_label | has_title | has_associated_label,3,True
+2,has_aria_label | has_title | has_associated_label | has_ancestor_label,4,True
+2,has_aria_label | has_title | has_button_value,3,False
+2,has_aria_label | has_title | has_button_value | has_ancestor_label,4,False
+2,has_aria_label | has_title | has_button_value | has_associated_label,4,True
+2,has_aria_label | has_title | has_button_value | has_associated_label | has_ancestor_label,5,True
+2,has_aria_label | has_title | has_placeholder,3,False
+2,has_aria_label | has_title | has_placeholder | has_ancestor_label,4,False
+2,has_aria_label | has_title | has_placeholder | has_associated_label,4,False
+2,has_aria_label | has_title | has_placeholder | has_associated_label | has_ancestor_label,5,False
+2,has_aria_label | has_title | has_placeholder | has_button_value,4,False
+2,has_aria_label | has_title | has_placeholder | has_button_value | has_ancestor_label,5,False
+2,has_aria_label | has_title | has_placeholder | has_button_value | has_associated_label,5,False
+2,has_aria_label | has_title | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,6,False
+2,has_aria_label | has_aria_labelledby,2,False
+2,has_aria_label | has_aria_labelledby | has_ancestor_label,3,False
+2,has_aria_label | has_aria_labelledby | has_associated_label,3,True
+2,has_aria_label | has_aria_labelledby | has_associated_label | has_ancestor_label,4,True
+2,has_aria_label | has_aria_labelledby | has_button_value,3,False
+2,has_aria_label | has_aria_labelledby | has_button_value | has_ancestor_label,4,False
+2,has_aria_label | has_aria_labelledby | has_button_value | has_associated_label,4,True
+2,has_aria_label | has_aria_labelledby | has_button_value | has_associated_label | has_ancestor_label,5,True
+2,has_aria_label | has_aria_labelledby | has_placeholder,3,False
+2,has_aria_label | has_aria_labelledby | has_placeholder | has_ancestor_label,4,False
+2,has_aria_label | has_aria_labelledby | has_placeholder | has_associated_label,4,False
+2,has_aria_label | has_aria_labelledby | has_placeholder | has_associated_label | has_ancestor_label,5,False
+2,has_aria_label | has_aria_labelledby | has_placeholder | has_button_value,4,False
+2,has_aria_label | has_aria_labelledby | has_placeholder | has_button_value | has_ancestor_label,5,False
+2,has_aria_label | has_aria_labelledby | has_placeholder | has_button_value | has_associated_label,5,False
+2,has_aria_label | has_aria_labelledby | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,6,False
+2,has_aria_label | has_aria_labelledby | has_title,3,False
+2,has_aria_label | has_aria_labelledby | has_title | has_ancestor_label,4,False
+2,has_aria_label | has_aria_labelledby | has_title | has_associated_label,4,True
+2,has_aria_label | has_aria_labelledby | has_title | has_associated_label | has_ancestor_label,5,True
+2,has_aria_label | has_aria_labelledby | has_title | has_button_value,4,False
+2,has_aria_label | has_aria_labelledby | has_title | has_button_value | has_ancestor_label,5,False
+2,has_aria_label | has_aria_labelledby | has_title | has_button_value | has_associated_label,5,True
+2,has_aria_label | has_aria_labelledby | has_title | has_button_value | has_associated_label | has_ancestor_label,6,True
+2,has_aria_label | has_aria_labelledby | has_title | has_placeholder,4,False
+2,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_ancestor_label,5,False
+2,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_associated_label,5,False
+2,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_associated_label | has_ancestor_label,6,False
+2,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_button_value,5,False
+2,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_button_value | has_ancestor_label,6,False
+2,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_button_value | has_associated_label,6,False
+2,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,7,False
+3,,0,False
+3,has_ancestor_label,1,False
+3,has_associated_label,1,False
+3,has_associated_label | has_ancestor_label,2,False
+3,has_button_value,1,False
+3,has_button_value | has_ancestor_label,2,False
+3,has_button_value | has_associated_label,2,False
+3,has_button_value | has_associated_label | has_ancestor_label,3,False
+3,has_placeholder,1,False
+3,has_placeholder | has_ancestor_label,2,False
+3,has_placeholder | has_associated_label,2,False
+3,has_placeholder | has_associated_label | has_ancestor_label,3,False
+3,has_placeholder | has_button_value,2,False
+3,has_placeholder | has_button_value | has_ancestor_label,3,False
+3,has_placeholder | has_button_value | has_associated_label,3,False
+3,has_placeholder | has_button_value | has_associated_label | has_ancestor_label,4,False
+3,has_title,1,False
+3,has_title | has_ancestor_label,2,False
+3,has_title | has_associated_label,2,False
+3,has_title | has_associated_label | has_ancestor_label,3,False
+3,has_title | has_button_value,2,False
+3,has_title | has_button_value | has_ancestor_label,3,False
+3,has_title | has_button_value | has_associated_label,3,False
+3,has_title | has_button_value | has_associated_label | has_ancestor_label,4,False
+3,has_title | has_placeholder,2,False
+3,has_title | has_placeholder | has_ancestor_label,3,False
+3,has_title | has_placeholder | has_associated_label,3,False
+3,has_title | has_placeholder | has_associated_label | has_ancestor_label,4,False
+3,has_title | has_placeholder | has_button_value,3,False
+3,has_title | has_placeholder | has_button_value | has_ancestor_label,4,False
+3,has_title | has_placeholder | has_button_value | has_associated_label,4,False
+3,has_title | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,5,False
+3,has_aria_labelledby,1,False
+3,has_aria_labelledby | has_ancestor_label,2,False
+3,has_aria_labelledby | has_associated_label,2,False
+3,has_aria_labelledby | has_associated_label | has_ancestor_label,3,False
+3,has_aria_labelledby | has_button_value,2,False
+3,has_aria_labelledby | has_button_value | has_ancestor_label,3,False
+3,has_aria_labelledby | has_button_value | has_associated_label,3,False
+3,has_aria_labelledby | has_button_value | has_associated_label | has_ancestor_label,4,False
+3,has_aria_labelledby | has_placeholder,2,False
+3,has_aria_labelledby | has_placeholder | has_ancestor_label,3,False
+3,has_aria_labelledby | has_placeholder | has_associated_label,3,False
+3,has_aria_labelledby | has_placeholder | has_associated_label | has_ancestor_label,4,False
+3,has_aria_labelledby | has_placeholder | has_button_value,3,False
+3,has_aria_labelledby | has_placeholder | has_button_value | has_ancestor_label,4,False
+3,has_aria_labelledby | has_placeholder | has_button_value | has_associated_label,4,False
+3,has_aria_labelledby | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,5,False
+3,has_aria_labelledby | has_title,2,False
+3,has_aria_labelledby | has_title | has_ancestor_label,3,False
+3,has_aria_labelledby | has_title | has_associated_label,3,False
+3,has_aria_labelledby | has_title | has_associated_label | has_ancestor_label,4,False
+3,has_aria_labelledby | has_title | has_button_value,3,False
+3,has_aria_labelledby | has_title | has_button_value | has_ancestor_label,4,False
+3,has_aria_labelledby | has_title | has_button_value | has_associated_label,4,False
+3,has_aria_labelledby | has_title | has_button_value | has_associated_label | has_ancestor_label,5,False
+3,has_aria_labelledby | has_title | has_placeholder,3,False
+3,has_aria_labelledby | has_title | has_placeholder | has_ancestor_label,4,False
+3,has_aria_labelledby | has_title | has_placeholder | has_associated_label,4,False
+3,has_aria_labelledby | has_title | has_placeholder | has_associated_label | has_ancestor_label,5,False
+3,has_aria_labelledby | has_title | has_placeholder | has_button_value,4,False
+3,has_aria_labelledby | has_title | has_placeholder | has_button_value | has_ancestor_label,5,False
+3,has_aria_labelledby | has_title | has_placeholder | has_button_value | has_associated_label,5,False
+3,has_aria_labelledby | has_title | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,6,False
+3,has_aria_label,1,False
+3,has_aria_label | has_ancestor_label,2,False
+3,has_aria_label | has_associated_label,2,False
+3,has_aria_label | has_associated_label | has_ancestor_label,3,False
+3,has_aria_label | has_button_value,2,False
+3,has_aria_label | has_button_value | has_ancestor_label,3,False
+3,has_aria_label | has_button_value | has_associated_label,3,False
+3,has_aria_label | has_button_value | has_associated_label | has_ancestor_label,4,False
+3,has_aria_label | has_placeholder,2,False
+3,has_aria_label | has_placeholder | has_ancestor_label,3,False
+3,has_aria_label | has_placeholder | has_associated_label,3,False
+3,has_aria_label | has_placeholder | has_associated_label | has_ancestor_label,4,False
+3,has_aria_label | has_placeholder | has_button_value,3,False
+3,has_aria_label | has_placeholder | has_button_value | has_ancestor_label,4,False
+3,has_aria_label | has_placeholder | has_button_value | has_associated_label,4,False
+3,has_aria_label | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,5,False
+3,has_aria_label | has_title,2,False
+3,has_aria_label | has_title | has_ancestor_label,3,False
+3,has_aria_label | has_title | has_associated_label,3,False
+3,has_aria_label | has_title | has_associated_label | has_ancestor_label,4,False
+3,has_aria_label | has_title | has_button_value,3,False
+3,has_aria_label | has_title | has_button_value | has_ancestor_label,4,False
+3,has_aria_label | has_title | has_button_value | has_associated_label,4,False
+3,has_aria_label | has_title | has_button_value | has_associated_label | has_ancestor_label,5,False
+3,has_aria_label | has_title | has_placeholder,3,False
+3,has_aria_label | has_title | has_placeholder | has_ancestor_label,4,False
+3,has_aria_label | has_title | has_placeholder | has_associated_label,4,False
+3,has_aria_label | has_title | has_placeholder | has_associated_label | has_ancestor_label,5,False
+3,has_aria_label | has_title | has_placeholder | has_button_value,4,False
+3,has_aria_label | has_title | has_placeholder | has_button_value | has_ancestor_label,5,False
+3,has_aria_label | has_title | has_placeholder | has_button_value | has_associated_label,5,False
+3,has_aria_label | has_title | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,6,False
+3,has_aria_label | has_aria_labelledby,2,False
+3,has_aria_label | has_aria_labelledby | has_ancestor_label,3,False
+3,has_aria_label | has_aria_labelledby | has_associated_label,3,False
+3,has_aria_label | has_aria_labelledby | has_associated_label | has_ancestor_label,4,False
+3,has_aria_label | has_aria_labelledby | has_button_value,3,False
+3,has_aria_label | has_aria_labelledby | has_button_value | has_ancestor_label,4,False
+3,has_aria_label | has_aria_labelledby | has_button_value | has_associated_label,4,False
+3,has_aria_label | has_aria_labelledby | has_button_value | has_associated_label | has_ancestor_label,5,False
+3,has_aria_label | has_aria_labelledby | has_placeholder,3,False
+3,has_aria_label | has_aria_labelledby | has_placeholder | has_ancestor_label,4,False
+3,has_aria_label | has_aria_labelledby | has_placeholder | has_associated_label,4,False
+3,has_aria_label | has_aria_labelledby | has_placeholder | has_associated_label | has_ancestor_label,5,False
+3,has_aria_label | has_aria_labelledby | has_placeholder | has_button_value,4,False
+3,has_aria_label | has_aria_labelledby | has_placeholder | has_button_value | has_ancestor_label,5,False
+3,has_aria_label | has_aria_labelledby | has_placeholder | has_button_value | has_associated_label,5,False
+3,has_aria_label | has_aria_labelledby | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,6,False
+3,has_aria_label | has_aria_labelledby | has_title,3,False
+3,has_aria_label | has_aria_labelledby | has_title | has_ancestor_label,4,False
+3,has_aria_label | has_aria_labelledby | has_title | has_associated_label,4,False
+3,has_aria_label | has_aria_labelledby | has_title | has_associated_label | has_ancestor_label,5,False
+3,has_aria_label | has_aria_labelledby | has_title | has_button_value,4,False
+3,has_aria_label | has_aria_labelledby | has_title | has_button_value | has_ancestor_label,5,False
+3,has_aria_label | has_aria_labelledby | has_title | has_button_value | has_associated_label,5,False
+3,has_aria_label | has_aria_labelledby | has_title | has_button_value | has_associated_label | has_ancestor_label,6,False
+3,has_aria_label | has_aria_labelledby | has_title | has_placeholder,4,False
+3,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_ancestor_label,5,False
+3,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_associated_label,5,False
+3,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_associated_label | has_ancestor_label,6,False
+3,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_button_value,5,False
+3,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_button_value | has_ancestor_label,6,False
+3,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_button_value | has_associated_label,6,False
+3,has_aria_label | has_aria_labelledby | has_title | has_placeholder | has_button_value | has_associated_label | has_ancestor_label,7,False

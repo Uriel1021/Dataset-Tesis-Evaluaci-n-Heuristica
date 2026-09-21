@@ -1,0 +1,11 @@
+field,use_as_X,reason
+site,False,"Identificador/contexto, no predictor."
+Heuristic,False,Define directamente el target.
+IssueFound,False,Es la etiqueta.
+SeverityRating,False,Derivada de la evaluación del problema.
+IssueDescription,False,Texto generado durante la evaluación de Y.
+CodeReference,False,El evaluador seleccionó el código por estar asociado al problema.
+CodeSnippet,False,Alto riesgo de target leakage.
+EvaluationAnswers,False,Forma parte del razonamiento usado para producir Y.
+Recommendation,False,Se genera después de detectar el problema.
+original_full_source_code,True,Puede generar X independientemente de la evaluación.

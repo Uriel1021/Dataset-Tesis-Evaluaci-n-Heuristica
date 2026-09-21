@@ -1,0 +1,173 @@
+file,evaluation_round,prototype,match_status,heuristic,section_found,severity_values,overall_rating_values,explicit_no_issue,label_candidate,label_basis
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Baking shop.docx,1,Bakery,MATCHED_BY_URL,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Baking shop.docx,1,Bakery,MATCHED_BY_URL,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Baking shop.docx,1,Bakery,MATCHED_BY_URL,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Baking shop.docx,1,Bakery,MATCHED_BY_URL,H6,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/E-Tutor.docx,1, E-Tutor,MATCHED_BY_URL,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/E-Tutor.docx,1, E-Tutor,MATCHED_BY_URL,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/E-Tutor.docx,1, E-Tutor,MATCHED_BY_URL,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/E-Tutor.docx,1, E-Tutor,MATCHED_BY_URL,H6,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Food delivery.docx,1,,NO_URL_MATCH,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Food delivery.docx,1,,NO_URL_MATCH,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Food delivery.docx,1,,NO_URL_MATCH,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Food delivery.docx,1,,NO_URL_MATCH,H6,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Gaia.docx,1,,NO_URL_MATCH,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Gaia.docx,1,,NO_URL_MATCH,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Gaia.docx,1,,NO_URL_MATCH,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Gaia.docx,1,,NO_URL_MATCH,H6,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/HospitalApp.docx,1,Hospital 1,MATCHED_BY_URL,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/HospitalApp.docx,1,Hospital 1,MATCHED_BY_URL,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/HospitalApp.docx,1,Hospital 1,MATCHED_BY_URL,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/HospitalApp.docx,1,Hospital 1,MATCHED_BY_URL,H6,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/HospitalApp2.docx,1,Hospital 2,MATCHED_BY_URL,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/HospitalApp2.docx,1,Hospital 2,MATCHED_BY_URL,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/HospitalApp2.docx,1,Hospital 2,MATCHED_BY_URL,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/HospitalApp2.docx,1,Hospital 2,MATCHED_BY_URL,H6,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Housing.docx,1,,NO_URL_MATCH,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Housing.docx,1,,NO_URL_MATCH,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Housing.docx,1,,NO_URL_MATCH,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Housing.docx,1,,NO_URL_MATCH,H6,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Notification.docx,1,Tracking App,MATCHED_BY_URL,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Notification.docx,1,Tracking App,MATCHED_BY_URL,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Notification.docx,1,Tracking App,MATCHED_BY_URL,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Notification.docx,1,Tracking App,MATCHED_BY_URL,H6,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Running.docx,1,Running,MATCHED_BY_URL,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Running.docx,1,Running,MATCHED_BY_URL,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Running.docx,1,Running,MATCHED_BY_URL,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Running.docx,1,Running,MATCHED_BY_URL,H6,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Travel.docx,1,Travel,MATCHED_BY_URL,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Travel.docx,1,Travel,MATCHED_BY_URL,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Travel.docx,1,Travel,MATCHED_BY_URL,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/High Fidelity/Travel.docx,1,Travel,MATCHED_BY_URL,H6,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Artwork.docx,1,True Art,MATCHED_BY_URL,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Artwork.docx,1,True Art,MATCHED_BY_URL,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Artwork.docx,1,True Art,MATCHED_BY_URL,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Artwork.docx,1,True Art,MATCHED_BY_URL,H6,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Beer Garden.docx,1,,NO_URL_MATCH,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Beer Garden.docx,1,,NO_URL_MATCH,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Beer Garden.docx,1,,NO_URL_MATCH,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Beer Garden.docx,1,,NO_URL_MATCH,H6,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Blog.docx,1,Blog app,MATCHED_BY_URL,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Blog.docx,1,Blog app,MATCHED_BY_URL,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Blog.docx,1,Blog app,MATCHED_BY_URL,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Blog.docx,1,Blog app,MATCHED_BY_URL,H6,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/E-commerce.docx,1,Online Shoping,MATCHED_BY_URL,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/E-commerce.docx,1,Online Shoping,MATCHED_BY_URL,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/E-commerce.docx,1,Online Shoping,MATCHED_BY_URL,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/E-commerce.docx,1,Online Shoping,MATCHED_BY_URL,H6,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Fintech.docx,1,Fintech Mobile App,MATCHED_BY_URL,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Fintech.docx,1,Fintech Mobile App,MATCHED_BY_URL,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Fintech.docx,1,Fintech Mobile App,MATCHED_BY_URL,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Fintech.docx,1,Fintech Mobile App,MATCHED_BY_URL,H6,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Healthcare.docx,1,Healthcare App,MATCHED_BY_URL,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Healthcare.docx,1,Healthcare App,MATCHED_BY_URL,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Healthcare.docx,1,Healthcare App,MATCHED_BY_URL,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Healthcare.docx,1,Healthcare App,MATCHED_BY_URL,H6,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Membership.docx,1,KwikTan Membership,MATCHED_BY_URL,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Membership.docx,1,KwikTan Membership,MATCHED_BY_URL,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Membership.docx,1,KwikTan Membership,MATCHED_BY_URL,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Membership.docx,1,KwikTan Membership,MATCHED_BY_URL,H6,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Pastry SHop.docx,1,,NO_URL_MATCH,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Pastry SHop.docx,1,,NO_URL_MATCH,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Pastry SHop.docx,1,,NO_URL_MATCH,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Pastry SHop.docx,1,,NO_URL_MATCH,H6,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Quizzy.docx,1,Quizy,MATCHED_BY_URL,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Quizzy.docx,1,Quizy,MATCHED_BY_URL,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Quizzy.docx,1,Quizy,MATCHED_BY_URL,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Quizzy.docx,1,Quizy,MATCHED_BY_URL,H6,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Real Estate.docx,1,,NO_URL_MATCH,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Real Estate.docx,1,,NO_URL_MATCH,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Real Estate.docx,1,,NO_URL_MATCH,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Real Estate.docx,1,,NO_URL_MATCH,H6,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Restaurant.docx,1,Food Delivery,MATCHED_BY_URL,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Restaurant.docx,1,Food Delivery,MATCHED_BY_URL,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Restaurant.docx,1,Food Delivery,MATCHED_BY_URL,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Restaurant.docx,1,Food Delivery,MATCHED_BY_URL,H6,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Vouluntary Pet.docx,1,Voluntery Pet Care,MATCHED_BY_URL,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Vouluntary Pet.docx,1,Voluntery Pet Care,MATCHED_BY_URL,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Vouluntary Pet.docx,1,Voluntery Pet Care,MATCHED_BY_URL,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 1/Low Fidelity/Vouluntary Pet.docx,1,Voluntery Pet Care,MATCHED_BY_URL,H6,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Bakery.docx,2,,NO_URL_MATCH,H1,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Bakery.docx,2,,NO_URL_MATCH,H4,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Bakery.docx,2,,NO_URL_MATCH,H5,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Bakery.docx,2,,NO_URL_MATCH,H6,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/E tutor.docx,2,,NO_URL_MATCH,H1,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/E tutor.docx,2,,NO_URL_MATCH,H4,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/E tutor.docx,2,,NO_URL_MATCH,H5,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/E tutor.docx,2,,NO_URL_MATCH,H6,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Food Order.docx,2,,NO_URL_MATCH,H1,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Food Order.docx,2,,NO_URL_MATCH,H4,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Food Order.docx,2,,NO_URL_MATCH,H5,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Food Order.docx,2,,NO_URL_MATCH,H6,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/GAIA community app.docx,2,,NO_URL_MATCH,H1,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/GAIA community app.docx,2,,NO_URL_MATCH,H4,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/GAIA community app.docx,2,,NO_URL_MATCH,H5,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/GAIA community app.docx,2,,NO_URL_MATCH,H6,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Hospital App 1.docx,2,,NO_URL_MATCH,H1,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Hospital App 1.docx,2,,NO_URL_MATCH,H4,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Hospital App 1.docx,2,,NO_URL_MATCH,H5,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Hospital App 1.docx,2,,NO_URL_MATCH,H6,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Hospital App 2.docx,2,,NO_URL_MATCH,H1,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Hospital App 2.docx,2,,NO_URL_MATCH,H4,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Hospital App 2.docx,2,,NO_URL_MATCH,H5,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Hospital App 2.docx,2,,NO_URL_MATCH,H6,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Housing.docx,2,,NO_URL_MATCH,H1,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Housing.docx,2,,NO_URL_MATCH,H4,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Housing.docx,2,,NO_URL_MATCH,H5,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Housing.docx,2,,NO_URL_MATCH,H6,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Notification.docx,2,,NO_URL_MATCH,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Notification.docx,2,,NO_URL_MATCH,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Notification.docx,2,,NO_URL_MATCH,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Notification.docx,2,,NO_URL_MATCH,H6,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Running app.docx,2,,NO_URL_MATCH,H1,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Running app.docx,2,,NO_URL_MATCH,H4,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Running app.docx,2,,NO_URL_MATCH,H5,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Running app.docx,2,,NO_URL_MATCH,H6,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Travel.docx,2,,NO_URL_MATCH,H1,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Travel.docx,2,,NO_URL_MATCH,H4,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Travel.docx,2,,NO_URL_MATCH,H5,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 2/High Fidelity/Travel.docx,2,,NO_URL_MATCH,H6,True,[],[],False,,AMBIGUOUS_TEXT
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Artwork website.docx,2,,NO_URL_MATCH,H1,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Artwork website.docx,2,,NO_URL_MATCH,H4,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Artwork website.docx,2,,NO_URL_MATCH,H5,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Artwork website.docx,2,,NO_URL_MATCH,H6,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Beer Garden.docx,2,,NO_URL_MATCH,H1,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Beer Garden.docx,2,,NO_URL_MATCH,H4,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Beer Garden.docx,2,,NO_URL_MATCH,H5,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Beer Garden.docx,2,,NO_URL_MATCH,H6,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Blog App.docx,2,,NO_URL_MATCH,H1,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Blog App.docx,2,,NO_URL_MATCH,H4,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Blog App.docx,2,,NO_URL_MATCH,H5,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Blog App.docx,2,,NO_URL_MATCH,H6,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/E-commerce.docx,2,,NO_URL_MATCH,H1,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/E-commerce.docx,2,,NO_URL_MATCH,H4,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/E-commerce.docx,2,,NO_URL_MATCH,H5,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/E-commerce.docx,2,,NO_URL_MATCH,H6,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Education app.docx,2,,NO_URL_MATCH,H1,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Education app.docx,2,,NO_URL_MATCH,H4,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Education app.docx,2,,NO_URL_MATCH,H5,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Education app.docx,2,,NO_URL_MATCH,H6,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/FinTech.docx,2,,NO_URL_MATCH,H1,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/FinTech.docx,2,,NO_URL_MATCH,H4,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/FinTech.docx,2,,NO_URL_MATCH,H5,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/FinTech.docx,2,,NO_URL_MATCH,H6,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Food Delivery.docx,2,,NO_URL_MATCH,H1,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Food Delivery.docx,2,,NO_URL_MATCH,H4,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Food Delivery.docx,2,,NO_URL_MATCH,H5,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Food Delivery.docx,2,,NO_URL_MATCH,H6,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Healthcare.docx,2,,NO_URL_MATCH,H1,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Healthcare.docx,2,,NO_URL_MATCH,H4,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Healthcare.docx,2,,NO_URL_MATCH,H5,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Healthcare.docx,2,,NO_URL_MATCH,H6,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Membership.docx,2,,NO_URL_MATCH,H1,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Membership.docx,2,,NO_URL_MATCH,H4,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Membership.docx,2,,NO_URL_MATCH,H5,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Membership.docx,2,,NO_URL_MATCH,H6,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Pastry shop.docx,2,,NO_URL_MATCH,H1,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Pastry shop.docx,2,,NO_URL_MATCH,H4,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Pastry shop.docx,2,,NO_URL_MATCH,H5,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Pastry shop.docx,2,,NO_URL_MATCH,H6,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Volountery Pet.docx,2,,NO_URL_MATCH,H1,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Volountery Pet.docx,2,,NO_URL_MATCH,H4,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Volountery Pet.docx,2,,NO_URL_MATCH,H5,False,,,False,,SECTION_NOT_FOUND
+LLM_Evaluations/LLM Evaluation 2/Low Fidelity/Volountery Pet.docx,2,,NO_URL_MATCH,H6,False,,,False,,SECTION_NOT_FOUND

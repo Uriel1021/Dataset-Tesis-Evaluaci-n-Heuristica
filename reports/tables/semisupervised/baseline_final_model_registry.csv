@@ -1,0 +1,2 @@
+target,model,model_path,training_rows,feature_count
+H6_violation,RandomForestClassifier,models/semisupervised/baseline/H6_violation_supervised_rf.joblib,12,3
