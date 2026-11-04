@@ -1,0 +1,9 @@
+# Backend (además de requirements-dataset.txt, que aporta pandas, numpy, scikit-learn vía el modelo, etc.)
+fastapi==0.162.0
+uvicorn[standard]==0.54.0
+SQLAlchemy==2.0.52
+pydantic==2.14.2
+scikit-learn==1.9.0
+imbalanced-learn==0.14.2
+joblib==1.6.0
+httpx==0.28.1        # solo para las pruebas (TestClient)

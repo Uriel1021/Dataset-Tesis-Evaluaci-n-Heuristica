@@ -1,0 +1,168 @@
+# =====================================================================
+# Registro de fuentes de datos (versión 2 del pipeline)
+# ---------------------------------------------------------------------
+# Cada entrada describe UNA fuente tal como se obtuvo. Las rutas son
+# relativas a la raíz del proyecto. Nada en data/ se versiona en git:
+# la reproducibilidad descansa en (1) este registro, (2) los hashes que
+# el pipeline guarda en el manifiesto y (3) el código en src/usab_ds.
+#
+# Campos:
+#   name         nombre descriptivo
+#   path         carpeta o archivo de origen
+#   reference    cita / identificador público (completar si falta)
+#   license      licencia declarada por los autores (null = no verificada)
+#   modality     tipo de dato principal
+#   platform     web | mobile | prototype | desktop+web | lms
+#   unit         unidad de análisis natural de la fuente
+#   adapter      módulo en src/usab_ds/adapters que la procesa (null = no se procesa)
+#   role         behavior | labels | bridge | reference | excluded
+#                (rol PROPUESTO; la decisión final la emite la etapa 2
+#                 aplicando los criterios de configs/inclusion_criteria.yaml)
+# =====================================================================
+
+sources:
+
+  S01_web_emotions_28489601:
+    name: "Interacciones web + emociones (Figshare 28489601)"
+    path: data/raw/01/28489601
+    files: [interactions.csv, aggregates.csv]
+    reference: "Figshare, item 28489601 (completar autores/año/DOI desde la ficha del repositorio)"
+    license: null
+    modality: "muestreo ~100 ms de ratón, scroll, teclado y emociones faciales en navegación libre"
+    platform: web
+    unit: "usuario × visita a URL"
+    adapter: web_emotions
+    role: behavior
+
+  S02_a11y_cua:
+    name: "Reduced-A11y-CUA (usuarios ciegos/baja visión, videntes y agentes CUA)"
+    path: data/raw/02/Reduced-A11y-CUA
+    reference: "Reduced-A11y-CUA (completar cita del artículo/dataset)"
+    license: null
+    modality: "logs de eventos de SO y de navegador, snapshots DOM/HTML y árboles de accesibilidad, metadatos de tarea (éxito, dificultad)"
+    platform: desktop+web
+    unit: "participante × tarea"
+    adapter: a11y_cua
+    role: behavior
+
+  S03_vt_llm_prototypes_29042675:
+    name: "LLM-Based Heuristic Evaluations of High- and Low-Fidelity Prototypes (GPT-4o)"
+    path: data/raw/03/29042675
+    reference: "Nizamani, S. B. Virginia Tech University Libraries, dataset 29042675"
+    license: CC0
+    modality: "evaluaciones heurísticas Nielsen H1–H10 (docx) con severidad 0–4, por prototipo y ronda"
+    platform: prototype
+    unit: "prototipo × ronda de evaluación × heurística"
+    adapter: vt_prototypes
+    role: labels
+
+  S04_catching_ux_flaws:
+    name: "Catching UX Flaws in Code (VL/HCC 2025)"
+    path: data/public_v2/raw/04_catching_ux_flaws
+    reference: "Platt, N., Luchs, E., Nizamani, S. B. (2025). Catching UX Flaws in Code: Leveraging LLMs to Identify Usability Flaws at the Development Stage. IEEE VL/HCC 2025."
+    license: null
+    modality: "3 evaluaciones GPT-4o por sitio, H1–H10 con IssueFound y severidad"
+    platform: web
+    unit: "sitio × evaluación × heurística"
+    adapter: catching
+    role: labels
+
+  S04b_catching_html:
+    name: "Código HTML recuperado de los sitios de Catching UX Flaws"
+    path: data/public_v2/source_recovery
+    reference: "Repositorios públicos de GitHub recuperados en la v1 (ver match_level)"
+    license: "según cada repositorio"
+    modality: "HTML estático"
+    platform: web
+    unit: "sitio"
+    adapter: dom_static
+    role: bridge
+
+  S05_serene:
+    name: "SERENE (problemas de usabilidad en sitios municipales)"
+    path: data/public_v2/raw/05_serene
+    reference: "SERENE dataset (completar cita)"
+    license: null
+    modality: "ground truth de 46 problemas (severidad), respuestas de participantes, métricas M1–M8 por condición"
+    platform: web
+    unit: "problema / participante × condición"
+    adapter: null
+    role: reference
+
+  S06_p3m:
+    name: "P3M – defectos de usabilidad detectados por GPT-4 y validados por expertos"
+    path: data/public_v2/raw/06_p3m
+    reference: "P3M dataset (completar cita)"
+    license: null
+    modality: "defectos por captura con heurística Nielsen violada, severidad y validación experta (Is it a defect?)"
+    platform: web
+    unit: "captura × defecto"
+    adapter: p3m
+    role: labels
+
+  S07_phr:
+    name: "PHR – usabilidad y consumo energético de portales de salud"
+    path: data/public_v2/raw/07_phr
+    reference: "García-Berná, J. A. et al. (completar cita)"
+    license: null
+    modality: "Excel agregado con correlaciones y t-tests; 8 heurísticas adaptadas a PHR"
+    platform: web
+    unit: "portal × tarea (agregado)"
+    adapter: null
+    role: reference
+
+  S08_dashboards:
+    name: "Dashboards – logs de interacción y variables experimentales"
+    path: data/public_v2/raw/08_dashboards
+    files: ["Interaction Data.zip", "dependent and independent variables.csv", "Interaction Patterns Dataset.xlsx"]
+    reference: "Dashboards interaction dataset (completar cita)"
+    license: null
+    modality: "eventos DOM (click, scroll, teclado, mouseover) por sesión; tabla aparte con exactitud, tiempo y NASA-TLX"
+    platform: web
+    unit: "sesión de navegador (logs) / participante × dashboard × pregunta (tabla experimental)"
+    adapter: dashboards
+    role: behavior
+
+  S09_cultural_heritage:
+    name: "Cultural Heritage"
+    path: data/public_v2/raw/_references/cultural_heritage
+    reference: "solo se dispone del artículo"
+    license: null
+    modality: "PDF"
+    platform: web
+    unit: null
+    adapter: null
+    role: excluded
+
+  S10_uicrit_rico:
+    name: "UICrit + RICO"
+    path: data/public_v2/raw/10_uicrit_rico
+    reference: "Duan, P. et al. (2024). UICrit (completar); Deka, B. et al. (2017). Rico. UIST."
+    license: null
+    modality: "críticas de diseño y ratings (aesthetics, learnability, efficiency, usability) sobre pantallas Android"
+    platform: mobile
+    unit: "pantalla × tarea"
+    adapter: null
+    role: reference
+
+  S11_zenodo_21891322:
+    name: "Zenodo 21891322 – evaluación heurística con capturas"
+    path: data/public_v2/raw/02_zenodo_21891322
+    reference: "Zenodo record 21891322 (completar cita)"
+    license: null
+    modality: "12 capturas PNG, notebook y PDF de cálculo de métricas"
+    platform: web
+    unit: "interfaz"
+    adapter: null
+    role: reference
+
+  S12_delfi22:
+    name: "DELFI 2022 – configuración de actividades Moodle"
+    path: data/raw/05/delfi22-main
+    reference: "delfi22 (completar cita)"
+    license: null
+    modality: "configuración de tareas y cuestionarios de un LMS; sin interacciones ni heurísticas"
+    platform: lms
+    unit: "actividad"
+    adapter: null
+    role: excluded

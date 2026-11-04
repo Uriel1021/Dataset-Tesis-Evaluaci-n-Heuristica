@@ -1,0 +1,14 @@
+# Dependencias exactas del pipeline del dataset (etapas 1–3).
+# Versiones fijadas para reproducibilidad; requirements.txt contiene además
+# las librerías de modelado de etapas posteriores.
+numpy==2.5.2
+pandas==3.0.5
+polars==1.44.1
+pyarrow==26.0.1
+lxml==6.1.3
+python-docx==1.2.0
+openpyxl==3.1.5
+PyYAML==6.0.3
+pytest==9.1.1
+anthropic==2.4.0
+torch==2.15.0

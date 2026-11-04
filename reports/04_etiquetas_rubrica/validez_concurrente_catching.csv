@@ -1,0 +1,5 @@
+heuristic,reference,ref_prevalence,n,tp,fp,fn,tn,accuracy,cohen_kappa,precision,recall
+H1,Catching UX Flaws · mayoría GPT-4o,1.0,13,3,0,10,0,0.23076923076923078,0.0,1.0,0.23076923076923078
+H4,Catching UX Flaws · mayoría GPT-4o,0.9166666666666666,11,5,0,5,1,0.5454545454545454,0.15384615384615374,1.0,0.5
+H5,Catching UX Flaws · mayoría GPT-4o,0.9230769230769231,4,4,0,0,0,1.0,,1.0,1.0
+H6,Catching UX Flaws · mayoría GPT-4o,0.23076923076923078,12,3,5,0,4,0.5833333333333334,0.2857142857142858,0.375,1.0

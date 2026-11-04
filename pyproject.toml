@@ -1,0 +1,15 @@
+[project]
+name = "usab_ds"
+version = "2.0.0"
+description = "Pipeline reproducible: dataset de usabilidad web (Nielsen H1/H4/H5/H6 × ISO/IEC 25010/25022)"
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 130

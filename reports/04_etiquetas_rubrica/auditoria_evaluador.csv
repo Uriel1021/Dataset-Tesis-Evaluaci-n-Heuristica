@@ -1,0 +1,7 @@
+id,criterio,falso_positivo_observado,corrección
+A1,H5_input_type_mismatch,id=username con inputmode=email y type=text (target.com),inputmode adecuado ya ofrece el teclado del tipo esperado → no es falla
+A2,H5_autocomplete_missing,checkbox id=vector-user-links-dropdown-checkbox (Wikipedia),solo campos de texto y términos completos ('user' dentro de un id no es un campo de usuario)
+A3,H4_nonstandard_controls,<h2 tabindex=0> en target.com,"encabezados/regiones enfocables sin onclick son gestión de foco, no controles"
+A4,H1_status_messages,checkbox usado como interruptor CSS del menú (neildegrassetyson.com),solo cuentan campos donde se escriben/eligen datos
+A5,H5_input_type_mismatch,'Email or phone number' con type=text (facebook.com); selector de fecha propio (expedia.com),campos de propósito múltiple y selectores de fecha personalizados no son falla
+A6,H1_status_messages,buscador de Wikipedia/YouTube,un buscador que navega a otra página no requiere mensajes de estado en la página

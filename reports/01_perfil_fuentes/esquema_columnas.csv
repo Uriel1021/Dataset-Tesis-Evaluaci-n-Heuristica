@@ -1,0 +1,506 @@
+source,file,column,dtype,n,top_values,null_pct,n_unique,min,max,mean
+S01_web_emotions_28489601,data/raw/01/28489601/aggregates.csv,<middle.*>,grupo de columnas,1386964,38 columnas,,,,,
+S01_web_emotions_28489601,data/raw/01/28489601/aggregates.csv,<25.*>,grupo de columnas,1386964,171 columnas,,,,,
+S01_web_emotions_28489601,data/raw/01/28489601/aggregates.csv,<50.*>,grupo de columnas,1386964,171 columnas,,,,,
+S01_web_emotions_28489601,data/raw/01/28489601/aggregates.csv,<100.*>,grupo de columnas,1386964,171 columnas,,,,,
+S01_web_emotions_28489601,data/raw/01/28489601/aggregates.csv,<200.*>,grupo de columnas,1386964,171 columnas,,,,,
+S01_web_emotions_28489601,data/raw/01/28489601/aggregates.csv,<500.*>,grupo de columnas,1386964,171 columnas,,,,,
+S01_web_emotions_28489601,data/raw/01/28489601/aggregates.csv,<1000.*>,grupo de columnas,1386964,171 columnas,,,,,
+S01_web_emotions_28489601,data/raw/01/28489601/aggregates.csv,<2000.*>,grupo de columnas,1386964,171 columnas,,,,,
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,id,String,15034144,,0.0,15034144.0,,,
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,user_id,String,15034144,,0.0,18.0,,,
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,timestamp,Int64,15034144,,0.0,14967917.0,1737043478562,1741096027450,1739303811558.0479
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,url,String,15034144,,0.0,1327.0,,,
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,mouse.position.x,Int64,15034144,,0.0,2684.0,-345,2878,731.5475276809907
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,mouse.position.y,Int64,15034144,,0.0,1445.0,-112,9098,358.5823498165243
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,mouse.clicks,Boolean,15034144,true=664986,0.0,2.0,,,
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,mouse.clicks.left,Boolean,15034144,true=598887,0.0,2.0,,,
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,mouse.clicks.right,Boolean,15034144,true=76303,0.0,2.0,,,
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,mouse.clicks.middle,Boolean,15034144,true=24,0.0,2.0,,,
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,mouse.clicks.others,Boolean,15034144,true=707,0.0,2.0,,,
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,mouse.speed,Float64,15034144,,0.0,159576.0,0.0,2833.3333333333335,0.30877484018620494
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,mouse.speed.x,Float64,15034144,,0.0,37708.0,-1726.0,1658.0,0.02247130723258137
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,mouse.speed.y,Float64,15034144,,0.0,29494.0,-2833.3333333333335,2124.0,0.006214275165077569
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,mouse.acceleration,Float64,15034144,,0.0,1215821.0,0.0,2217.7720802643357,0.07017883435035645
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,mouse.acceleration.x,Float64,15034144,,0.0,422425.0,-2127.0,1679.1333333333334,0.003478631604625528
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,mouse.acceleration.y,Float64,15034144,,0.0,379969.0,-944.4444444444445,1239.3333333333335,0.002013048081527341
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,trajectory.slope,Float64,15034144,,74.83,59210.0,-3705.5,inf,inf
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,scroll.absolute.x,Float64,15034144,,0.0,250.0,0.0,1865.5999755859375,0.14738730711900572
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,scroll.absolute.y,Float64,15034144,,0.0,49630.0,0.0,552774.0,1874.9389089487152
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,scroll.relative.x,Float64,15034144,,0.0,491.0,54.5,222.81764157906105,101.81086423656751
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,scroll.relative.y,Float64,15034144,,0.0,49630.0,0.0,552774.0,1874.9389089487152
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,keyboard,Boolean,15034144,true=935096,0.0,2.0,,,
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,keyboard.alpha,Boolean,15034144,true=513855,0.0,2.0,,,
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,keyboard.numeric,Boolean,15034144,true=12837,0.0,2.0,,,
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,keyboard.function,Boolean,15034144,true=511329,0.0,2.0,,,
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,keyboard.symbol,Boolean,15034144,true=25610,0.0,2.0,,,
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,emotions.automatic_sampling,Boolean,15034144,true=10264985,0.0,2.0,,,
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,emotions.exist,Boolean,15034144,true=3741316,0.0,2.0,,,
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,emotions.joy,Float64,15034144,,99.22,9482.0,1.0,99.93,68.96298308879452
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,emotions.fear,Float64,15034144,,99.0,6791.0,1.0,98.41,21.66165304898367
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,emotions.disgust,Float64,15034144,,99.24,6267.0,1.0,100.0,12.310390293598449
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,emotions.sadness,Float64,15034144,,99.62,4193.0,1.0,99.66,14.883604708535982
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,emotions.anger,Float64,15034144,,99.59,5101.0,1.0,99.92,8.528843751006344
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,emotions.surprise,Float64,15034144,,96.73,9623.0,1.0,99.09,21.588171642094643
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,emotions.contempt,Float64,15034144,,98.42,9849.0,1.0,99.81,56.30773670890334
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,emotions.valence,Float64,15034144,,75.11,19990.0,-100.0,100.0,-0.054743723866147675
+S01_web_emotions_28489601,data/raw/01/28489601/interactions.csv,emotions.engagement,Float64,15034144,,75.11,9987.0,0.0,99.92,11.635576337310187
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,Name,text,104,Food Order(4); Gaira (Community app)(4); Travel(4),61.54,12.0,,,
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,Prototype Link,text,104,https://www.behance.net/gallery/15836336(4); https://www.figma.com/community/file/125(4); https://www.figma.com/community/file/127(4),46.15,28.0,,,
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H1 Compare,numeric,104,,44.23,6.0,0.0,10.0,1.9138
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H2 Compare,numeric,104,,44.23,4.0,0.0,10.0,1.8793
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H3 Compare,numeric,104,,44.23,6.0,0.0,10.0,1.7586
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H4 Compare,numeric,104,,44.23,5.0,0.0,10.0,1.7414
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H5 Compare,numeric,104,,44.23,5.0,0.0,10.0,1.9138
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H6 Compare,numeric,104,,44.23,5.0,0.0,10.0,1.7241
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H7 Compare,numeric,104,,44.23,4.0,0.0,10.0,1.9655
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H8 Compare,numeric,104,,44.23,7.0,0.0,10.0,1.569
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H9 Compare,numeric,104,,44.23,5.0,0.0,10.0,1.7069
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H10 Compare,numeric,104,,44.23,5.0,0.0,10.0,1.6552
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,Unnamed: 12,text,104,100.0(2); 69.0(1); IRR(1),93.27,6.0,,,
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,Unnamed: 13,numeric,104,,98.08,2.0,85.0,100.0,92.5
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H1. Overal Rating (4),numeric,104,,61.54,2.0,2.0,3.0,2.95
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H1,text,104,"The design is clean and structured but l(1); While the UI is visually appealing, it l(1); The prototype is visually appealing but (1)",61.54,40.0,,,
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H2. Overal Rating(4),numeric,104,,61.54,2.0,2.0,3.0,2.8
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H2,text,104,The app uses some unclear terminology an(2); The app is mostly intuitive but could im(1); The system is mostly aligned with real-w(1),61.54,39.0,,,
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H3. Overal Rating(4),numeric,104,,61.54,3.0,2.0,4.0,2.925
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H3,text,104,The prototype lacks essential user contr(2); The app provides a smooth ordering exper(1); The system lacks essential user control (1),61.54,39.0,,,
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H4 Overall Rating,numeric,104,,61.54,2.0,2.0,3.0,2.875
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H4,text,104,The UI is visually appealing but lacks c(1); The prototype follows general UI convent(1); The prototype is well-designed but needs(1),61.54,40.0,,,
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H5 Overall Rating,numeric,104,,61.54,3.0,2.0,4.0,2.925
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H5,text,104,The prototype lacks preventive mechanism(2); The system lacks safeguards to prevent e(1); The prototype lacks confirmation message(1),61.54,39.0,,,
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H6 Overall Rating,numeric,104,,61.54,2.0,2.0,3.0,2.9
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H6,text,104,"The app requires users to recall key ord(1); While the design is visually appealing, (1); The design is intuitive but requires bet(1)",61.54,40.0,,,
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H7 Overall Rating,numeric,104,,61.54,3.0,2.0,4.0,2.9
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H7,text,104,The app is user-friendly but lacks effic(1); The system lacks efficiency-enhancing fe(1); The prototype is functional but needs ac(1),61.54,40.0,,,
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H8 Overall Rating,numeric,104,,61.54,2.0,2.0,3.0,2.9
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H8,text,104,The interface is clean but could benefit(1); The prototype maintains a generally clea(1); The prototype is visually appealing but (1),61.54,40.0,,,
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H9 Overall Rating,numeric,104,,61.54,3.0,2.0,4.0,2.875
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H9,text,104,"The app lacks effective error handling a(1); The prototype lacks clear error messagin(1); The system needs better error handling, (1)",61.54,40.0,,,
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H10 Overall Rating,numeric,104,,61.54,3.0,2.0,4.0,2.775
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,H10,text,104,The system lacks adequate help and docum(2); The prototype lacks accessible help and (2); The app lacks sufficient guidance for ne(1),61.54,38.0,,,
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,Unnamed: 0,text,104,https://www.behance.net/gallery/21629655(3); https://www.behance.net/gallery/21946163(3); https://www.behance.net/gallery/11576491(3),71.15,10.0,,,
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/IRR_Results.csv,Unnamed: 11,text,104,,100.0,0.0,,,
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/Prototype_Metadata.csv,Prototype,text,20,Bakery(2); Food Order(1); Gaira (Community app)(1),0.0,19.0,,,
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/Prototype_Metadata.csv,Prototype Type,text,20,High Fidelity(10); Low Fidelity(10),0.0,2.0,,,
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/Prototype_Metadata.csv,Domain,text,20,Healthcare(5); Community(2); Education(2),0.0,12.0,,,
+S03_vt_llm_prototypes_29042675,data/raw/03/29042675/Prototype_Metadata.csv,Scource URL,text,20,https://www.figma.com/design/OIOZZNZhizn(1); https://www.figma.com/design/1WJTuXkM0Of(1); https://www.figma.com/community/file/127(1),0.0,20.0,,,
+S05_serene,data/public_v2/raw/05_serene/ground-truth.csv,Webpage,text,46,Regione Basilicata(25); Comune di Taranto(21),0.0,2.0,,,
+S05_serene,data/public_v2/raw/05_serene/ground-truth.csv,ID,text,46,LINKS/External(2); NAVBAR/Location(2); NAVBAR/NoHome(2),0.0,41.0,,,
+S05_serene,data/public_v2/raw/05_serene/ground-truth.csv,Severity,numeric,46,,0.0,5.0,1,5,3.1087
+S05_serene,data/public_v2/raw/05_serene/ground-truth.csv,FalsePositive,numeric,46,,0.0,2.0,False,True,0.0217
+S05_serene,data/public_v2/raw/05_serene/ground-truth.csv,InHeatmap,numeric,46,,0.0,2.0,False,True,0.4565
+S05_serene,data/public_v2/raw/05_serene/ground-truth.csv,InAutomation,numeric,46,,0.0,2.0,False,True,0.3478
+S05_serene,data/public_v2/raw/05_serene/ground-truth.csv,UIElement,text,46,Navbar(11); Page(6); Footer(5),0.0,15.0,,,
+S05_serene,data/public_v2/raw/05_serene/ground-truth.csv,Description,text,46,Missing a home button(2); Missing a “last update” date(2); Missing controls to change font size(2),2.17,42.0,,,
+S05_serene,data/public_v2/raw/05_serene/metrics.csv,Unnamed: 0,numeric,99,,0.0,99.0,0,98,49.0
+S05_serene,data/public_v2/raw/05_serene/metrics.csv,condition,text,99,augmentation(35); automation(33); middle(31),0.0,3.0,,,
+S05_serene,data/public_v2/raw/05_serene/metrics.csv,M1,numeric,99,,0.0,8.0,0,7,2.0606
+S05_serene,data/public_v2/raw/05_serene/metrics.csv,M2,numeric,99,,0.0,3.0,0,2,0.5758
+S05_serene,data/public_v2/raw/05_serene/metrics.csv,M3,numeric,99,,0.0,6.0,0,5,1.3131
+S05_serene,data/public_v2/raw/05_serene/metrics.csv,M4,numeric,99,,0.0,11.0,20,30,25.3535
+S05_serene,data/public_v2/raw/05_serene/metrics.csv,M5,numeric,99,,13.13,17.0,0.0,4.0,1.0506
+S05_serene,data/public_v2/raw/05_serene/metrics.csv,M6,numeric,99,,13.13,10.0,0.0,1.0,0.2953
+S05_serene,data/public_v2/raw/05_serene/metrics.csv,M7,numeric,99,,13.13,10.0,0.0,1.0,0.3342
+S05_serene,data/public_v2/raw/05_serene/metrics.csv,M8,numeric,99,,13.13,9.0,0.0,1.0,0.3705
+S06_p3m,data/public_v2/raw/06_p3m/1. GPT-4 - All Possible Defects per Screenshot.xlsx::All Possible Defects,Screenshot,numeric,111,,81.98,20.0,1.0,20.0,10.5
+S06_p3m,data/public_v2/raw/06_p3m/1. GPT-4 - All Possible Defects per Screenshot.xlsx::All Possible Defects,Internal ID,text,111,D1.1(1); D1.2(1); D1.3(1),0.0,111.0,,,
+S06_p3m,data/public_v2/raw/06_p3m/1. GPT-4 - All Possible Defects per Screenshot.xlsx::All Possible Defects,Usability Problem,text,111,Visibility of system status(2); Visibility of System Status(2); Inconsistency in the use of icons and te(1),0.0,109.0,,,
+S06_p3m,data/public_v2/raw/06_p3m/1. GPT-4 - All Possible Defects per Screenshot.xlsx::All Possible Defects,Violated Usability Heuristics,text,111,Visibility of system status(19); Consistency and standards(14); Aesthetic and minimalist design(9),0.0,30.0,,,
+S06_p3m,data/public_v2/raw/06_p3m/1. GPT-4 - All Possible Defects per Screenshot.xlsx::All Possible Defects,Severity,numeric,111,,0.0,4.0,1,4,2.4144
+S06_p3m,data/public_v2/raw/06_p3m/1. GPT-4 - All Possible Defects per Screenshot.xlsx::All Possible Defects,Explanation,text,111,The interface uses icons and text in the(1); Interactive elements such as commodity c(1); The side panel contains too many options(1),0.0,111.0,,,
+S06_p3m,data/public_v2/raw/06_p3m/1. GPT-4 - All Possible Defects per Screenshot.xlsx::All Possible Defects,Interface Reference,text,111,Side menu(5); Left sidebar(4); Left Sidebar(4),0.0,82.0,,,
+S06_p3m,data/public_v2/raw/06_p3m/2. GPT-4 - Defects Consolidation.xlsx::Defects consolidation,RED,text,114,Main(68); Duplicate(43); BLUE(1),0.88,4.0,,,
+S06_p3m,data/public_v2/raw/06_p3m/2. GPT-4 - Defects Consolidation.xlsx::Defects consolidation,FALSE POSITIVES,text,114,DEFECTS(1); Internal ID(1); D1.1(1),0.88,113.0,,,
+S06_p3m,data/public_v2/raw/06_p3m/2. GPT-4 - Defects Consolidation.xlsx::Defects consolidation,Unnamed: 2,text,114,Visibility of system status(3); Help and documentation(2); Description(1),1.75,109.0,,,
+S06_p3m,data/public_v2/raw/06_p3m/2. GPT-4 - Defects Consolidation.xlsx::Defects consolidation,Unnamed: 3,text,114,Explication(1); A interface utiliza ícones e textos na b(1); Os ícones do painel lateral não possuem (1),1.75,112.0,,,
+S06_p3m,data/public_v2/raw/06_p3m/2. GPT-4 - Defects Consolidation.xlsx::Defects consolidation,Unnamed: 4,text,114,Side menu(5); Top right corner(5); Left sidebar(4),1.75,82.0,,,
+S06_p3m,data/public_v2/raw/06_p3m/2. GPT-4 - Defects Consolidation.xlsx::Defects consolidation,Unnamed: 5,text,114,Yes(71); No(40); Is it a defect?(1),1.75,3.0,,,
+S06_p3m,data/public_v2/raw/06_p3m/2. GPT-4 - Defects Consolidation.xlsx::Defects consolidation,Unnamed: 6,text,114,There is no such problem.(3); Very vague.(3); There is feedback in the interaction.(2),75.44,23.0,,,
+S06_p3m,data/public_v2/raw/06_p3m/2. GPT-4 - Defects Consolidation.xlsx::Defects consolidation,Unnamed: 7,text,114,OK(106); NÃO(5); Verificação (LZ)(1),1.75,3.0,,,
+S06_p3m,data/public_v2/raw/06_p3m/2. GPT-4 - Defects Consolidation.xlsx::Defects consolidation,Unnamed: 8,text,114,idem linha 12(7); Idem comentário linha 12(3); Idem comentário linha 13(1),82.46,12.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 0,text,101,,100.0,0.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 1,text,101,HEALTHVET(1); NOMORECLIPBOARD(1); PATIENTSLIKEME(1),96.04,4.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 2,text,101,T01(4); T02(4); T03(4),20.79,20.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 3,text,101,3(54); -(14); 4(7),18.81,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 4,text,101,3(57); -(14); 4(9),19.8,4.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 5,text,101,4(33); 3(20); -(19),19.8,5.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 6,text,101,4(30); 3(20); -(14),19.8,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 7,text,101,-(34); 3(16); 4(16),19.8,5.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 8,text,101,4(26); 5(16); 3(14),19.8,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 9,text,101,-(34); 4(17); 3(16),19.8,5.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 10,text,101,4(32); 3(23); -(14),19.8,5.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 11,text,101,4(49); 3(17); -(13),18.81,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 12,text,101,3(49); 4(15); -(13),19.8,5.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 13,text,101,4(34); 3(30); -(13),19.8,5.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 14,text,101,4(37); 3(25); -(13),19.8,5.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 15,text,101,3(40); 4(21); -(13),19.8,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 16,text,101,5(35); 3(27); -(13),19.8,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 17,text,101,4(34); 3(29); -(13),19.8,5.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 18,text,101,3(35); 4(28); -(13),19.8,5.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 19,text,101,4(38); 5(26); -(13),18.81,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 20,text,101,5(34); 4(22); -(13),19.8,5.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 21,text,101,5(39); 4(26); -(13),19.8,5.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 22,text,101,5(32); 4(20); -(13),19.8,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 23,text,101,4(35); -(23); 5(13),19.8,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 24,text,101,4(38); 5(26); -(13),19.8,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 25,text,101,5(46); 4(21); -(13),19.8,4.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 26,text,101,4(39); 5(16); -(13),19.8,5.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 27,text,101,4(27); 3(17); 5(14),18.81,8.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 28,text,101,3(39); 4(18); -(13),19.8,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 29,text,101,4(31); 3(16); -(13),19.8,7.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 30,text,101,2(18); 3(17); 4(15),19.8,7.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 31,text,101,4(37); 3(19); -(13),19.8,7.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 32,text,101,4(39); 3(15); -(13),19.8,7.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 33,text,101,4(35); 3(17); -(13),19.8,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 34,text,101,3(34); 2(24); -(13),19.8,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 35,text,101,4(20); -(13); 3.75(11),17.82,12.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 36,text,101,3.5(24); 3.75(15); -(13),19.8,9.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 37,text,101,3.75(17); 4(16); -(13),19.8,13.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 38,text,101,-(13); 3.25(11); 4(11),19.8,13.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 39,text,101,4(16); -(13); 3.5(13),19.8,13.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 40,text,101,4.25(21); 4(14); -(13),19.8,12.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 41,text,101,4(18); -(13); 3.5(9),19.8,14.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 42,text,101,3.75(21); 3.25(14); -(13),19.8,11.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 43,text,101,-(13); POWER DATA(1); MONITOR(1),18.81,70.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 44,text,101,-(13); PWSOURCE(1); 185.30241633940156(1),19.8,69.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 45,text,101,,100.0,0.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 46,text,101,H1(4); H2(4); H3(4),68.32,8.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 47,text,101,HEALTHVET(1); NOMORECLIPBOARD(1); PATIENTSLIKEME(1),96.04,4.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 48,text,101,Correlation coefficient(32); Sig. (bilateral)(32); N(32),4.95,3.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 49,numeric,101,,0.99,65.0,-0.513,18.0,5.7464
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::correlations,Unnamed: 50,numeric,101,,0.99,68.0,-0.638,18.0,5.6945
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 0,text,104,,100.0,0.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 1,text,104,HEALTHVET(1); NOMORECLIPBOARD(1); PATIENTSLIKEME(1),96.15,4.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 2,text,104,T01(4); T02(4); T03(4),23.08,20.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 3,text,104,3(54); -(14); 4(7),21.15,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 4,text,104,3(57); -(14); 4(9),22.12,4.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 5,text,104,4(33); 3(20); -(19),22.12,5.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 6,text,104,4(30); 3(20); -(14),22.12,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 7,text,104,-(34); 3(16); 4(16),22.12,5.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 8,text,104,4(26); 5(16); 3(14),22.12,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 9,text,104,-(34); 4(17); 3(16),22.12,5.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 10,text,104,4(32); 3(23); -(14),22.12,5.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 11,text,104,4(49); 3(17); -(13),21.15,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 12,text,104,3(49); 4(15); -(13),22.12,5.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 13,text,104,4(34); 3(30); -(13),22.12,5.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 14,text,104,4(37); 3(25); -(13),22.12,5.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 15,text,104,3(40); 4(21); -(13),22.12,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 16,text,104,5(35); 3(27); -(13),22.12,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 17,text,104,4(34); 3(29); -(13),22.12,5.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 18,text,104,3(35); 4(28); -(13),22.12,5.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 19,text,104,4(38); 5(26); -(13),21.15,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 20,text,104,5(34); 4(22); -(13),22.12,5.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 21,text,104,5(39); 4(26); -(13),22.12,5.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 22,text,104,5(32); 4(20); -(13),22.12,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 23,text,104,4(35); -(23); 5(13),22.12,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 24,text,104,4(38); 5(26); -(13),22.12,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 25,text,104,5(46); 4(21); -(13),22.12,4.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 26,text,104,4(39); 5(16); -(13),22.12,5.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 27,text,104,4(27); 3(17); 5(14),21.15,8.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 28,text,104,3(39); 4(18); -(13),22.12,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 29,text,104,4(31); 3(16); -(13),22.12,7.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 30,text,104,2(18); 3(17); 4(15),22.12,7.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 31,text,104,4(37); 3(19); -(13),22.12,7.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 32,text,104,4(39); 3(15); -(13),22.12,7.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 33,text,104,4(35); 3(17); -(13),22.12,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 34,text,104,3(34); 2(24); -(13),22.12,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 35,text,104,4(20); -(13); 3.75(11),21.15,11.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 36,text,104,3.5(24); 3.75(15); -(13),22.12,9.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 37,text,104,3.75(17); 4(16); -(13),22.12,13.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 38,text,104,-(13); 3.25(11); 4(11),22.12,13.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 39,text,104,4(16); -(13); 3.5(13),22.12,13.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 40,text,104,4.25(21); 4(14); -(13),22.12,12.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 41,text,104,4(18); -(13); 3.5(9),22.12,14.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 42,text,104,3.75(21); 3.25(14); -(13),22.12,11.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 43,text,104,-(13); VARIABLES IN THE STATISTICAL ANALISYS(1); POWER DATA(1),18.27,73.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 44,text,104,-(13); PWSOURCE(1); 185.30241633940156(1),21.15,70.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 45,text,104,U(44); NU(23); -(13),14.42,11.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 46,text,104,U(48); NU(19); -(13),19.23,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 47,text,104,U(39); NU(28); -(13),19.23,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 48,text,104,U(41); NU(26); -(13),7.69,19.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 49,text,104,U(39); NU(28); -(13),19.23,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 50,text,104,U(48); NU(19); -(13),19.23,7.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 51,text,104,U(43); NU(24); -(13),19.23,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 52,text,104,U(44); NU(23); -(13),19.23,6.0,,,
+S07_phr,data/public_v2/raw/07_phr/Results-PHRs-usab-sust.xlsx::t-student,Unnamed: 53,text,104,Thresholds(4),96.15,1.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::BENCHMARK,Minsup,text,48,0.5(8); 0.55(8); 0.6(8),0.0,13.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::BENCHMARK,Max gap,numeric,48,,16.67,1.0,4.0,4.0,4.0
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::BENCHMARK,Max pattern length,numeric,48,,16.67,9.0,3.0,12.0,6.05
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::BENCHMARK,Avg length,numeric,48,,16.67,40.0,1.9090909090909,4.77777777777777,3.0083
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::BENCHMARK,# of patterns,numeric,48,,16.67,37.0,22.0,243.0,95.4
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::BENCHMARK,Max Minsup,numeric,48,,16.67,16.0,34.0,50.0,42.15
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::BENCHMARK,Unnamed: 6,text,48,,100.0,0.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::BENCHMARK,Unnamed: 7,text,48,All Dashboards(1); Minsup(1); 0.5(1),85.42,7.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::BENCHMARK,Unnamed: 8,text,48,4(5); Max gap(1),87.5,2.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::BENCHMARK,Unnamed: 9,text,48,Avg Max pattern length(1); 7.25(1); 6.625(1),87.5,6.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::BENCHMARK,Unnamed: 10,text,48,Avg length(1); 3.462989317(1); 3.245033202(1),87.5,6.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::BENCHMARK,Unnamed: 11,text,48,Avg # of patterns(1); 168.125(1); 120.625(1),87.5,6.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::BENCHMARK,Unnamed: 12,text,48,Avg Max minsup(1); 36.5(1); 39.75(1),87.5,6.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::BENCHMARK,Unnamed: 13,text,48,,100.0,0.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::BENCHMARK,Unnamed: 14,text,48,Key(1); Minsup(1); Max gap(1),66.67,16.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::BENCHMARK,Unnamed: 15,text,48,The minimum support value (minimum thres(1); The maximum allowed gap between consecut(1); The maximum pattern length in the found (1),70.83,14.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D1-Q1,"Pattern (0.55, gap=4)",text,19,"28, 109, 26, 28(1); 12, 30, 18, 19, 20(1); 12, 30, 19, 20(1)",42.11,11.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D1-Q1,Support,numeric,19,,36.84,6.0,28.0,38.0,30.1818
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D1-Q1,Split,numeric,19,,42.11,6.0,4.0,42.0,18.4545
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D1-Q1,Unnamed: 3,numeric,19,,42.11,9.0,4.0,109.0,30.1818
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D1-Q1,Unnamed: 4,numeric,19,,42.11,10.0,4.0,115.0,35.5455
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D1-Q1,Unnamed: 5,numeric,19,,42.11,9.0,6.0,115.0,28.7273
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D1-Q1,Unnamed: 6,numeric,19,,94.74,1.0,20.0,20.0,20.0
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D1-Q1,Abstracted,text,19,expl country filter(5); expl page(3); expl view filter(2),42.11,4.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D1-Q1,Unnamed: 8,text,19,expl country filter(3); use country filter(2); filter globally(2),42.11,6.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D1-Q1,Unnamed: 9,text,19,use country filter(4); expl page(2); expl view filter(1),42.11,7.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D1-Q1,Unnamed: 10,text,19,expl country filter(3); expl page(2); use view filter(1),42.11,8.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D1-Q1,Unnamed: 11,text,19,expl view filter(1),94.74,1.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D1-Q1,Length,numeric,19,,36.84,3.0,4.0,5.0,4.0909
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D1-Q1,Key,numeric,19,,0.0,19.0,4.0,115.0,31.2222
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D1-Q1,Unnamed: 14,text,19,Event-element(1); mhover-bs-select(1); mhover-div_test(1),0.0,19.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D1-Q1,Unnamed: 15,text,19,explore country filter(3); explore view filter(3); use country filter(3),0.0,10.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D2-Q1,"Pattern (0.55, gap=4)",text,18,"31, 48, 49, 50, 51(1); 12, 39, 87, 88(1); 14, 12, 39, 87(1)",50.0,9.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D2-Q1,Support,numeric,18,,44.44,5.0,28.0,37.0,30.0
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D2-Q1,Split,numeric,18,,50.0,6.0,3.0,48.0,22.4444
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D2-Q1,Unnamed: 3,numeric,18,,50.0,7.0,12.0,61.0,35.1111
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D2-Q1,Unnamed: 4,numeric,18,,50.0,6.0,12.0,87.0,43.3333
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D2-Q1,Unnamed: 5,numeric,18,,50.0,5.0,39.0,88.0,57.3333
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D2-Q1,Unnamed: 6,numeric,18,,72.22,2.0,51.0,64.0,53.6
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D2-Q1,Abstracted,text,18,expl view filter(3); goto Q(2); expl page(1),50.0,6.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D2-Q1,Unnamed: 8,text,18,filter globally(2); goto Q(2); expl view filter(2),50.0,6.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D2-Q1,Unnamed: 9,text,18,expl view filter(4); expl page(2); read db title(1),50.0,5.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D2-Q1,Unnamed: 10,text,18,use view filter(4); goto Q(2); read aTitle(1),50.0,5.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D2-Q1,Unnamed: 11,text,18,expl view filter(4); expl country filter(1),72.22,2.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D2-Q1,Length,numeric,18,,44.44,3.0,4.0,5.0,4.5556
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D2-Q1,Key,numeric,18,,0.0,18.0,3.0,88.0,46.0588
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D2-Q1,Unnamed: 14,text,18,Event-element(1); mhover-div_test(1); mhover-DashboardPage(1),0.0,18.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D2-Q1,Unnamed: 15,text,18,explore view filter(3); goto Q(3); explore country filter(3),0.0,12.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D3-Q2,"Pattern (0.55, gap=4)",text,59,"6, 28, 29, 28(1); 5, 6, 6, 6(1); 6, 8, 9, 67(1)",1.69,58.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D3-Q2,Support,numeric,59,,0.0,9.0,28.0,35.0,29.9483
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D3-Q2,Split,numeric,59,,1.69,12.0,3.0,40.0,12.6552
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D3-Q2,Unnamed: 3,numeric,59,,1.69,12.0,5.0,29.0,16.4655
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D3-Q2,Unnamed: 4,numeric,59,,1.69,13.0,6.0,31.0,17.2069
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D3-Q2,Unnamed: 5,numeric,59,,1.69,10.0,6.0,67.0,19.569
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D3-Q2,Unnamed: 6,numeric,59,,49.15,8.0,5.0,31.0,22.0667
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D3-Q2,Unnamed: 7,numeric,59,,69.49,4.0,5.0,31.0,24.5556
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D3-Q2,Unnamed: 8,numeric,59,,94.92,2.0,5.0,25.0,18.3333
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D3-Q2,Length,numeric,59,,0.0,5.0,4.0,7.0,4.8793
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D3-Q2,Abstracted,text,59,explore page(26); expl country filter(8); customise ch1(7),1.69,11.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D3-Q2,Unnamed: 11,text,59,explore page(13); expl continent filter(11); expl country filter(9),1.69,9.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D3-Q2,Unnamed: 12,text,59,explore page(13); expl country filter(11); use country filter(9),1.69,8.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D3-Q2,Unnamed: 13,text,59,expl country filter(18); explore page(14); goto Q(7),1.69,9.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D3-Q2,Unnamed: 14,text,59,use country filter(14); expl country filter(6); use continent filter(3),49.15,7.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D3-Q2,Unnamed: 15,text,59,use continent filter(7); expl country filter(6); use country filter(3),69.49,4.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D3-Q2,Unnamed: 16,text,59,expl country filter(2); customise ch1(1),94.92,2.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D3-Q2,KEY,numeric,59,,66.1,20.0,3.0,67.0,22.0
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D3-Q2,Unnamed: 18,text,59,Event-element(1); hover-DashboardPage(1); hover-_DIV1_DIV1_DIV1_SECTION1_DIV4_DIV1(1),66.1,20.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D3-Q2,Unnamed: 19,text,59,custom selector(3); use country filter(3); explore country filter(2),66.1,13.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,"Pattern (0.55, gap=4)",text,90,"1, 5, 1, 1(1); 1, 1, 1, 1(1); 1, 33, 33, 1(1)",1.11,89.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,Support,numeric,90,,0.0,9.0,28.0,37.0,29.0787
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,Split,numeric,90,,1.11,11.0,1.0,42.0,13.5955
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,Unnamed: 3,numeric,90,,1.11,13.0,1.0,42.0,18.7416
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,Unnamed: 4,numeric,90,,1.11,12.0,1.0,42.0,21.8427
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,Unnamed: 5,numeric,90,,1.11,12.0,1.0,42.0,19.4045
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,Unnamed: 6,numeric,90,,34.44,7.0,1.0,42.0,22.5932
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,Unnamed: 7,numeric,90,,44.44,4.0,23.0,29.0,24.18
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,Unnamed: 8,numeric,90,,52.22,3.0,23.0,29.0,24.4651
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,Unnamed: 9,numeric,90,,57.78,3.0,23.0,29.0,25.3947
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,Unnamed: 10,numeric,90,,73.33,2.0,23.0,29.0,25.0
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,Unnamed: 11,numeric,90,,96.67,1.0,23.0,23.0,23.0
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,Length,numeric,90,,0.0,8.0,4.0,10.0,6.4382
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,Abstracted,text,90,explore page(33); use country filter(33); expl country filter(9),1.11,9.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,Unnamed: 14,text,90,use country filter(38); explore page(17); expl country filter(13),1.11,11.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,Unnamed: 15,text,90,use country filter(47); explore page(10); expl country filter(10),1.11,9.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,Unnamed: 16,text,90,use country filter(51); explore page(17); expl country filter(5),1.11,10.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,Unnamed: 17,text,90,use country filter(49); explore page(6); use continent filter(2),34.44,5.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,Unnamed: 18,text,90,use country filter(49); use continent filter(1),44.44,2.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,Unnamed: 19,text,90,use country filter(43),52.22,1.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,Unnamed: 20,text,90,use country filter(38),57.78,1.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,Unnamed: 21,text,90,use country filter(24),73.33,1.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,Unnamed: 22,text,90,use country filter(3),96.67,1.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,Unnamed: 23,text,90,,100.0,0.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,Key,numeric,90,,78.89,19.0,1.0,42.0,21.2778
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,Unnamed: 25,text,90,Event-element(1); hover-DashboardPage(1); hover-_DIV1_DIV1_DIV1_SECTION1_DIV4_DIV1(1),78.89,19.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D4-Q2,Unnamed: 26,text,90,use country filter(4); custom selector(3); explore continent filter(2),78.89,12.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D5-Q1,"Pattern (0.55, gap=4)",text,35,"1, 12, 1, 6(1); 1, 1, 6, 7, 8(1); 12, 5, 13, 19(1)",2.86,34.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D5-Q1,Support,numeric,35,,0.0,9.0,28.0,35.0,30.3824
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D5-Q1,Split,numeric,35,,2.86,7.0,1.0,23.0,8.5294
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D5-Q1,Unnamed: 3,numeric,35,,2.86,9.0,1.0,23.0,7.0588
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D5-Q1,Unnamed: 4,numeric,35,,2.86,10.0,1.0,23.0,8.2353
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D5-Q1,Unnamed: 5,numeric,35,,2.86,8.0,1.0,23.0,7.7353
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D5-Q1,Unnamed: 6,numeric,35,,88.57,4.0,1.0,8.0,5.5
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D5-Q1,Length,numeric,35,,0.0,3.0,4.0,5.0,4.1176
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D5-Q1,Abstracted,text,35,expl page(15); expl date filter(10); read ch1(8),2.86,4.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D5-Q1,Unnamed: 9,text,35,expl page(13); expl date filter(10); goto Q(5),2.86,6.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D5-Q1,Unnamed: 10,text,35,goto Q(10); expl page(8); use date filter(7),2.86,7.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D5-Q1,Unnamed: 11,text,35,expl page(12); goto Q(6); read db title(5),2.86,7.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D5-Q1,Unnamed: 12,text,35,read aTitle(1); read db title(1); goto Q(1),88.57,4.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D5-Q1,Key,numeric,35,,65.71,12.0,1.0,23.0,10.4545
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D5-Q1,Unnamed: 14,text,35,Event-element(1); hover-DashboardPage(1); hover-_DIV1_DIV1_DIV1_SECTION1_DIV3_DIV1(1),65.71,12.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D5-Q1,Unnamed: 15,text,35,explore date filter(3); read ch1(2); use date filter(2),65.71,8.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D6-Q1,"Pattern (0.55, gap=4)",text,26,"14, 1, 3, 1(1); 1, 6, 36, 37(1); 14, 1, 28, 1(1)",3.85,25.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D6-Q1,Support,numeric,26,,0.0,9.0,28.0,35.0,30.2
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D6-Q1,Split,numeric,26,,3.85,6.0,1.0,14.0,6.08
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D6-Q1,Unnamed: 3,numeric,26,,3.85,8.0,1.0,28.0,7.32
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D6-Q1,Unnamed: 4,numeric,26,,3.85,9.0,1.0,36.0,9.92
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D6-Q1,Unnamed: 5,numeric,26,,3.85,10.0,1.0,37.0,9.68
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D6-Q1,Unnamed: 6,numeric,26,,80.77,3.0,1.0,36.0,15.8
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D6-Q1,Length,numeric,26,,0.0,3.0,4.0,5.0,4.2
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D6-Q1,Abstracted,text,26,read ch1(10); expl page(9); expl date filter(5),3.85,4.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D6-Q1,Unnamed: 9,text,26,expl date filter(10); expl page(6); use date filter(5),3.85,5.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D6-Q1,Unnamed: 10,text,26,expl page(8); expl date filter(7); use date filter(6),3.85,5.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D6-Q1,Unnamed: 11,text,26,goto Q(7); use date filter(5); expl page(4),3.85,7.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D6-Q1,Unnamed: 12,text,26,read ch1(3); read db title(1); expl page(1),80.77,3.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D6-Q1,Key,numeric,26,,50.0,13.0,1.0,37.0,14.1667
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D6-Q1,Unnamed: 14,text,26,Event-element(1); hover-_DIV1_DIV1_DIV1_SECTION1_DIV4_DIV1(1); hover-DashboardPage(1),50.0,13.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D6-Q1,Unnamed: 15,text,26,read ch1(3); explore date filter(3); use date filter(2),50.0,8.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D7-Q2,"Pattern (0.55, gap=4)",text,75,"1, 6, 1, 1(1); 1, 6, 60, 60(1); 20, 1, 1, 6, 1(1)",1.33,74.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D7-Q2,Support,numeric,75,,0.0,8.0,28.0,38.0,29.2027
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D7-Q2,Split,numeric,75,,1.33,13.0,1.0,60.0,12.6757
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D7-Q2,Unnamed: 3,numeric,75,,1.33,17.0,1.0,60.0,14.7703
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D7-Q2,Unnamed: 4,numeric,75,,1.33,16.0,1.0,60.0,17.0405
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D7-Q2,Unnamed: 5,numeric,75,,2.67,14.0,1.0,60.0,17.8904
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D7-Q2,Unnamed: 6,numeric,75,,34.67,9.0,1.0,50.0,14.4286
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D7-Q2,Unnamed: 7,numeric,75,,73.33,6.0,15.0,60.0,20.8
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D7-Q2,Unnamed: 8,numeric,75,,93.33,3.0,15.0,25.0,20.0
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D7-Q2,Unnamed: 9,numeric,75,,98.67,1.0,20.0,20.0,20.0
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D7-Q2,Length,numeric,75,,0.0,6.0,3,8,5.0
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D7-Q2,Abstracted,text,75,expl page(24); expl country filter(17); use country filter(8),1.33,8.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D7-Q2,Unnamed: 12,text,75,expl page(15); read db title(12); expl country filter(11),1.33,13.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D7-Q2,Unnamed: 13,text,75,expl country filter(17); read db title(16); expl page(12),1.33,11.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D7-Q2,Unnamed: 14,text,75,expl page(20); expl country filter(15); use country filter(13),2.67,11.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D7-Q2,Unnamed: 15,text,75,expl country filter(17); expl page(10); use country filter(10),34.67,8.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D7-Q2,Unnamed: 16,text,75,expl country filter(8); use country filter(8); use continent filter(2),73.33,5.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D7-Q2,Unnamed: 17,text,75,expl country filter(2); use country filter(2); customise ch1(1),93.33,3.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D7-Q2,Unnamed: 18,text,75,customise ch1(1),98.67,1.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D7-Q2,Key,numeric,75,,65.33,26.0,1.0,60.0,19.88
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D7-Q2,Unnamed: 20,text,75,Event-element(1); hover-DashboardPage(1); hover-_DIV1_DIV1_DIV1_SECTION1_DIV4_DIV1(1),65.33,26.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D7-Q2,Unnamed: 21,text,75,use country filter(3); use date filter(3); expl country filter(2),65.33,16.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D8-Q2,"Pattern (0.55, gap=4)",text,67,"1, 1, 5, 1(1); 15, 13, 14, 15(1); 30, 4, 1, 1(1)",1.49,66.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D8-Q2,Support,numeric,67,,0.0,11.0,28.0,38.0,30.3636
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D8-Q2,Split,numeric,67,,1.49,13.0,1.0,30.0,8.3636
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D8-Q2,Unnamed: 3,numeric,67,,1.49,14.0,1.0,30.0,8.2424
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D8-Q2,Unnamed: 4,numeric,67,,1.49,15.0,1.0,29.0,9.303
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D8-Q2,Unnamed: 5,numeric,67,,1.49,12.0,1.0,25.0,9.5455
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D8-Q2,Unnamed: 6,numeric,67,,46.27,7.0,1.0,29.0,9.1944
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D8-Q2,Unnamed: 7,numeric,67,,85.07,5.0,1.0,22.0,16.0
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D8-Q2,Unnamed: 8,numeric,67,,92.54,3.0,16.0,29.0,21.0
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D8-Q2,Unnamed: 9,numeric,67,,94.03,2.0,4.0,16.0,10.0
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D8-Q2,Length,numeric,67,,0.0,6.0,4.0,8.0,4.8333
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D8-Q2,Abstracted,text,67,expl page(24); custom ch1(11); read ch1(9),1.49,8.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D8-Q2,Unnamed: 12,text,67,expl page(24); expl country filter(11); expl continent filter(9),1.49,11.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D8-Q2,Unnamed: 13,text,67,expl page(22); read db title(13); expl continent filter(9),1.49,9.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D8-Q2,Unnamed: 14,text,67,expl page(18); read db title(18); expl country filter(14),1.49,9.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D8-Q2,Unnamed: 15,text,67,expl page(18); expl country filter(10); use country filter(4),46.27,5.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D8-Q2,Unnamed: 16,text,67,use country filter(3); expl country filter(3); use continent filter(2),85.07,5.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D8-Q2,Unnamed: 17,text,67,expl country filter(2); use continent filter(2); use country filter(1),92.54,3.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D8-Q2,Unnamed: 18,text,67,custom ch1(2); expl country filter(2),94.03,2.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D8-Q2,Key,numeric,67,,70.15,20.0,1.0,30.0,15.4211
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D8-Q2,Unnamed: 20,text,67,Event-element(1); hover-DashboardPage(1); mhover-id1_d8b(1),70.15,20.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::D8-Q2,Unnamed: 21,text,67,use country filter(3); read ch1(2); expl country filter(2),70.15,12.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::Event-element further explanati,Event-element,text,16,country filter(1); view filter(1); explore page(1),0.0,16.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/Interaction Patterns Dataset.xlsx::Event-element further explanati,Further explanation,text,16,Country filter is used to filter the cou(1); View filter is used to filter the view t(1); Page is the background page of the dashb(1),6.25,15.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/dependent and independent variables.csv,P,text,1008,f118ebdd7e9350d704d9f91ee7de2702(16); baa65da3618ecc0203e2163032046969(16); 4be9bf38a921f0512e97cb114e70686f(16),0.0,63.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/dependent and independent variables.csv,DB,numeric,1008,,0.0,8.0,1,8,4.5
+S08_dashboards,data/public_v2/raw/08_dashboards/dependent and independent variables.csv,Issue,text,1008,Order&Grouping(252); InforOverload(252); DataUnderstanding(252),0.0,4.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/dependent and independent variables.csv,Type,text,1008,Baseline(504); Intervention(504),0.0,2.0,,,
+S08_dashboards,data/public_v2/raw/08_dashboards/dependent and independent variables.csv,Q,numeric,1008,,0.0,2.0,1,2,1.5
+S08_dashboards,data/public_v2/raw/08_dashboards/dependent and independent variables.csv,Answer,numeric,1008,,0.0,2.0,0,1,0.5466
+S08_dashboards,data/public_v2/raw/08_dashboards/dependent and independent variables.csv,Time,numeric,1008,,0.0,402.0,0.4,25.53,3.5188
+S08_dashboards,data/public_v2/raw/08_dashboards/dependent and independent variables.csv,SGLT,numeric,1008,,0.0,5.0,0,4,2.5714
+S08_dashboards,data/public_v2/raw/08_dashboards/dependent and independent variables.csv,mental,numeric,1008,,0.0,21.0,0.0,20.0,5.5317
+S08_dashboards,data/public_v2/raw/08_dashboards/dependent and independent variables.csv,physical,numeric,1008,,0.0,20.0,0.0,20.0,3.3214
+S08_dashboards,data/public_v2/raw/08_dashboards/dependent and independent variables.csv,temporal,numeric,1008,,0.0,21.0,0,20,3.8938
+S08_dashboards,data/public_v2/raw/08_dashboards/dependent and independent variables.csv,performance,numeric,1008,,0.0,21.0,0,20,13.5625
+S08_dashboards,data/public_v2/raw/08_dashboards/dependent and independent variables.csv,effort,numeric,1008,,0.0,21.0,0,20,4.9623
+S08_dashboards,data/public_v2/raw/08_dashboards/dependent and independent variables.csv,frustration,numeric,1008,,0.0,21.0,0.0,20.0,4.7292
+S08_dashboards,data/public_v2/raw/08_dashboards/dependent and independent variables.csv,avg_others,numeric,1008,,0.0,84.0,0.0,20.0,4.4877
+S08_dashboards,data/public_v2/raw/08_dashboards/dependent and independent variables.csv,avg_all,numeric,1008,,0.0,94.0,0.0,18.33,6.0001
+S10_uicrit_rico,data/public_v2/raw/10_uicrit_rico/app_details.csv,App Package Name,text,9384,com.guideme.movieboxa(1); com.aon.mangaareader(1); com.diaohs.cola(1),0.0,9384.0,,,
+S10_uicrit_rico,data/public_v2/raw/10_uicrit_rico/app_details.csv,Play Store Name,text,9384,Music Player(10); Weather(9); Video Player(7),0.0,9178.0,,,
+S10_uicrit_rico,data/public_v2/raw/10_uicrit_rico/app_details.csv,Category,text,9384,Entertainment(946); Social(593); Communication(592),0.0,28.0,,,
+S10_uicrit_rico,data/public_v2/raw/10_uicrit_rico/app_details.csv,Average Rating,numeric,9384,,0.0,33.0,-1.0,5.0,4.1028
+S10_uicrit_rico,data/public_v2/raw/10_uicrit_rico/app_details.csv,Number of Ratings,numeric,9384,,0.0,7168.0,-1.0,65923961.0,79829.5298
+S10_uicrit_rico,data/public_v2/raw/10_uicrit_rico/app_details.csv,Number of Downloads,text,9384,"  1,000,000 - 5,000,000  (2930);   100,000 - 500,000  (2255);   500,000 - 1,000,000  (1169)",0.0,16.0,,,
+S10_uicrit_rico,data/public_v2/raw/10_uicrit_rico/app_details.csv,Date Updated,text,9384,"May 11, 2017(177); May 12, 2017(153); December 13, 2016(117)",0.0,1167.0,,,
+S10_uicrit_rico,data/public_v2/raw/10_uicrit_rico/app_details.csv,Icon URL,text,9384,https://lh3.googleusercontent.com/LsbPA6(1); https://lh3.googleusercontent.com/xt-B21(1); https://lh3.googleusercontent.com/DX-XZC(1),0.01,9383.0,,,
+S10_uicrit_rico,data/public_v2/raw/10_uicrit_rico/ui_details.csv,UI Number,numeric,66261,,0.0,66261.0,0,72218,36073.6074
+S10_uicrit_rico,data/public_v2/raw/10_uicrit_rico/ui_details.csv,App Package Name,text,66261,com.lazada.android(76); com.bigoven.android(69); com.jet.jet.app(68),0.0,9384.0,,,
+S10_uicrit_rico,data/public_v2/raw/10_uicrit_rico/ui_details.csv,Interaction Trace Number,numeric,66261,,0.0,6.0,0,6,0.1696
+S10_uicrit_rico,data/public_v2/raw/10_uicrit_rico/ui_details.csv,UI Number in Trace,numeric,66261,,0.0,5235.0,1,21332,816.094
+S10_uicrit_rico,data/public_v2/raw/10_uicrit_rico/uicrit_public.csv,rico_id,numeric,2981,,0.0,1000.0,15,72194,35870.7175
+S10_uicrit_rico,data/public_v2/raw/10_uicrit_rico/uicrit_public.csv,task,text,2981,Select an option to explore(31); Manage settings(9); Set your preferences for settings(7),0.07,2851.0,,,
+S10_uicrit_rico,data/public_v2/raw/10_uicrit_rico/uicrit_public.csv,aesthetics_rating,numeric,2981,,0.0,10.0,1,10,5.7474
+S10_uicrit_rico,data/public_v2/raw/10_uicrit_rico/uicrit_public.csv,learnability,numeric,2981,,0.03,5.0,1.0,5.0,3.0094
+S10_uicrit_rico,data/public_v2/raw/10_uicrit_rico/uicrit_public.csv,efficency,numeric,2981,,0.0,5.0,1,5,3.0195
+S10_uicrit_rico,data/public_v2/raw/10_uicrit_rico/uicrit_public.csv,usability_rating,numeric,2981,,0.0,10.0,1,10,5.8158
+S10_uicrit_rico,data/public_v2/raw/10_uicrit_rico/uicrit_public.csv,design_quality_rating,numeric,2981,,0.0,9.0,1,9,5.8162
+S10_uicrit_rico,data/public_v2/raw/10_uicrit_rico/uicrit_public.csv,comments_source,text,2981,"['human', 'human'](380); ['human', 'human', 'human'](244); ['human'](234)",0.0,147.0,,,
+S10_uicrit_rico,data/public_v2/raw/10_uicrit_rico/uicrit_public.csv,comments,text,2981,"[](3); [""Comment 1\nThe expected standard is th(1); ['Comment 1\nThe expected standard is to(1)",0.0,2979.0,,,
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,id,numeric,68,,0.0,68.0,4,73,38.1618
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,course,numeric,68,,0.0,2.0,2,5,3.4559
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,name,text,68,Einsendeaufgabe 1.1(2); Einsendeaufgabe 2.8(2); Einsendeaufgabe 1.2(2),0.0,38.0,,,
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,intro,text,68,<removed>(68),0.0,1.0,,,
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,introformat,numeric,68,,0.0,1.0,1,1,1.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,alwaysshowdescription,numeric,68,,0.0,1.0,1,1,1.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,nosubmissions,numeric,68,,0.0,2.0,0,1,0.0882
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,submissiondrafts,numeric,68,,0.0,1.0,0,0,0.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,sendnotifications,numeric,68,,0.0,1.0,0,0,0.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,sendlatenotifications,numeric,68,,0.0,1.0,0,0,0.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,duedate,numeric,68,,0.0,11.0,1569312900,1617227940,1592244324.7059
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,allowsubmissionsfromdate,numeric,68,,0.0,6.0,1569276000,1606086000,1584905611.7647
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,grade,numeric,68,,0.0,13.0,0,25,11.9265
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,timemodified,numeric,68,,0.0,68.0,1569319642,1603099057,1584330517.7059
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,requiresubmissionstatement,numeric,68,,0.0,1.0,0,0,0.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,completionsubmit,numeric,68,,0.0,2.0,0,1,0.9559
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,cutoffdate,numeric,68,,0.0,10.0,0,1612220340,1427767387.0588
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,gradingduedate,numeric,68,,0.0,1.0,0,0,0.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,teamsubmission,numeric,68,,0.0,2.0,0,1,0.0294
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,requireallteammemberssubmit,numeric,68,,0.0,1.0,0,0,0.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,teamsubmissiongroupingid,numeric,68,,0.0,1.0,0,0,0.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,blindmarking,numeric,68,,0.0,1.0,0,0,0.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,revealidentities,numeric,68,,0.0,1.0,0,0,0.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,attemptreopenmethod,text,68,none(68),0.0,1.0,,,
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,maxattempts,numeric,68,,0.0,1.0,-1,-1,-1.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,markingworkflow,numeric,68,,0.0,1.0,0,0,0.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,markingallocation,numeric,68,,0.0,1.0,0,0,0.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,sendstudentnotifications,numeric,68,,0.0,1.0,1,1,1.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_assign.csv,preventsubmissionnotingroup,numeric,68,,0.0,1.0,0,0,0.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,id,numeric,158,,0.0,158.0,2,163,82.2595
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,course,numeric,158,,0.0,5.0,2,8,3.8671
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,name,text,158,<removed>(158),0.0,1.0,,,
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,intro,text,158,<removed>(158),0.0,1.0,,,
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,introformat,numeric,158,,0.0,1.0,1,1,1.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,timeopen,numeric,158,,0.0,1.0,0,0,0.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,timeclose,numeric,158,,0.0,1.0,0,0,0.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,timelimit,numeric,158,,0.0,1.0,0,0,0.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,overduehandling,text,158,autosubmit(141); autoabandon(17),0.0,2.0,,,
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,graceperiod,numeric,158,,0.0,1.0,0,0,0.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,preferredbehaviour,text,158,deferredfeedback(148); immediatefeedback(10),0.0,2.0,,,
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,canredoquestions,numeric,158,,0.0,1.0,0,0,0.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,attempts,numeric,158,,0.0,1.0,0,0,0.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,attemptonlast,numeric,158,,0.0,1.0,0,0,0.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,grademethod,numeric,158,,0.0,1.0,1,1,1.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,decimalpoints,numeric,158,,0.0,1.0,2,2,2.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,questiondecimalpoints,numeric,158,,0.0,1.0,-1,-1,-1.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,reviewattempt,numeric,158,,0.0,1.0,69888,69888,69888.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,reviewcorrectness,numeric,158,,0.0,2.0,0,4352,4076.557
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,reviewmarks,numeric,158,,0.0,2.0,0,4352,4076.557
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,reviewspecificfeedback,numeric,158,,0.0,2.0,4352,69888,8499.8481
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,reviewgeneralfeedback,numeric,158,,0.0,3.0,256,69888,8473.9241
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,reviewrightanswer,numeric,158,,0.0,2.0,0,4352,908.962
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,reviewoverallfeedback,numeric,158,,0.0,1.0,4352,4352,4352.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,questionsperpage,numeric,158,,0.0,1.0,1,1,1.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,navmethod,text,158,free(158),0.0,1.0,,,
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,shuffleanswers,numeric,158,,0.0,1.0,1,1,1.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,sumgrades,numeric,158,,0.0,20.0,0.0,153.0,9.4114
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,grade,numeric,158,,0.0,3.0,0.0,100.0,15.0633
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,timecreated,numeric,158,,0.0,1.0,0,0,0.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,timemodified,numeric,158,,0.0,86.0,1570004007,1611058676,1588309180.7025
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,password,text,158,,100.0,0.0,,,
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,subnet,text,158,,100.0,0.0,,,
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,browsersecurity,text,158,-(158),0.0,1.0,,,
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,delay1,numeric,158,,0.0,1.0,0,0,0.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,delay2,numeric,158,,0.0,1.0,0,0,0.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,showuserpicture,numeric,158,,0.0,1.0,0,0,0.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,showblocks,numeric,158,,0.0,1.0,0,0,0.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,completionattemptsexhausted,numeric,158,,0.0,1.0,0,0,0.0
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,completionpass,numeric,158,,0.0,2.0,0,1,0.057
+S12_delfi22,data/raw/05/delfi22-main/data/m_quiz.csv,allowofflineattempts,numeric,158,,0.0,1.0,0,0,0.0

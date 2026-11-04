@@ -1,0 +1,33 @@
+# =====================================================================
+# Criterios de elegibilidad de fuentes (etapa 2)
+# ---------------------------------------------------------------------
+# Se evalúan automáticamente sobre los "hechos" que la etapa 1 extrae de
+# cada fuente (src/usab_ds/profiling.py). Formato inspirado en el flujo
+# de elegibilidad PRISMA 2020: cada fuente queda incluida o excluida con
+# el/los criterio(s) que lo explican.
+# =====================================================================
+
+criteria:
+  C1_accessible:
+    description: "Los archivos existen localmente y se pueden leer de forma programática."
+    fact: readable
+  C2_web_context:
+    description: "El objeto evaluado es una interfaz web o de navegador (o un prototipo de interfaz web/app evaluado con heurísticas)."
+    fact: web_context
+  C3_browser_interactions:
+    description: "Contiene eventos de interacción del navegador con marca de tiempo (clic, scroll, teclado, foco, navegación)."
+    fact: has_timestamped_interactions
+  C4_target_heuristic_labels:
+    description: "Contiene juicios explícitos de violación de al menos una heurística objetivo (H1, H4, H5, H6), con nombre Nielsen reconocible."
+    fact: has_target_heuristic_labels
+  C5_disaggregated:
+    description: "Los datos están a nivel de unidad (sesión, tarea, interfaz), no solo como estadísticas agregadas."
+    fact: disaggregated
+  C6_html_available:
+    description: "Dispone de HTML/DOM de las interfaces para calcular rasgos estáticos comparables."
+    fact: has_html
+
+roles:
+  behavior: {all_of: [C1_accessible, C2_web_context, C3_browser_interactions, C5_disaggregated]}
+  labels:   {all_of: [C1_accessible, C2_web_context, C4_target_heuristic_labels, C5_disaggregated]}
+  bridge:   {all_of: [C1_accessible, C2_web_context, C6_html_available]}

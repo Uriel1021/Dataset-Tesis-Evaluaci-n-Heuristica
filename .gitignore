@@ -50,3 +50,9 @@ __pycache__/
 .cache/
 .pytest_cache/
 .mypy_cache/
+
+# Backend
+backend/data/
+
+# Documento de tesis (no se publica)
+tesis.pdf

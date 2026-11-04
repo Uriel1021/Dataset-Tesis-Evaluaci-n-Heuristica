@@ -1,0 +1,14 @@
+source,name,C1_accessible,C2_web_context,C3_browser_interactions,C4_target_heuristic_labels,C5_disaggregated,C6_html_available,roles,motivo
+S01_web_emotions_28489601,Interacciones web + emociones (Figshare 28489601),True,True,True,False,True,False,behavior,cumple todos los criterios del rol
+S02_a11y_cua,"Reduced-A11y-CUA (usuarios ciegos/baja visión, videntes y agentes CUA)",True,True,True,False,True,True,behavior+bridge,cumple todos los criterios del rol
+S03_vt_llm_prototypes_29042675,LLM-Based Heuristic Evaluations of High- and Low-Fidelity Prototypes (GPT-4o),True,True,False,True,True,False,labels,cumple todos los criterios del rol
+S04_catching_ux_flaws,Catching UX Flaws in Code (VL/HCC 2025),True,True,False,True,True,True,labels+bridge,cumple todos los criterios del rol
+S04b_catching_html,Código HTML recuperado de los sitios de Catching UX Flaws,True,True,False,False,True,True,bridge,cumple todos los criterios del rol
+S05_serene,SERENE (problemas de usabilidad en sitios municipales),True,True,False,False,True,False,excluded,behavior: falla C3_browser_interactions; labels: falla C4_target_heuristic_labels; bridge: falla C6_html_available
+S06_p3m,P3M – defectos de usabilidad detectados por GPT-4 y validados por expertos,True,True,False,True,True,False,labels,cumple todos los criterios del rol
+S07_phr,PHR – usabilidad y consumo energético de portales de salud,True,True,False,False,False,False,excluded,"behavior: falla C3_browser_interactions, C5_disaggregated; labels: falla C4_target_heuristic_labels, C5_disaggregated; bridge: falla C6_html_available"
+S08_dashboards,Dashboards – logs de interacción y variables experimentales,True,True,True,False,True,False,behavior,cumple todos los criterios del rol
+S09_cultural_heritage,Cultural Heritage,False,True,False,False,False,False,excluded,"behavior: falla C1_accessible, C3_browser_interactions, C5_disaggregated; labels: falla C1_accessible, C4_target_heuristic_labels, C5_disaggregated; bridge: falla C1_accessible, C6_html_available"
+S10_uicrit_rico,UICrit + RICO,True,False,False,False,True,False,excluded,"behavior: falla C2_web_context, C3_browser_interactions; labels: falla C2_web_context, C4_target_heuristic_labels; bridge: falla C2_web_context, C6_html_available"
+S11_zenodo_21891322,Zenodo 21891322 – evaluación heurística con capturas,True,True,False,False,False,False,excluded,"behavior: falla C3_browser_interactions, C5_disaggregated; labels: falla C4_target_heuristic_labels, C5_disaggregated; bridge: falla C6_html_available"
+S12_delfi22,DELFI 2022 – configuración de actividades Moodle,True,False,False,False,True,False,excluded,"behavior: falla C2_web_context, C3_browser_interactions; labels: falla C2_web_context, C4_target_heuristic_labels; bridge: falla C2_web_context, C6_html_available"

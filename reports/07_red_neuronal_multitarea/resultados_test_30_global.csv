@@ -1,0 +1,2 @@
+variables,hidden,dropout,weight_decay,lr,act,head_hidden,batch,n_seeds,max_epochs,patience,f1_macro,mcc_macro,f1_micro_H1H4H6,hamming_loss_H1H4H6,exact_match_H1H4H6
+completo,"(512, 256)",0.2,0.1,0.003,elu,0,16,10,300,25,0.6709287163141119,0.5081253795253013,0.6265060240963856,0.2222222222222222,0.4946236559139785

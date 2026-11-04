@@ -1,0 +1,149 @@
+# =====================================================================
+# Marco de correspondencia (crosswalk): Nielsen ↔ ISO/IEC 25010 ↔
+# medidas ISO/IEC 25022/25023 ↔ indicadores observables en el navegador
+# ---------------------------------------------------------------------
+# Nota normativa importante para la tesis:
+#   * ISO/IEC 25010 define el MODELO de calidad (características y
+#     subcaracterísticas); no define métricas.
+#   * Las MEDIDAS que operacionalizan ese modelo están en
+#       - ISO/IEC 25022:2016  (medición de la calidad en uso:
+#         efectividad, eficiencia, satisfacción)
+#       - ISO/IEC 25023:2016  (medición de la calidad del producto,
+#         p. ej. operabilidad, protección frente a errores de usuario)
+#   * En la revisión ISO/IEC 25010:2023 la característica "Usability"
+#     pasa a llamarse "Interaction capability" y el modelo de calidad
+#     en uso se traslada a ISO/IEC 25019:2023. Aquí se dan ambos nombres
+#     (2011 / 2023). Verificar la redacción exacta contra el texto
+#     normativo antes de citarlo en la tesis.
+#   * ISO 9241-11:2018 aporta la definición de usabilidad (efectividad,
+#     eficiencia y satisfacción en un contexto de uso específico).
+#
+# Tipo de evidencia de cada vínculo (campo `evidence`):
+#   normative   – la relación la establece directamente una norma
+#   literature  – reportada en estudios empíricos (ver `refs`)
+#   operational – hipótesis operacional de este trabajo; DEBE validarse
+#                 con juicio experto (plantilla generada en la etapa 2,
+#                 índice de validez de contenido de Lawshe, 1975)
+# =====================================================================
+
+references:
+  nielsen1994: "Nielsen, J. (1994). Enhancing the explanatory power of usability heuristics. Proc. CHI '94, 152–158."
+  nielsen1994b: "Nielsen, J. (1994). Severity ratings for usability problems. Nielsen Norman Group."
+  iso25010_2011: "ISO/IEC 25010:2011. Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models."
+  iso25010_2023: "ISO/IEC 25010:2023. SQuaRE — Product quality model."
+  iso25019_2023: "ISO/IEC 25019:2023. SQuaRE — Quality-in-use model."
+  iso25022: "ISO/IEC 25022:2016. SQuaRE — Measurement of quality in use."
+  iso25023: "ISO/IEC 25023:2016. SQuaRE — Measurement of system and software product quality."
+  iso9241_11: "ISO 9241-11:2018. Ergonomics of human-system interaction — Part 11: Usability: Definitions and concepts."
+  wcag22: "W3C (2023). Web Content Accessibility Guidelines (WCAG) 2.2. W3C Recommendation."
+  atterer2006: "Atterer, R., Wnuk, M., Schmidt, A. (2006). Knowing the user's every move: user activity tracking for website usability evaluation and implicit interaction. Proc. WWW '06, 203–212."
+  grigera2017: "Grigera, J., Garrido, A., Rivero, J. M., Rossi, G. (2017). Automatic detection of usability smells in web applications. International Journal of Human-Computer Studies, 97, 129–148."
+  ivory2001: "Ivory, M. Y., Hearst, M. A. (2001). The state of the art in automating usability evaluation of user interfaces. ACM Computing Surveys, 33(4), 470–516."
+  hornbaek2006: "Hornbæk, K. (2006). Current practice in measuring usability: Challenges to usability studies and research. International Journal of Human-Computer Studies, 64(2), 79–102."
+  navalpakkam2012: "Navalpakkam, V., Churchill, E. (2012). Mouse tracking: measuring and predicting users' experience of web-based content. Proc. CHI '12, 2963–2972."
+  catledge1995: "Catledge, L. D., Pitkow, J. E. (1995). Characterizing browsing strategies in the World-Wide Web. Computer Networks and ISDN Systems, 27(6), 1065–1073."
+  sauro2016: "Sauro, J., Lewis, J. R. (2016). Quantifying the User Experience (2nd ed.). Morgan Kaufmann."
+  hart1988: "Hart, S. G., Staveland, L. E. (1988). Development of NASA-TLX: Results of empirical and theoretical research. Advances in Psychology, 52, 139–183."
+  lawshe1975: "Lawshe, C. H. (1975). A quantitative approach to content validity. Personnel Psychology, 28(4), 563–575."
+  krippendorff2011: "Krippendorff, K. (2011). Computing Krippendorff's alpha-reliability. University of Pennsylvania."
+
+# ---------------------------------------------------------------------
+# Heurísticas objetivo
+# ---------------------------------------------------------------------
+heuristics:
+  H1:
+    name: "Visibility of system status"
+    name_es: "Visibilidad del estado del sistema"
+    aliases: ["visibility of system status", "visibility of the system status"]
+    definition: "El sistema mantiene informado al usuario sobre lo que ocurre mediante retroalimentación adecuada y oportuna."
+    iso25010:
+      - {char_2011: "Usability", sub_2011: "Operability", char_2023: "Interaction capability", sub_2023: "Self-descriptiveness", evidence: operational}
+      - {char_2011: "Usability", sub_2011: "Appropriateness recognizability", char_2023: "Interaction capability", sub_2023: "User assistance", evidence: operational}
+    quality_in_use: ["Efficiency"]
+    wcag: ["4.1.3 Status Messages"]
+    refs: [nielsen1994, iso25010_2011, iso25010_2023, grigera2017]
+  H4:
+    name: "Consistency and standards"
+    name_es: "Consistencia y estándares"
+    aliases: ["consistency and standards", "consistency & standards"]
+    definition: "Palabras, situaciones y acciones equivalentes significan lo mismo; se siguen las convenciones de la plataforma."
+    iso25010:
+      - {char_2011: "Usability", sub_2011: "Learnability", char_2023: "Interaction capability", sub_2023: "Learnability", evidence: operational}
+      - {char_2011: "Usability", sub_2011: "Operability", char_2023: "Interaction capability", sub_2023: "Operability", evidence: operational}
+    quality_in_use: ["Efficiency", "Effectiveness"]
+    wcag: ["3.2.3 Consistent Navigation", "3.2.4 Consistent Identification"]
+    refs: [nielsen1994, iso25010_2011, wcag22]
+  H5:
+    name: "Error prevention"
+    name_es: "Prevención de errores"
+    aliases: ["error prevention", "prevention of errors"]
+    definition: "Un diseño cuidadoso que evita que el problema ocurra es mejor que un buen mensaje de error."
+    iso25010:
+      - {char_2011: "Usability", sub_2011: "User error protection", char_2023: "Interaction capability", sub_2023: "User error protection", evidence: normative}
+    quality_in_use: ["Effectiveness", "Freedom from risk"]
+    wcag: ["3.3.1 Error Identification", "3.3.3 Error Suggestion", "3.3.4 Error Prevention (Legal, Financial, Data)"]
+    refs: [nielsen1994, iso25010_2011, iso25023, wcag22]
+  H6:
+    name: "Recognition rather than recall"
+    name_es: "Reconocer antes que recordar"
+    aliases: ["recognition rather than recall", "recognition instead of recall"]
+    definition: "Minimizar la carga de memoria del usuario haciendo visibles objetos, acciones y opciones."
+    iso25010:
+      - {char_2011: "Usability", sub_2011: "Appropriateness recognizability", char_2023: "Interaction capability", sub_2023: "Appropriateness recognizability", evidence: operational}
+      - {char_2011: "Usability", sub_2011: "Learnability", char_2023: "Interaction capability", sub_2023: "Learnability", evidence: operational}
+    quality_in_use: ["Efficiency", "Satisfaction"]
+    wcag: ["2.4.8 Location", "3.3.2 Labels or Instructions", "1.1.1 Non-text Content"]
+    refs: [nielsen1994, iso25010_2011, wcag22]
+
+# Nombres del resto de heurísticas (para normalizar etiquetas de las fuentes;
+# se conservan en la tabla larga pero quedan fuera del alcance H1/H4/H5/H6).
+other_heuristics:
+  H2: ["match between system and the real world", "match between system and real world", "match between the system and the real world", "adherence to the real world"]
+  H3: ["user control and freedom"]
+  H7: ["flexibility and efficiency of use"]
+  H8: ["aesthetic and minimalist design"]
+  H9: ["help users recognize, diagnose, and recover from errors", "help users recognize diagnose and recover from errors", "error recovery"]
+  H10: ["help and documentation", "hep and documentation"]   # la 2.ª forma es una errata literal en 29042675
+
+# ---------------------------------------------------------------------
+# Medidas ISO de calidad en uso (ISO/IEC 25022) calculables por sesión
+# ---------------------------------------------------------------------
+iso_measures:
+  iso_effectiveness_task_completion:
+    iso_char: "Effectiveness"
+    standard: iso25022
+    definition: "Proporción de tareas completadas con éxito (aquí: 1/0 por tarea)."
+    unit: "proporción [0,1]"
+    evidence: normative
+  iso_efficiency_task_time_s:
+    iso_char: "Efficiency"
+    standard: iso25022
+    definition: "Tiempo empleado en la tarea o en la visita."
+    unit: "segundos"
+    evidence: normative
+  iso_efficiency_actions:
+    iso_char: "Efficiency"
+    standard: iso25022
+    definition: "Número de acciones de usuario (clics + pulsaciones + desplazamientos discretos) realizadas en la tarea."
+    unit: "conteo"
+    evidence: normative
+  iso_efficiency_time_based:
+    iso_char: "Efficiency"
+    standard: iso25022
+    definition: "Eficiencia basada en tiempo = éxito / tiempo (tareas por minuto), forma estándar en Sauro y Lewis (2016)."
+    unit: "tareas/min"
+    evidence: literature
+    refs: [sauro2016]
+  iso_satisfaction_perceived_ease:
+    iso_char: "Satisfaction"
+    standard: iso25022
+    definition: "Facilidad percibida tras la tarea, recodificada a [0,1] (1 = fácil). Fuente: difficulty_after (A11y-CUA)."
+    unit: "[0,1]"
+    evidence: literature
+    refs: [sauro2016]
+  iso_satisfaction_affective_valence:
+    iso_char: "Satisfaction"
+    standard: iso25022
+    definition: "Valencia emocional media detectada durante la visita (indicador afectivo indirecto de satisfacción)."
+    unit: "según la fuente"
+    evidence: operational

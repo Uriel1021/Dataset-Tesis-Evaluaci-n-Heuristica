@@ -1,0 +1,58 @@
+# =====================================================================
+# Etiquetado "silver" de H1/H4/H5/H6 sobre los snapshots HTML de A11y-CUA
+# ---------------------------------------------------------------------
+# Objetivo: obtener Y (violación Nielsen) en la MISMA unidad que X
+# (interacciones de la sesión), para tener un único dataset entrenable.
+#
+# Garantía de no circularidad: el evaluador SOLO ve el HTML de la página
+# y su URL. No ve la tarea, el éxito, la dificultad, el grupo de usuario
+# ni ninguna métrica de interacción. Por eso Y no se deriva de X.
+#
+# Protocolo análogo al de Catching UX Flaws (Platt et al., 2025: LLM que
+# evalúa el código de la interfaz), con dos cambios para reducir la
+# sobre-detección observada en las fuentes LLM (prevalencia ≈ 100 %):
+#   1. cada problema debe citar marcado concreto del HTML;
+#   2. se permite "no evaluable" cuando la página no tiene los elementos
+#      necesarios para juzgar la heurística (p. ej. H5 sin formularios).
+# =====================================================================
+
+model: claude-opus-5-5
+effort: medium            # Opus 5.5 usa medium por defecto; se fija explícitamente
+max_tokens: 16000
+repeats: 1                # evaluaciones independientes por página (todas las páginas)
+validation_repeats: 3     # evaluaciones por ítem en el subconjunto de fiabilidad
+reliability_sample: 40    # páginas A11y-CUA (aleatorias, semilla fija) evaluadas validation_repeats veces
+seed: 20261103
+
+violation_min_severity: 1   # violación = algún problema con severidad ≥ este valor (Nielsen 0–4)
+
+html:
+  max_chars: 250000         # tope tras la limpieza (~70k tokens); si se supera se trunca y se marca html_truncated
+  min_chars: 300            # páginas más pequeñas (vacías, warmup) no se evalúan
+  max_text_node_chars: 200
+  # 'class' se excluye: los nombres CSS duplican el tamaño (mediana 111k → 61k caracteres) sin aportar al juicio
+  keep_attributes: [id, role, href, type, name, placeholder, required, pattern, min, max, maxlength,
+                    minlength, autocomplete, alt, title, for, disabled, checked, selected, tabindex, action,
+                    method, onclick, aria-label, aria-labelledby, aria-describedby, aria-live, aria-busy,
+                    aria-current, aria-expanded, aria-invalid, aria-required, aria-hidden]
+  exclude_url_patterns: ["warmup.html", "chrome://", "about:blank", "newtab"]
+
+pricing_usd_per_mtok:      # claude-opus-5-5, Batches API = 50 % del precio estándar
+  input: 4.00
+  output: 20.00
+  batch_discount: 0.5
+assumed_output_tokens: 3000  # incluye razonamiento; se reemplaza por el valor real tras correr
+
+heuristic_questions:
+  H1: ["¿La página muestra retroalimentación para las acciones del usuario (mensajes, estados de botón)?",
+       "¿Hay indicadores de carga o progreso donde hay procesos?",
+       "¿Es visible el estado actual (página activa, selección, paso)?"]
+  H4: ["¿Se siguen las convenciones de la plataforma web (enlaces, botones, navegación)?",
+       "¿La terminología y las etiquetas son consistentes en la página?",
+       "¿Los patrones de interfaz (estilos de botones, menús) son consistentes?"]
+  H5: ["¿Se piden confirmaciones antes de acciones irreversibles?",
+       "¿Se comunican las restricciones de entrada (formato, obligatorios) antes de enviar?",
+       "¿El diseño elimina condiciones propensas a errores (tipos de input, valores por defecto, validación)?"]
+  H6: ["¿Las opciones y acciones están visibles en lugar de exigir recordarlas?",
+       "¿Hay instrucciones y etiquetas disponibles donde se necesitan (no solo placeholders)?",
+       "¿Se indica la ubicación (migas, encabezados, página activa) y hay búsqueda cuando conviene?"]

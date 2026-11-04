@@ -75,3 +75,10 @@ pyyaml
 pytest
 black
 ruff
+
+# Pipeline del dataset (v2)
+pyarrow
+lxml
+python-docx
+anthropic
+torch

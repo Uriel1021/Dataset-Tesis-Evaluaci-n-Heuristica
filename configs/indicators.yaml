@@ -1,0 +1,120 @@
+# =====================================================================
+# Indicadores conductuales calculados por sesión a partir del esquema
+# canónico de eventos (ver src/usab_ds/events.py).
+# ---------------------------------------------------------------------
+# Todos los umbrales están aquí para que el cálculo sea repetible y para
+# poder hacer análisis de sensibilidad cambiando un solo archivo.
+#
+#   heuristics  heurísticas a las que el indicador aporta evidencia
+#   direction   +1 = valores altos sugieren MÁS problema con la heurística
+#   requires    tipos de evento / atributos necesarios; si la fuente no
+#               los tiene, el indicador queda NaN (nunca se imputa 0)
+#   evidence    normative | literature | operational (ver crosswalk.yaml)
+# =====================================================================
+
+params:
+  session_gap_minutes: 30          # corte de sesión en navegación libre (Catledge y Pitkow, 1995; convención de analítica web)
+  min_session_seconds: 5           # sesiones más cortas se descartan (ruido / rebote técnico)
+  min_session_events: 3
+  repeated_click_window_s: 1.0     # ventana para considerar un clic "repetido"
+  repeated_click_radius_px: 10     # misma zona si no hay selector del elemento
+  long_pause_s: 5.0                # pausa larga entre eventos
+  post_click_max_s: 30.0           # se ignoran respuestas posteriores a este tiempo
+  correction_keys: ["backspace", "delete", "del"]
+  interactive_tags: ["a", "button", "input", "select", "textarea", "label", "summary", "option", "video", "audio",
+                     "hyperlinkcontrol", "buttoncontrol", "editcontrol", "comboboxcontrol", "checkboxcontrol",
+                     "radiobuttoncontrol", "menuitemcontrol", "tabitemcontrol", "listitemcontrol", "splitbuttoncontrol",
+                     "treeitemcontrol", "hyperlink", "menuitem"]
+  interactive_roles: ["button", "link", "checkbox", "radio", "tab", "menuitem", "option", "combobox", "textbox",
+                      "searchbox", "switch", "slider", "spinbutton", "treeitem"]
+
+indicators:
+  # ---------------- métricas base de interacción ----------------
+  n_clicks:           {heuristics: [], requires: [click], evidence: normative, definition: "Número de clics."}
+  n_keys:             {heuristics: [], requires: [key], evidence: normative, definition: "Número de pulsaciones de tecla."}
+  n_scrolls:          {heuristics: [], requires: [scroll], evidence: normative, definition: "Número de eventos de desplazamiento."}
+  n_pages:            {heuristics: [], requires: [page_view], evidence: normative, definition: "Páginas/URL distintas vistas en la sesión."}
+  clicks_per_min:     {heuristics: [], requires: [click], evidence: literature, refs: [atterer2006], definition: "Clics por minuto."}
+  keys_per_min:       {heuristics: [], requires: [key], evidence: literature, refs: [atterer2006], definition: "Teclas por minuto."}
+  scrolls_per_min:    {heuristics: [], requires: [scroll], evidence: literature, refs: [atterer2006], definition: "Eventos de scroll por minuto."}
+  mouse_distance_px:  {heuristics: [], requires: [mouse_move], evidence: literature, refs: [navalpakkam2012], definition: "Distancia euclídea recorrida por el cursor."}
+  scroll_distance_px: {heuristics: [], requires: [scroll_y], evidence: literature, refs: [navalpakkam2012], definition: "Suma de |Δ scroll vertical|."}
+
+  # ---------------- H1 · visibilidad del estado ----------------
+  repeated_click_rate:
+    heuristics: [H1]
+    direction: 1
+    requires: [click]
+    evidence: operational
+    refs: [grigera2017]
+    definition: "Proporción de clics que repiten el clic anterior (mismo elemento o ≤ radius px) dentro de la ventana; sugiere ausencia de retroalimentación."
+  post_click_latency_s:
+    heuristics: [H1]
+    direction: 1
+    requires: [click]
+    evidence: operational
+    definition: "Mediana del tiempo entre un clic y el siguiente evento de usuario (≤ post_click_max_s); espera por respuesta del sistema."
+  dead_click_rate:
+    heuristics: [H1, H4]
+    direction: 1
+    requires: [click, target_tag]
+    evidence: literature
+    refs: [grigera2017]
+    definition: "Proporción de clics sobre elementos no interactivos (smell 'undescriptive element': el elemento parece accionable y no lo es o no responde)."
+
+  # ---------------- H4 · consistencia y estándares ----------------
+  back_nav_rate:
+    heuristics: [H4, H6]
+    direction: 1
+    requires: [nav_back]
+    evidence: operational
+    refs: [catledge1995]
+    definition: "Navegaciones hacia atrás por página vista; regresos frecuentes indican rutas que no corresponden a lo esperado."
+
+  # ---------------- H5 · prevención de errores ----------------
+  correction_key_ratio:
+    heuristics: [H5]
+    direction: 1
+    requires: [key, key_name]
+    evidence: operational
+    refs: [iso25022]
+    definition: "Teclas de corrección (Backspace/Delete) sobre total de teclas; aproximación a errores de entrada (ISO/IEC 25022: errores en la tarea)."
+  input_reentry_rate:
+    heuristics: [H5]
+    direction: 1
+    requires: [focus, input, target_id]
+    evidence: operational
+    definition: "Proporción de campos editados que vuelven a recibir foco y se editan de nuevo."
+
+  # ---------------- H6 · reconocer antes que recordar ----------------
+  long_pause_ratio:
+    heuristics: [H6]
+    direction: 1
+    requires: [any]
+    evidence: operational
+    definition: "Proporción del tiempo de sesión en pausas > long_pause_s (búsqueda/recuerdo de información)."
+  scroll_reversal_rate:
+    heuristics: [H6]
+    direction: 1
+    requires: [scroll_y]
+    evidence: operational
+    refs: [navalpakkam2012]
+    definition: "Cambios de dirección del scroll vertical por evento de scroll (re-búsqueda de contenido)."
+  page_revisit_rate:
+    heuristics: [H6]
+    direction: 1
+    requires: [page_view]
+    evidence: operational
+    definition: "Proporción de vistas de página a URL ya visitadas en la sesión."
+  focus_churn:
+    heuristics: [H6, H4]
+    direction: 1
+    requires: [focus, click]
+    evidence: operational
+    definition: "Eventos de foco por acción (clic+tecla). Ojo: confundido con el uso de lector de pantalla; analizar estratificado por assistive_tech."
+  hover_without_click_ratio:
+    heuristics: [H6]
+    direction: 1
+    requires: [hover]
+    evidence: operational
+    definition: "Proporción de elementos sobrevolados que nunca se clican (exploración visual)."

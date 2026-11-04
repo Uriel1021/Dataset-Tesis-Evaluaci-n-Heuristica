@@ -1,0 +1,106 @@
+{
+  "S01_web_emotions_28489601": {
+    "readable": true,
+    "web_context": true,
+    "has_timestamped_interactions": true,
+    "has_target_heuristic_labels": false,
+    "disaggregated": true,
+    "has_html": false
+  },
+  "S02_a11y_cua": {
+    "readable": true,
+    "web_context": true,
+    "has_timestamped_interactions": true,
+    "has_target_heuristic_labels": false,
+    "disaggregated": true,
+    "has_html": true
+  },
+  "S03_vt_llm_prototypes_29042675": {
+    "readable": true,
+    "web_context": true,
+    "has_timestamped_interactions": false,
+    "has_target_heuristic_labels": true,
+    "disaggregated": true,
+    "has_html": false
+  },
+  "S04_catching_ux_flaws": {
+    "readable": true,
+    "web_context": true,
+    "has_timestamped_interactions": false,
+    "has_target_heuristic_labels": true,
+    "disaggregated": true,
+    "has_html": true
+  },
+  "S04b_catching_html": {
+    "readable": true,
+    "web_context": true,
+    "has_timestamped_interactions": false,
+    "has_target_heuristic_labels": false,
+    "disaggregated": true,
+    "has_html": true
+  },
+  "S05_serene": {
+    "readable": true,
+    "web_context": true,
+    "has_timestamped_interactions": false,
+    "has_target_heuristic_labels": false,
+    "disaggregated": true,
+    "has_html": false
+  },
+  "S06_p3m": {
+    "readable": true,
+    "web_context": true,
+    "has_timestamped_interactions": false,
+    "has_target_heuristic_labels": true,
+    "disaggregated": true,
+    "has_html": false
+  },
+  "S07_phr": {
+    "readable": true,
+    "web_context": true,
+    "has_timestamped_interactions": false,
+    "has_target_heuristic_labels": false,
+    "disaggregated": false,
+    "has_html": false
+  },
+  "S08_dashboards": {
+    "readable": true,
+    "web_context": true,
+    "has_timestamped_interactions": true,
+    "has_target_heuristic_labels": false,
+    "disaggregated": true,
+    "has_html": false
+  },
+  "S09_cultural_heritage": {
+    "readable": false,
+    "web_context": true,
+    "has_timestamped_interactions": false,
+    "has_target_heuristic_labels": false,
+    "disaggregated": false,
+    "has_html": false
+  },
+  "S10_uicrit_rico": {
+    "readable": true,
+    "web_context": false,
+    "has_timestamped_interactions": false,
+    "has_target_heuristic_labels": false,
+    "disaggregated": true,
+    "has_html": false
+  },
+  "S11_zenodo_21891322": {
+    "readable": true,
+    "web_context": true,
+    "has_timestamped_interactions": false,
+    "has_target_heuristic_labels": false,
+    "disaggregated": false,
+    "has_html": false
+  },
+  "S12_delfi22": {
+    "readable": true,
+    "web_context": false,
+    "has_timestamped_interactions": false,
+    "has_target_heuristic_labels": false,
+    "disaggregated": true,
+    "has_html": false
+  }
+}
